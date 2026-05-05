@@ -74,7 +74,8 @@
 		   print(array.shape) # This will print as (2, 3 ,3). Meaning it has 2 levels and each level has 3 row and each row has 3 columns
 
 
- -->  Chain Indexing and Multi-dimensional indexing
+ ## Chain Indexing and Multi-dimensional indexing
+ 
       array = np.array([[[1, 2, 3]], [[4, 5, 6]]])
 	  print(array[0][0][0]) # will print as 1
 	  print(array[0][0][2]) # will print as 3
