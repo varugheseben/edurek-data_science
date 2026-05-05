@@ -1,5 +1,6 @@
 # Numpy
   Tutorial: https://www.youtube.com/watch?v=VXU4LSAQDSc
+  
   Google Colab: https://colab.research.google.com/
 
  Numpy is used for building and manipulating N dimensional arrays. Numpy is short form Numerical Python
