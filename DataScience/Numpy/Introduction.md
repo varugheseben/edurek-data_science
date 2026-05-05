@@ -37,9 +37,8 @@
 	array = np.array([])
 	print(arra.ndim) # will print 1
 
-    **Note**:
-	     Dimensions are determined based on number of opening square brackets. If no square bracket then dimension will be 0. If one square bracket then dimension will 1.
-		 If 2 square bracket then dimension will 2, if 3 square bracket then dimension will be 3 and so on
+**Note**:
+	     Dimensions are determined based on number of opening square brackets. If no square bracket then dimension will be 0. If one square bracket then dimension will 1.If 2 square bracket then dimension will 2, if 3 square bracket then dimension will be 3 and so on
  
  -->  Numpy shape gives 2 information 
           a) Number of rows
