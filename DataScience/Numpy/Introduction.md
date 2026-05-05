@@ -21,23 +21,23 @@
 	# Will print as [[1 2 3]
 	                 [4 5 6]]
  
- -->  Getting number of dimension of numpy array
-		array = np.array([1,2,3,4])
-		print(array.ndim) # will 1
-		
-		array = np.array('A')
-		print(array.ndim) # will print 0
-		
-		array = np.array([[1,2,3],[4,5,6]])
-		print(array.ndim) # will print 2
-		
-		array = np.array([[[1,2,3]], [[4,5,6]]])
-		print(array.ndim) # will print 3
-		
-		array = np.array([])
-		print(arra.ndim) # will print 1
+ ## Getting number of dimension of numpy array
+	array = np.array([1,2,3,4])
+	print(array.ndim) # will 1
+	
+	array = np.array('A')
+	print(array.ndim) # will print 0
+	
+	array = np.array([[1,2,3],[4,5,6]])
+	print(array.ndim) # will print 2
+	
+	array = np.array([[[1,2,3]], [[4,5,6]]])
+	print(array.ndim) # will print 3
+	
+	array = np.array([])
+	print(arra.ndim) # will print 1
 
-      Note:
+    **Note**:
 	     Dimensions are determined based on number of opening square brackets. If no square bracket then dimension will be 0. If one square bracket then dimension will 1.
 		 If 2 square bracket then dimension will 2, if 3 square bracket then dimension will be 3 and so on
  
