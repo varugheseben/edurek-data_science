@@ -81,9 +81,9 @@
 	  print(array[0][0][2]) # will print as 3
 	  print(array[1][0][2]) # will print as 6
 	  print(array[2][0][2]) # will cause IndexError exception
-	  This is called chain indexing
+	  #This is called chain indexing
 	  
-	  Same values can be accessed using multi-dimensional indexing as well
+	  #Same values can be accessed using multi-dimensional indexing as well
 	  array = np.array([[[1, 2, 3]], [[4, 5, 6]]])
 	  print(array[0,0,0]) # will print as 1
 	  print(array[0,0,2]) # will print as 3
