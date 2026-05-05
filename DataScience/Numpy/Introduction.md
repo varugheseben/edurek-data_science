@@ -41,14 +41,13 @@
 	     Dimensions are determined based on number of opening square brackets. If no square bracket then dimension will be 0. If one square bracket then dimension will 1.If 2 square bracket then dimension will 2, if 3 square bracket then dimension will be 3 and so on
  
  ## Numpy shape gives 2 information 
-      - Number of rows
-	  - Number of elements in each row
-
+   - Number of rows
+   - Number of elements in each row
       So output will be a tuple as (<no.of.rows>, <no.of.elements.in.each.row>)
       Note:
-         If <no.of.rows> = 1, then shape will be (<no.of.elements.in.each.row>, )
-        
+         If <no.of.rows> = 1, then shape will be (<no.of.elements.in.each.row>, )  
 	  Example:
+
 		   array = np.array('A')
 		   print(array.shape) # will print (), that means no shape
 		   
