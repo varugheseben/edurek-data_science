@@ -1,6 +1,6 @@
 # Numpy
- Tutorial: https://www.youtube.com/watch?v=VXU4LSAQDSc
- Google Colab: https://colab.research.google.com/
+  Tutorial: https://www.youtube.com/watch?v=VXU4LSAQDSc
+  Google Colab: https://colab.research.google.com/
 
  Numpy is used for building and manipulating N dimensional arrays. Numpy is short form Numerical Python
  Numpy is a python module which is wrapper module for calling c based numpy module.
