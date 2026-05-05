@@ -43,9 +43,10 @@
  ## Numpy shape gives 2 information 
    - Number of rows
    - Number of elements in each row
-      So output will be a tuple as (<no.of.rows>, <no.of.elements.in.each.row>)
-      Note:
-         If <no.of.rows> = 1, then shape will be (<no.of.elements.in.each.row>, )  
+
+   So output will be a tuple as (<no.of.rows>, <no.of.elements.in.each.row>)
+   Note:
+      If <no.of.rows> = 1, then shape will be (<no.of.elements.in.each.row>, )  
 	  Example:
 
 		   array = np.array('A')
