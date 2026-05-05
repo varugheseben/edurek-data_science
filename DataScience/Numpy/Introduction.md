@@ -7,10 +7,10 @@
  Python list is slower when compared to Numpy arrays
 
  ### How to create Numpy array
-         import numpy as np
+    import numpy as np
 
-         array = np.array([1,2,3,4])
-	       print(array) # will print [1 2 3 4]
+    array = np.array([1,2,3,4])
+	print(array) # will print [1 2 3 4]
 	
 	array = np.array('A')
 	print(array) # will print A
