@@ -1,4 +1,6 @@
 # Pandas
+    Tutorial: https://www.youtube.com/watch?v=VXtjG_GzO7Q
+
     Pandas is python library which helps to read and manipulate on tabular data efficiently. 
     This library is build on top of Numpy and is used by machine learning modals.
     There are two types of data exists
