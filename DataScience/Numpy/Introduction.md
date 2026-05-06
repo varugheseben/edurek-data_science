@@ -94,10 +94,9 @@ Same values can be accessed using multi-dimensional indexing as well
 	  
  ## Array Slicing using Numpy
    Numpy arrays can sliced in two ways
-     1. Row slicing
-         format will be array[start:end:step]
-			     
-     2. Column slicing
+     - Row slicing
+	     format will be array[start:end:step]
+     - Column slicing
          format will be array[start:end:step, start:end:step]
          First range represents row and second represents column
 
