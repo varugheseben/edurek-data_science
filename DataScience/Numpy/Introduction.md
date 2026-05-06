@@ -167,9 +167,11 @@ Example: Column Slicing
                   [ 8  7  6  5]
                   [ 4  3  2  1]]
 			   
-  --> Arithmetic in Numpy
+  ## Arithmetic in Numpy
       There are different ways arithmetic operations can be performed using Numpy
-      a) Scalar arithmetic
+
+      - Scalar arithmetic
+
            Example
                import numpy as np
 			   array = np.array([1, 2, 3, 4])
@@ -193,7 +195,8 @@ Example: Column Slicing
 			   o/p
 			      [1 4 9 16]
 				  
-	   b) Arithmetic using vector math functions
+	  - Arithmetic using vector math functions
+
 	       Example
 		       import numpy as np
 			   array = np.array([4, 9, 16, 25])
@@ -206,7 +209,8 @@ Example: Column Slicing
 			   o/p
 			      3.141592653589793
 				  
-	   c) Element-wise arithmetic
+	   - Element-wise arithmetic
+
 	      Example
 		      array1 = np.array([2,3,4,5])
 			  array2 = np.array([5,6,7,8])
@@ -231,7 +235,8 @@ Example: Column Slicing
 			  o/p
 			    [    32    729  16384 390625]
 				
-		d) Comparison arithmetic
+		- Comparison arithmetic
+
 		   With this arithmetic we can create boolean arrays
 		
 		   Example 1
