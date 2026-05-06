@@ -92,15 +92,16 @@ Same values can be accessed using multi-dimensional indexing as well
 	  print(array[1,0,2]) # will print as 6
 	  print(array[2,0,2]) # will cause IndexError exception
 	  
- --> Array Slicing using Numpy
-       Numpy arrays can sliced in two ways
-	      a) Row slicing
-		      format will be array[start:end:step]
+ ## Array Slicing using Numpy
+   Numpy arrays can sliced in two ways
+     1. Row slicing
+	      format will be array[start:end:step]
 			     
-		  b) Column slicing
-		      format will be array[start:end:step, start:end:step]
-			  First range represents row and second represents column
-		
+     2. Column slicing
+          format will be array[start:end:step, start:end:step]
+          First range represents row and second represents column
+
+
 	    Example (Row Slicing)
 		   array = np.array([[1,2,3,4], [5,6,7,8], [9,10,11,12], [13,14,15,16]])
 		   print(array[0:2])
