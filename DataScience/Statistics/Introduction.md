@@ -21,17 +21,13 @@ information to uncover patterns, make predictions and inform decision-making in 
 
    3. **Confidence Intervals** : Estimating a range where the true population value likely falls (e.g., "We are 95% sure the average score is between 80 and 85").
         
-   ## Domain Applications
-      Statistics is the backbone of almost every modern industry:
+## Domain Applications
+   Statistics is the backbone of almost every modern industry:
 
-      ### Medicine
-        Testing whether a new drug is actually effective compared to a placebo.
+   1. **Medicine** : Testing whether a new drug is actually effective compared to a placebo.
 
-      ### Business
-        Predicting consumer behavior and managing financial risk.
+   2. **Business** : Predicting consumer behavior and managing financial risk.
 
-      ### Data Science
-        Using algorithms and probability to build AI models and analyze "Big Data."
+   3. **Data Science** : Using algorithms and probability to build AI models and analyze "Big Data."
 
-      ### Government
-        Using census data to plan for infrastructure, schools, and healthcare.
+   4. **Government** : Using census data to plan for infrastructure, schools, and healthcare.
