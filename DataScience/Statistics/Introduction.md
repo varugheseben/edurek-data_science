@@ -12,16 +12,14 @@ information to uncover patterns, make predictions and inform decision-making in 
    3. **Visualiztions** : Using tools like histogram, pie chart and scatter plot to see trends visually.
         
 ## Inferential Statistics
-     This branch uses small sample of data to make 'inferences' or generalizarions about a much larger population.
-     Since you can’t always survey every single person or item in the world, you use math to determine how likely your sample results are to be true for everyone else.
-     ### Hypothesis Testing
-        Determining if a result is "statistically significant" or just due to random chance.
+  This branch uses small sample of data to make 'inferences' or generalizarions about a much larger population.
+  Since you can’t always survey every single person or item in the world, you use math to determine how likely your sample results are to be true for everyone else.
 
-     ### Regression Analysis
-        Predicting the value of one variable based on another (e.g., how height might predict weight).
-        
-     ### Confidence Intervals
-        Estimating a range where the true population value likely falls (e.g., "We are 95% sure the average score is between 80 and 85").
+   1. **Hypothesis Testing** : Determining if a result is "statistically significant" or just due to random chance.
+
+   2. **Regression Analysis** : Predicting the value of one variable based on another (e.g., how height might predict weight).
+
+   3. **Confidence Intervals** : Estimating a range where the true population value likely falls (e.g., "We are 95% sure the average score is between 80 and 85").
         
    ## Domain Applications
       Statistics is the backbone of almost every modern industry:
