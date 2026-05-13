@@ -3,17 +3,16 @@
 information to uncover patterns, make predictions and inform decision-making in the face of uncertainity.
 
    There are two branches of statistics
-   1. Descriptive Statistics
-     This branch focus on summarizing and describing the features of specific data set. It doesn't try to make conclusions beyond the
-     data at hand; it simply paints a clear picture of what the data looks like.
-     ### Measure of Central Tendency
-        Finding the middle of the data (Eg: Mean, Median, Mode)
+## Descriptive Statistics
+  This branch focus on summarizing and describing the features of specific data set. It doesn't try to make conclusions beyond the data at hand; it simply paints a clear picture of what the data looks like.
+   ### Measure of Central Tendency
+      Finding the middle of the data (Eg: Mean, Median, Mode)
 
-     ### Meausre of Dispersion
-        Understanding how 'spread out' the data is (Eg: Range, Variance, Standard Deviation)
+   ### Meausre of Dispersion
+      Understanding how 'spread out' the data is (Eg: Range, Variance, Standard Deviation)
 
-     ### Visualiztions:
-        Using tools like histogram, pie chart and scatter plot to see trends visually.
+   ### Visualiztions:
+      Using tools like histogram, pie chart and scatter plot to see trends visually.
         
    2. Inferential Statistics
      This branch uses small sample of data to make 'inferences' or generalizarions about a much larger population.
