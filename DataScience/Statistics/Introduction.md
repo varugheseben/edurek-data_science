@@ -34,11 +34,17 @@ information to uncover patterns, make predictions and inform decision-making in 
 
 ## Use Case
    Lets say we have a list of ages of people. 
+
    ages = [25, 35, 30, 28, 40, 45, 100, 150, 175, 35]
+
    Now if were to find the average value of these ages we will get 
       (25 + 35 + 30 + 28 + 40 + 45 + 100 + 150 + 175 + 35) / 10 = 66.3
+
    So we get average as 66.3
-   So with that average value if we say peoples average age is 66.3 then it will be wrong. Because most of the people's age is less than 60
+   
+   So with that average value if we say peoples average age is 66.3 then it will be wrong. Because most of the people's age is less than 60.
    That means out 10 only 3 people's age is more than 60. So we cannot use average.
+
    So in such situations we need to remove outliers from the data to calculate the accurate value. outliers are 100,150 and 175 which are far distributed from other values.
-   So statistics can be used for that purpose
+
+   So statistics can be used for that purpose.
