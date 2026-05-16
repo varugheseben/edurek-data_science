@@ -20,3 +20,18 @@
 
 4. **Event(E)**: A specific outcome or a collection of outcomes we are interested in (e.g., rolling an even number, which includes {2, 4, 6}).
 
+## Equation to calculate probability
+
+           Number of Favorable Outcomes
+   P(E) = --------------------------------
+           Total number of possible outcomes
+
+## Classic Examples
+
+1. **Tossing a coin**: What is the probability of getting heads
+
+   Favorable outcomes(Heads) = 1
+
+   Total outcomes (Head or Tail) = 2
+
+   P(Head) = 1/2 = 0.5 = 50%
