@@ -43,6 +43,14 @@
 
    P(Even) = 3/6 = 0.5 = 50%
 
+3. **Rolling a dice**: What is the probability of getting 3 in dice ?
+
+   Favorable outcomes(3) = 1
+
+   Total outcomes (1, 2, 3, 4, 5, 6) = 6
+
+   P(Even) = 1/6 = 0.1666 = 16.67%
+
 ## Different types of probabilty
 
 1. **Theoretical(Classical) Probability**: Based purely on logic and math rules, assuming ideal conditions. No actual experiment needs to take place.
