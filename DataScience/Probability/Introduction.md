@@ -34,3 +34,11 @@
    Total outcomes (Head or Tail) = 2
 
    P(Head) = 1/2 = 0.5 = 50%
+
+2. **Rolling a Die**: What is the probability of rolling an even number?
+
+   Favorable outcomes(2, 4, 6) = 3
+
+   Total outcomes (1, 2, 3, 4, 5, 6) = 6
+
+   P(Even) = 3/6 = 0.5 = 50%
