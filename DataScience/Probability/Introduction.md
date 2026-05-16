@@ -62,6 +62,7 @@
 5. **Tossing Coins**: What is the probability of getting heads in tossing 2 coins ?
 
    So events can be
+
         | Coin1  | Coin2 |
         |--------|-------|
         |  H     |  H    |
@@ -69,6 +70,11 @@
         |  T     |  H    |
         |  T     |  T    |   
    
+| Header 1 | Header 2 | Header 3 |
+| -------- | -------- | -------- |
+| Row 1    | Data     | Data     |
+| Row 2    | Data     | Data     |
+
    **Probability of getting atleast one head**
 
    Favorable outcomes of atleast one head = 3
