@@ -59,6 +59,23 @@
 
    P(Even) = 4/52 = 0.0769 = 7.69%
 
+5. **Tossing Coins**: What is the probability of getting heads in tossing 2 coins ?
+
+   So events can be
+        Coin1  | Coin2
+        =================
+          H    |  H
+          H    |  T
+          T    |  H
+          T    |  T
+
+   **Probability of getting atleast one head**
+   Favorable outcomes of atleast one head = 3
+
+   Total outcomes  = 4
+
+   P(Atleast one head) = 3/4 = 0.75  = 75%
+
    
 ## Different types of probabilty
 
