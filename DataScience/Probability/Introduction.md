@@ -74,17 +74,23 @@
 
 </div>
 
-   a. **Probability of getting atleast one head**
+### Probability of getting atleast one head
 
-      Favorable outcomes of atleast one head = 3
-      Total outcomes  = 4
-      P(Atleast one head) = 3/4 = 0.75  = 75%
+Favorable outcomes of atleast one head = 3
+Total outcomes  = 4
+P(Atleast one head) = 3/4 = 0.75  = 75%
 
-   b. **Probability of getting exactly one head**
+### Probability of getting exactly one head
 
-      Favorable outcomes of exactly one head = 2
-      Total outcomes  = 4
-      P(Exactly one head) = 2/4 = 0.5  = 50%
+Favorable outcomes of exactly one head = 2
+Total outcomes  = 4
+P(Exactly one head) = 2/4 = 0.5  = 50%
+
+### Probability of getting 2 heads
+
+Favorable outcomes of exactly one head = 1
+Total outcomes  = 4
+P(Exactly one head) = 1/4 = 0.25  = 25%
 
 ## Different types of probabilty
 
