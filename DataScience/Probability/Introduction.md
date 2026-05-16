@@ -51,6 +51,15 @@
 
    P(Even) = 1/6 = 0.1666 = 16.67%
 
+4. **Shuffling Playing Cards**: What is the probability of getting Ace(A) from a set of playing cards ?
+
+   Favorable outcomes(A) = 4
+
+   Total outcomes (Total number of cards) = 52
+
+   P(Even) = 4/52 = 0.0769 = 7.69%
+
+   
 ## Different types of probabilty
 
 1. **Theoretical(Classical) Probability**: Based purely on logic and math rules, assuming ideal conditions. No actual experiment needs to take place.
