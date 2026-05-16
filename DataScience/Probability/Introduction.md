@@ -54,3 +54,11 @@
 
 3. **Subjective Probability**: Based on personal judgment, experience, or intuition rather than strict math (e.g., a sports analyst saying a team has a 70% chance of winning the championship).
 
+## Domain where probability is used
+
+1. **Statistics & Data Science**: Used to infer patterns from data, train machine learning models, and determine if experimental results are statistically significant.
+
+2. **Finance & Insurance**: Used to calculate risk, price insurance premiums, and manage investment portfolios.
+
+3. **Weather Forecasting**: Predicting a "60% chance of rain" by analyzing past atmospheric conditions.
+
