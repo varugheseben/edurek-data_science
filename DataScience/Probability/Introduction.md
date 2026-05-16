@@ -1,4 +1,4 @@
-## Probaility
+## Probability
    Probability is the mathematical measure how likely an event is to occur. It quantified uncertainity on scale from 0 to 1(that means 0% to 100%)
 
 1. **0(0%)**: The event is impossible.
@@ -10,7 +10,7 @@
 3. **1(100%)**: The event is a certainty
    Example: Sun is rising tomorrow
    
-## Different terms to understand probaility
+## Different terms to understand probability
 
 1. **Experiment**: An action or process that has an uncertain outcome (e.g., tossing a coin, rolling a die, drawing a card).
 
@@ -62,14 +62,15 @@
 5. **Tossing Coins**: What is the probability of getting heads in tossing 2 coins ?
 
    So events can be
-   
+
+<div align="center">
 | Coin 1 | Coin 2 |
 | ------ | ------ |
 | H      | H      |
 | H      | T      |
 | T      | H      |
 | T      | T      |
-
+</div>
 A. **Probability of getting atleast one head**
 
             Favorable outcomes of atleast one head = 3
