@@ -22,10 +22,9 @@
 
 ## Equation to calculate probability
 
-           Number of Favorable Outcomes
-   P(E) = --------------------------------
-           Total number of possible outcomes
-
+           
+   P(E) = Number of Favorable Outcomes/Total number of possible outcomes
+           
 ## Classic Examples
 
 1. **Tossing a coin**: What is the probability of getting heads
