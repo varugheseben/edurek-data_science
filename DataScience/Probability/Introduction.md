@@ -78,6 +78,7 @@
 
    P(Atleast one head) = 3/4 = 0.75  = 75%
 
+
    **Probability of getting exactly one head**
 
    Favorable outcomes of exactly one head = 2
@@ -85,6 +86,7 @@
    Total outcomes  = 4
 
    P(Atleast one head) = 2/4 = 0.5  = 50%
+
 
    **Probability of getting 2 heads**
 
