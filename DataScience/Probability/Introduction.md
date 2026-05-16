@@ -3,5 +3,10 @@
 
 1. **0(0%)**: The event is impossible.
    Example: Rolling 7 on a standard six-sided die
-            
+
+2. **0.5(50%)**: The event is equally likely to happen or not happen
+   Example: Flipping a coin and getting heads
+
+3. **1(100%)**: The event is a certainty
+   Example: Sun is rising tomorrow
    
