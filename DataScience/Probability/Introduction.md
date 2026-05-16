@@ -62,9 +62,9 @@
 5. **Tossing Coins**: What is the probability of getting heads in tossing 2 coins ?
 
    So events can be
-
-<div align="center">
    
+<div align="center">
+
 | Coin 1 | Coin 2 |
 | ------ | ------ |
 | H      | H      |
@@ -76,26 +76,16 @@
 
    a. **Probability of getting atleast one head**
 
-            Favorable outcomes of atleast one head = 3
-            Total outcomes  = 4
-            P(Atleast one head) = 3/4 = 0.75  = 75%
+      Favorable outcomes of atleast one head = 3
+      Total outcomes  = 4
+      P(Atleast one head) = 3/4 = 0.75  = 75%
 
+   b. **Probability of getting exactly one head**
 
+      Favorable outcomes of exactly one head = 2
+      Total outcomes  = 4
+      P(Exactly one head) = 2/4 = 0.5  = 50%
 
-   b.  **Probability of getting exactly one head**
-
-            Favorable outcomes of exactly one head = 2
-            Total outcomes  = 4
-            P(Atleast one head) = 2/4 = 0.5  = 50%
-
-
-   c.  **Probability of getting 2 heads**
-
-
-            Favorable outcomes of 2 heads = 1
-            Total outcomes  = 4
-            P(Atleast one head) = 1/4 = 0.25  = 25%
-   
 ## Different types of probabilty
 
 1. **Theoretical(Classical) Probability**: Based purely on logic and math rules, assuming ideal conditions. No actual experiment needs to take place.
