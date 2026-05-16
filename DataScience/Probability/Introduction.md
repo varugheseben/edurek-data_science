@@ -10,7 +10,7 @@
 3. **1(100%)**: The event is a certainty
    Example: Sun is rising tomorrow
    
-Different terms to understand probaility
+## Different terms to understand probaility
 
 1. **Experiment**: An action or process that has an uncertain outcome (e.g., tossing a coin, rolling a die, drawing a card).
 
@@ -19,3 +19,4 @@ Different terms to understand probaility
 3. **Sample Space(S)**: The set of all possible outcomes. For a standard die, the sample space is {1, 2, 3, 4, 5, 6}.
 
 4. **Event(E)**: A specific outcome or a collection of outcomes we are interested in (e.g., rolling an even number, which includes {2, 4, 6}).
+
