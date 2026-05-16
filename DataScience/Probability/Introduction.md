@@ -74,7 +74,7 @@
 
 </div>
 
-         A. **Probability of getting atleast one head**
+A. **Probability of getting atleast one head**
 
                         Favorable outcomes of atleast one head = 3
                         Total outcomes  = 4
