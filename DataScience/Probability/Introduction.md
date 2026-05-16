@@ -64,12 +64,14 @@
    So events can be
 
 <div align="center">
+   
 | Coin 1 | Coin 2 |
 | ------ | ------ |
 | H      | H      |
 | H      | T      |
 | T      | H      |
 | T      | T      |
+
 </div>
 A. **Probability of getting atleast one head**
 
