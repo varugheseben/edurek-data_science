@@ -119,10 +119,11 @@
 
    So equation is 
 
-           P(A OR B) = P(A) + P(B) - P(A AND B)
+**P(A OR B) = P(A) + P(B) - P(A AND B)**
 
 ### Multiplication Rule
-           P(A AND B) = P(A) * P(B)
+
+**P(A AND B) = P(A) * P(B)**
 
 
 ## Domain where probability is used
