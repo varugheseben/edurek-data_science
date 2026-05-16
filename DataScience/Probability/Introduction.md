@@ -62,14 +62,15 @@
 5. **Tossing Coins**: What is the probability of getting heads in tossing 2 coins ?
 
    So events can be
-        Coin1  | Coin2
-        =================
-          H    |  H
-          H    |  T
-          T    |  H
-          T    |  T
-
+        | Coin1  | Coin2 |
+        |--------|-------|
+        |  H     |  H    |
+        |  H     |  T    |
+        |  T     |  H    |
+        |  T     |  T    |   
+   
    **Probability of getting atleast one head**
+
    Favorable outcomes of atleast one head = 3
 
    Total outcomes  = 4
