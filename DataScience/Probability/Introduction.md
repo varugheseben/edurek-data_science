@@ -23,11 +23,11 @@
 ## Equation to calculate probability
 
            
-   P(E) = Number of Favorable Outcomes/Total number of possible outcomes
+   **P(E) = Number of Favorable Outcomes / Total number of possible outcomes**
            
 ## Classic Examples
 
-1. **Tossing a coin**: What is the probability of getting heads
+1. **Tossing a coin**: What is the probability of getting heads while tossing a coin
 
    Favorable outcomes(Heads) = 1
 
@@ -42,3 +42,15 @@
    Total outcomes (1, 2, 3, 4, 5, 6) = 6
 
    P(Even) = 3/6 = 0.5 = 50%
+
+## Different types of probabilty
+
+1. **Theoretical(Classical) Probability**: Based purely on logic and math rules, assuming ideal conditions. No actual experiment needs to take place.
+   Example: What is the probability of getting heads while tossing a coin
+
+2. **Emperical(Experimental) Probability**: Based on real-world data and observations. It's calculated by running an experiment many times and recording the results.
+
+   **P(E) = Number of times event occurred / Total number of trials**
+
+3. **Subjective Probability**: Based on personal judgment, experience, or intuition rather than strict math (e.g., a sports analyst saying a team has a 70% chance of winning the championship).
+
