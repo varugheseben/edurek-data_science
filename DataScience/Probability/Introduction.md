@@ -118,6 +118,7 @@
            P(A AND B) -> Means Probability fo A INTERSECTION B
 
    So equation is 
+
            P(A OR B) = P(A) + P(B) - P(A AND B)
 
 ### Multiplication Rule
