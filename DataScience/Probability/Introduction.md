@@ -123,7 +123,7 @@
 
 ### Multiplication Rule
 
-**P(A AND B) = P(A) * P(B)**
+**$$P(A \cap B) = P(A) \times P(B|A)$$**
 
 
 ## Domain where probability is used
