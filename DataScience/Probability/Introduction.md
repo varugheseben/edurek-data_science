@@ -114,16 +114,16 @@
 3. **Subjective Probability**: Based on personal judgment, experience, or intuition rather than strict math (e.g., a sports analyst saying a team has a 70% chance of winning the championship).
 
 ## Addition Rule
-           P(A OR B) -> Means Probability of A UNION B
-           P(A AND B) -> Means Probability fo A INTERSECTION B
+P(A U B) -> Means Probability of A UNION B
+$$P(A \cap B)$$ -> Means Probability fo A INTERSECTION B
 
    So equation is 
 
-**P(A OR B) = P(A) + P(B) - P(A AND B)**
+**$$P(A U B) = P(A) + P(B) - P(A \cap B)$$**
 
 ### Multiplication Rule
 
-**$$P(A \cap B) = P(A) \times P(B|A)$$**
+**$$P(A \cap B) = P(A) \times P(B)$$**
 
 
 ## Domain where probability is used
