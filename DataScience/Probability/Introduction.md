@@ -113,6 +113,17 @@
 
 3. **Subjective Probability**: Based on personal judgment, experience, or intuition rather than strict math (e.g., a sports analyst saying a team has a 70% chance of winning the championship).
 
+## Addition Rule
+           P(A OR B) -> Means Probability of A UNION B
+           P(A AND B) -> Means Probability fo A INTERSECTION B
+
+   So equation is 
+           P(A OR B) = P(A) + P(B) - P(A AND B)
+
+### Multiplication Rule
+           P(A AND B) = P(A) * P(B)
+
+
 ## Domain where probability is used
 
 1. **Statistics & Data Science**: Used to infer patterns from data, train machine learning models, and determine if experimental results are statistically significant.
