@@ -62,20 +62,13 @@
 5. **Tossing Coins**: What is the probability of getting heads in tossing 2 coins ?
 
    So events can be
-
-        | Coin1  | Coin2 |
-        |--------|-------|
-        |  H     |  H    |
-        |  H     |  T    |
-        |  T     |  H    |
-        |  T     |  T    |   
    
 | Coin 1 | Coin 2 |
 | ------ | ------ |
 | H      | H      |
-| H      | H      |
-| H      | H      |
-| H      | H      |
+| H      | T      |
+| T      | H      |
+| T      | T      |
 
    **Probability of getting atleast one head**
 
