@@ -70,10 +70,12 @@
         |  T     |  H    |
         |  T     |  T    |   
    
-| Header 1 | Header 2 | Header 3 |
-| -------- | -------- | -------- |
-| Row 1    | Data     | Data     |
-| Row 2    | Data     | Data     |
+| Coin 1 | Coin 2 |
+| ------ | ------ |
+| H      | H      |
+| H      | H      |
+| H      | H      |
+| H      | H      |
 
    **Probability of getting atleast one head**
 
