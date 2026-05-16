@@ -59,7 +59,17 @@
 
    P(Even) = 4/52 = 0.0769 = 7.69%
 
-5. **Tossing Coins**: What is the probability of getting heads in tossing 2 coins ?
+5. **Rolling a dice**: What is the probability of not getting 3 in dice ?
+
+   P(Overall) = P(Getting 3) + P(Not getting 3) = 1
+
+   So we can write,
+
+   P(Not getting 3) = 1 - P(Getting 3)
+
+                    = 1 - 1/6 = 5/6 = 0.8333 = 83.33%
+
+7. **Tossing Coins**: What is the probability of getting heads in tossing 2 coins ?
 
    So events can be
    
