@@ -12,6 +12,6 @@ It is mathematically written as
 Where 
 
 - **$$P(A|B)$$** (Conditional Probability): The probability of event $A$ occurring given that $B$ has already happened. This is what you want to find out (called as  **Posterior**)
-- **$$P(A|B)$$** : The probability of event $B$ occurring given that $A$ is true (called as **Likelihood**)
+- **$$P(B|A)$$** : The probability of event $B$ occurring given that $A$ is true (called as **Likelihood**)
 - **$$P(A)$$** : The baseline probability of event $A$ occurring before looking at any evidence (called as **Prior**)
 - **$$P(B)$$** : The total probability of event $B$ occurring under all circumstances (called as **Evidence**)
