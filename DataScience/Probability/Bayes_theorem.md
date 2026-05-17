@@ -11,7 +11,7 @@ It is mathematically written as
 
 Where 
 
-- **$$P(A|B)$$** (Conditional Probability): The probability of event $A$ occurring given that $B$ has already happened. This is what you want to find out (called as  **Posterior**)
+- **$$P(A|B)$$** (Conditional Probability): This can be read "The probability of A given B". The probability of event $A$ occurring given that $B$ has already happened. This is what you want to find out (called as  **Posterior**)
 
     Here we assume event $B$ has happened. When you are looking for the posterior probability—written as $P(A|B)$—you are calculating the probability of $A$ under the assumption that $B$ is a known, established fact.
 
@@ -21,7 +21,7 @@ Where
     - **After the Evidence (The Assumption)**: Someone hands you the data and says, "Event $B$ has definitely occurred."
     - **The Posterior**: Now, you update your beliefs. You ignore all the possibilities where $B$ didn't happen, and you calculate how likely $A$ is within this new reality where $B$ is true.
 
-- **$$P(B|A)$$** : The probability of event $B$ occurring given that $A$ is true (called as **Likelihood**)
+- **$$P(B|A)$$** : This can be read "The probability of B given A". The probability of event $B$ occurring given that $A$ is true (called as **Likelihood**)
   
     This doesnt mean event $A$ has actually happened in reality. Basically when we say "The probability of event $B$ occurring given that $A$ is true", we are making an
     assumption to understand the relation between 2 events. So we can say
