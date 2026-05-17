@@ -16,8 +16,11 @@ Equation for variance
 Where 
 
 $$\sigma^2$$ = Population variance
+
 $$\mu(mu)$$ = Population mean
+
 $$x_i$$ = Each individual value in the dataset
+
 N = Total number of values in the population
 
 Equation for Standard Deviation
