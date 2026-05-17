@@ -9,8 +9,7 @@ information to uncover patterns, make predictions and inform decision-making in 
 
    2. **Meausure of Dispersion** : Understanding how 'spread out' the data is (Eg: Range, Variance, Standard Deviation)
 
-<div style="border: 1px solid #ccc; padding: 20px; border-radius: 8px;">
-<b>Equation for variance</b>
+**Equation for variance**
 
 **$$\sigma^2 = \frac{\sum (x_i - \mu)^2}{N}$$**
 
@@ -24,8 +23,6 @@ $$\mu(mu)$$ = Population mean
 $$x_i$$ = Each individual value in the dataset
 
 N = Total number of values in the population
-
-</div>
 
 </div>
 
