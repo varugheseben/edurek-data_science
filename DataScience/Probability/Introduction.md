@@ -114,7 +114,7 @@
 3. **Subjective Probability**: Based on personal judgment, experience, or intuition rather than strict math (e.g., a sports analyst saying a team has a 70% chance of winning the championship).
 
 ## Addition Rule
-P(A \cup B) -> Means Probability of A UNION B
+$$P(A \cup B)$$ -> Means Probability of A UNION B
 $$P(A \cap B)$$ -> Means Probability fo A INTERSECTION B
 
    So equation is 
