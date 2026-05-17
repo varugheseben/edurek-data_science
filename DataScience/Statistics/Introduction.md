@@ -31,6 +31,19 @@ N = Total number of values in the population
 
 **$$\sigma = \sqrt{\frac{\sum (x_i - \mu)^2}{N}}$$**
 
+Where 
+<div align="center">
+   
+$$\sigma$$ = Population standard deviation
+
+$$\mu(mu)$$ = Population mean
+
+$$x_i$$ = Each individual value in the dataset
+
+N = Total number of values in the population
+
+</div>
+
    4. **Visualiztions** : Using tools like histogram, pie chart and scatter plot to see trends visually.
         
 ## Inferential Statistics
