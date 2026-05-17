@@ -26,6 +26,8 @@ N = Total number of values in the population
 
 </div>
 
+<hr>
+
 **Equation for Standard Deviation**
 
 **$$\sigma = \sqrt{\frac{\sum (x_i - \mu)^2}{N}}$$**
