@@ -10,4 +10,5 @@ It is mathematically written as
 **$$P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}$$**
 
 Where 
-**$$P(A|B)$$** (Conditional Probability): The probability of event $A$ occurring given that $B$ has already happened. This is what you want to find out (called the **Posterior**)
+
+- **$$P(A|B)$$** (Conditional Probability): The probability of event $A$ occurring given that $B$ has already happened. This is what you want to find out (called the **Posterior**)
