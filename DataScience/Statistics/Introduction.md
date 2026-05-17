@@ -44,6 +44,7 @@ N = Total number of values in the population
 
 </div>
 
+
    4. **Visualiztions** : Using tools like histogram, pie chart and scatter plot to see trends visually.
         
 ## Inferential Statistics
