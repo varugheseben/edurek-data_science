@@ -9,7 +9,11 @@ information to uncover patterns, make predictions and inform decision-making in 
 
    2. **Meausure of Dispersion** : Understanding how 'spread out' the data is (Eg: Range, Variance, Standard Deviation)
 
-   3. **Visualiztions** : Using tools like histogram, pie chart and scatter plot to see trends visually.
+      Equation for Standard Deviation
+
+**$$\sigma = \sqrt{\frac{\sum (x_i - \mu)^2}{N}}$$**
+
+   4. **Visualiztions** : Using tools like histogram, pie chart and scatter plot to see trends visually.
         
 ## Inferential Statistics
   This branch uses small sample of data to make 'inferences' or generalizarions about a much larger population.
