@@ -17,8 +17,9 @@ Where
     This doesnt mean event $A$ has actually happened in reality. Basically when we say "The probability of event $B$ occurring given that $A$ is true", we are making an
     assumption to understand the relation between 2 events. So we can say
 
-    - ** It is a conditional assumption**: The phrase "given that $A$ is true" means you are temporarily assuming $A$ has happened, just to see how it would
+    - **It is a conditional assumption**: The phrase "given that $A$ is true" means you are temporarily assuming $A$ has happened, just to see how it would
            change the chances of $B$. It is a hypothetical scenario used to calculate the relationship between the two events.
+    - **Think of it as "Zooming In"**: Imagine you are looking at a master list of all possible outcomes. When you condition on $A$, you throw away every outcome where $A$ didn't happen, and you only look at the world where $A$ is true. So with that assumption we can say when $A$ is true how often $B$ also happen.
 
 - **$$P(A)$$** : The baseline probability of event $A$ occurring before looking at any evidence (called as **Prior**)
 - **$$P(B)$$** : The total probability of event $B$ occurring under all circumstances (called as **Evidence**)
