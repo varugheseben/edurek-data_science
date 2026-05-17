@@ -11,4 +11,5 @@ It is mathematically written as
 
 Where 
 
-- **$$P(A|B)$$** (Conditional Probability): The probability of event $A$ occurring given that $B$ has already happened. This is what you want to find out (called the **Posterior**)
+- **$$P(A|B)$$** (Conditional Probability): The probability of event $A$ occurring given that $B$ has already happened. This is what you want to find out (called as  **Posterior**)
+- **$$P(A|B)$$** : The probability of event $B$ occurring given that $A$ is true (called as **Likelihood**)
