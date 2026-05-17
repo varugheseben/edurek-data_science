@@ -14,7 +14,8 @@ Equation for variance
 **$$\sigma^2 = \frac{\sum (x_i - \mu)^2}{N}$$**
 
 Where 
-
+<div align="center">
+   
 $$\sigma^2$$ = Population variance
 
 $$\mu(mu)$$ = Population mean
@@ -22,6 +23,8 @@ $$\mu(mu)$$ = Population mean
 $$x_i$$ = Each individual value in the dataset
 
 N = Total number of values in the population
+
+</div>
 
 Equation for Standard Deviation
 
