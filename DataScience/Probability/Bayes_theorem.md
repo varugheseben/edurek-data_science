@@ -44,3 +44,6 @@ Where
 
     **You take the test and it comes back positive. What is the probability that you actually have the disease?**
 
+    **SOLUTION**
+
+       With our intution we can say 95% of chance of having disease. But Bayes theorem says probability of having disease is very low even if the test resulted as +ve.
