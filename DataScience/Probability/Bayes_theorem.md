@@ -38,7 +38,7 @@ Where
 
   **The Scenario**
        Imagine there is a rare disease that affects 1% of the population.
-- You take a lab test for this disease.
-- The test is 95% accurate (if you have the disease, it correctly returns a positive result 95% of the time).
-- The test also has a 5% false positive rate (if you are healthy, it incorrectly returns a positive result 5% of the time).
-- 
+    - You take a lab test for this disease.
+    - The test is 95% accurate (if you have the disease, it correctly returns a positive result 95% of the time).
+    - The test also has a 5% false positive rate (if you are healthy, it incorrectly returns a positive result 5% of the time).
+  
