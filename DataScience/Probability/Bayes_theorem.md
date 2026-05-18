@@ -54,7 +54,6 @@ Where
      So we want to find $$P(A|B)$$, means what is the probability of person have disease given your test result is positive.
 
      So lets findout the components required for Bayes theorem
-  
       - $$P(A)$$ (Prior) = 0.01
       - $$P(B|A)$$ (Likelihood) = 0.95 (Likelihood of testing positive if you are sick)
       - $$P(B)$$ (Evidence) : Here we have 2 possibilities
