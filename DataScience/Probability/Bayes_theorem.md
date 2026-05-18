@@ -46,4 +46,4 @@ Where
 
     **SOLUTION**
 
-     With our intution we can say 95% of chance of having disease. But Bayes theorem says probability of having disease is very low even if the test resulted as +ve.
+     With our intution we can say 95% of chance for having disease. But Bayes theorem says probability of having disease is very low even if the test resulted as +ve.
