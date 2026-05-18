@@ -52,3 +52,20 @@ Where
      - **Event $B$** : Your test result is positive
   
      So we want to find $$P(A|B)$$, means what is the probability of person have disease given your test result is positive.
+
+     So lets findout the components required for Bayes theorem
+       - $$P(A)$$ (Prior) = 0.01
+       - $$P(B|A)$$ (Likelihood) = 0.95 (Likelihood of testing positive if you are sick)
+       - $$P(B)$$ (Evidence) : Here we have 2 possibilities
+           - Person sick and test positive
+           - Person healthy and test positive
+  
+          So 
+             $$P(Sick and test positive)$$ = 0.01 * 0.95 = 0.0095
+             $$P(Healthy and test positive)$$ = 0.99 * 0.05 = 0.0495
+
+          Total $$P(B)$$ = 0.0095 + 0.0495 = 0.059
+
+          Therefore, $$P(A|B) = \frac{0.95 \cdot 0.01}{0.059}$$
+
+                              = $$\frac{0.0095}{0.059}$$ = 0.1610 = 16.1%
