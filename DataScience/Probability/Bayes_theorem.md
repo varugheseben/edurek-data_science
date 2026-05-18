@@ -72,3 +72,5 @@ Where
           Therefore, $$P(A|B) = \frac{0.95 \cdot 0.01}{0.059}$$
   
           = $$\frac{0.0095}{0.059}$$ = 0.1610 = 16.1%
+
+    **Result** : Even though the test is 95% accurate, a positive result only means you have a 16.1% chance of actually being sick.
