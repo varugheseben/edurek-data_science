@@ -47,3 +47,7 @@ Where
     **SOLUTION**
 
      With our intution we can say 95% of chance for having disease. But Bayes theorem says probability of having disease is very low even if the test resulted as +ve.
+     - **Event $A$** : You have the disease, so $$P(A)$$ = 0.01 (1% of people have the disease)
+     - **Event Not $A$** : You are healthy so $$P(Not A)$$ = 0.99 (99% of people are healthy)
+     - **Event $B$** : Your test result is positive
+     So we want to find $$P(A|B)$$, means what is the probability of person have disease given your test result is positive.
