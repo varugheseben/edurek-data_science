@@ -62,12 +62,12 @@ Where
          - Person healthy and test positive
   
           So 
-             $$P(Sick-and-test-positive)$$ = 0.01 * 0.95 = 0.0095
+             $$P(SickAndTestPositive)$$ = 0.01 * 0.95 = 0.0095
        
-             $$P(Healthy-and-test-positive)$$ = 0.99 * 0.05 = 0.0495
+             $$P(HealthyAndTestPositive)$$ = 0.99 * 0.05 = 0.0495
 
           Total $$P(B)$$ = 0.0095 + 0.0495 = 0.059
 
           Therefore, $$P(A|B) = \frac{0.95 \cdot 0.01}{0.059}$$
-
-                              = $$\frac{0.0095}{0.059}$$ = 0.1610 = 16.1%
+  
+          = $$\frac{0.0095}{0.059}$$ = 0.1610 = 16.1%
