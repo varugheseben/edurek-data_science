@@ -32,3 +32,13 @@ Where
 
 - **$$P(A)$$** : The baseline probability of event $A$ occurring before looking at any evidence (called as **Prior**)
 - **$$P(B)$$** : The total probability of event $B$ occurring under all circumstances (called as **Evidence**)
+
+## Real World Examples
+- **Medical Testing** : Medical testing is the classic way to understand why Bayes' Theorem is so important. It shows why a positive test result doesn't always mean you are actually sick.
+
+  **The Scenario**
+       Imagine there is a rare disease that affects 1% of the population.
+- You take a lab test for this disease.
+- The test is 95% accurate (if you have the disease, it correctly returns a positive result 95% of the time).
+- The test also has a 5% false positive rate (if you are healthy, it incorrectly returns a positive result 5% of the time).
+- 
