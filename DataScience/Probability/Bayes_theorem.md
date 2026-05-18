@@ -63,8 +63,7 @@ Where
   
           So 
              $$P(SickAndTestPositive)$$ = 0.01 * 0.95 = 0.0095
-       
-             $$P(HealthyAndTestPositive)$$ = 0.99 * 0.05 = 0.0495
+       $$P(HealthyAndTestPositive)$$ = 0.99 * 0.05 = 0.0495
 
           Total $$P(B)$$ = 0.0095 + 0.0495 = 0.059
 
