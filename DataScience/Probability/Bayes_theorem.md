@@ -55,11 +55,11 @@ Where
 
      So lets findout the components required for Bayes theorem
   
-       - $$P(A)$$ (Prior) = 0.01
-       - $$P(B|A)$$ (Likelihood) = 0.95 (Likelihood of testing positive if you are sick)
-       - $$P(B)$$ (Evidence) : Here we have 2 possibilities
-           - Person sick and test positive
-           - Person healthy and test positive
+      - $$P(A)$$ (Prior) = 0.01
+      - $$P(B|A)$$ (Likelihood) = 0.95 (Likelihood of testing positive if you are sick)
+      - $$P(B)$$ (Evidence) : Here we have 2 possibilities
+         - Person sick and test positive
+         - Person healthy and test positive
   
           So 
              $$P(Sick and test positive)$$ = 0.01 * 0.95 = 0.0095
