@@ -63,7 +63,7 @@ Where
          
           So,
        
-               $$P(B) = (P(B|A) \cdot P(A)) + (P(B|\text{not } A) \cdot P(\text{not } A))$$
+          $$P(B) = (P(B|A) \cdot P(A)) + (P(B|\text{not } A) \cdot P(\text{not } A))$$
   
        $$P(SickAndTestPositive)$$ = 0.01 * 0.95 = 0.0095
   
