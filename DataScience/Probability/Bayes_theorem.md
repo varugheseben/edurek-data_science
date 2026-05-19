@@ -115,3 +115,25 @@ Where
     - When it doesn't rain, only 20% of the mornings start out cloudy.
 
   **Question**: You look outside and see clouds. What is the actual chance of rain today?
+  
+  **Solution**:
+    Lets say we have 2 events
+  - Rain on days, say event A
+  - Cloudy morning, say event B
+
+  So we can say,
+  - $$P(A)$$ (Prior) = 0.10
+  - $$P(\text{not } A)$$ = 0.90
+  - $$P(B|A)$$ (Likelihood) = 0.90
+  - $$P(B)  (Evidence) = (P(B|A) \cdot P(A)) + (P(B|\text{not } A) \cdot P(\text{not } A))$$
+
+    = (0.90 + 0.10) + (0.20 * 0.90)
+
+    = 0.09 + 0.18
+
+    $$\therefore\ \  Total\ \  P(B) = 0.27$$
+
+    So we get, $$P(A|B) = \frac{0.9 \cdot 0.10}{0.27}$$
+
+    = $$\frac{0.09}{0.27}$$ = 0.3333 = 33.33%
+ 
