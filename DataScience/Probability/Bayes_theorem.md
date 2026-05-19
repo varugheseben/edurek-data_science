@@ -65,9 +65,9 @@ Where
        
           $$P(B) = (P(B|A) \cdot P(A)) + (P(B|\text{not } A) \cdot P(\text{not } A))$$
   
-       $$P(SickAndTestPositive)$$ = 0.01 * 0.95 = 0.0095
+                 = 0.95 * 0.01 = 0.0095
   
-       $$P(HealthyAndTestPositive)$$ = 0.99 * 0.05 = 0.0495
+                 = 0.05 * 0.99 = 0.0495
 
           Total $$P(B)$$ = 0.0095 + 0.0495 = 0.059
 
