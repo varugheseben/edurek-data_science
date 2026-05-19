@@ -106,6 +106,9 @@ Where
  
 - **The Rainy Day Forecast**: You want to know if it's going to rain today, but you woke up late and can only look out the window to see if it's cloudy.
 
- **The Scenario**:
-      In your city, it rains on 10% of days.
-   - 
+  **The Scenario**:
+       In your city, it rains on 10% of days.
+    - When it rains, 90% of the mornings start out cloudy.
+    - When it doesn't rain, only 20% of the mornings start out cloudy.
+
+  **Question**: You look outside and see clouds. What is the actual chance of rain today?
