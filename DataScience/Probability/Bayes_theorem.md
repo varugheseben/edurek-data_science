@@ -106,6 +106,8 @@ Where
     So we get, $$P(A|B) = \frac{0.60 \cdot 0.40}{0.30}$$
 
     = $$\frac{0.24}{0.30}$$ = 0.8 = 80%
+
+    **Result** : Probability of an email with word 'Free' to be spam is 80%.
  
 - **The Rainy Day Forecast**: You want to know if it's going to rain today, but you woke up late and can only look out the window to see if it's cloudy.
 
@@ -136,4 +138,6 @@ Where
     So we get, $$P(A|B) = \frac{0.9 \cdot 0.10}{0.27}$$
 
     = $$\frac{0.09}{0.27}$$ = 0.3333 = 33.33%
+ 
+    **Result** : Probability of chance of rain today is 33.33%.
  
