@@ -85,8 +85,8 @@ Where
     - The word "Free" appears in only 10% of legitimate (ham) emails.
 
   **Question**: If an incoming email contains the word "Free", what is the probability that it is spam?
-  **Solution**:
   
-      Lets say we have 2 events
-        - Receive a spam email, say event A
-        - Receive email with word 'Free', say event B
+  **Solution**:
+    Lets say we have 2 events
+      - Receive a spam email, say event A
+      - Receive email with word 'Free', say event B
