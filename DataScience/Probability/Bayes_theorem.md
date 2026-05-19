@@ -97,6 +97,7 @@ Where
   - $$P(B|A)$$ (Likelihood) = 0.60
   - $$P(B)$$ (Evidence) = (0.60 + 0.40) + (0.10 * 0.60)
     = 0.24 + 0.6
+
     $\therefore\ \  Total\ \  $$P(B)$$ = 0.30
 
     So we get, $$P(A|B) = \frac{0.60 \cdot 0.40}{0.30}$$
