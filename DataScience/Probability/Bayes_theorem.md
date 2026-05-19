@@ -81,6 +81,7 @@ Where
 
   **The Scenario**
        Let’s say 40% of all emails you receive are spam.
+  
     - The word "Free" appears in 60% of spam emails.
     - The word "Free" appears in only 10% of legitimate (ham) emails.
 
