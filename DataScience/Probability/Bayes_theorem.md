@@ -104,3 +104,8 @@ Where
 
     = $$\frac{0.24}{0.30}$$ = 0.8 = 80%
  
+- **The Rainy Day Forecast**: You want to know if it's going to rain today, but you woke up late and can only look out the window to see if it's cloudy.
+
+ **The Scenario**:
+      In your city, it rains on 10% of days.
+   - 
