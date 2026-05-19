@@ -95,7 +95,8 @@ Where
   - $$P(A)$$ (Prior) = 0.40
   - $$P(\text{not } A)$$ = 0.60
   - $$P(B|A)$$ (Likelihood) = 0.60
-  - $$P(B)$$ (Evidence) = (0.60 + 0.40) + (0.10 * 0.60)
+  - $$P(B)  (Evidence) = (P(B|A) \cdot P(A)) + (P(B|\text{not } A) \cdot P(\text{not } A))$$
+    = (0.60 + 0.40) + (0.10 * 0.60)
     = 0.24 + 0.6
 
     $$\therefore\ \  Total\ \  P(B) = 0.30$$
