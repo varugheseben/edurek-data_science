@@ -69,9 +69,9 @@ Where
   
           = 0.0095 + 0.0495
 
-          Total $$P(B)$$ = 0.059
+          $\therefore Total $$P(B)$$ = 0.059
 
-          Therefore, $$P(A|B) = \frac{0.95 \cdot 0.01}{0.059}$$
+          So we get, $$P(A|B) = \frac{0.95 \cdot 0.01}{0.059}$$
   
           = $$\frac{0.0095}{0.059}$$ = 0.1610 = 16.1%
 
