@@ -69,7 +69,7 @@ Where
   
           = 0.0095 + 0.0495
 
-          $\therefore Total $$P(B)$$ = 0.059
+          $\therefore  Total  $$P(B)$$ = 0.059
 
           So we get, $$P(A|B) = \frac{0.95 \cdot 0.01}{0.059}$$
   
