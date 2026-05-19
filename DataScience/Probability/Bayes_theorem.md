@@ -88,5 +88,5 @@ Where
   
   **Solution**:
     Lets say we have 2 events
-      - Receive a spam email, say event A
-      - Receive email with word 'Free', say event B
+  - Receive a spam email, say event A
+  - Receive email with word 'Free', say event B
