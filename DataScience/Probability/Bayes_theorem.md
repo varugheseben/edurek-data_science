@@ -57,12 +57,14 @@ Where
   
      - $$P(A)$$ (Prior) = 0.01
      - $$P(B|A)$$ (Likelihood) = 0.95 (Likelihood of testing positive if you are sick)
-      - $$P(B)$$ (Evidence) : Here we have 2 possibilities
+     - $$P(B)$$ (Evidence) : Here we have 2 possibilities
          - Person sick and test positive
          - Person healthy and test positive
-  
+         
           So,
        
+               $$P(B) = (P(B|A) \cdot P(A)) + (P(B|\text{not } A) \cdot P(\text{not } A))$$
+  
        $$P(SickAndTestPositive)$$ = 0.01 * 0.95 = 0.0095
   
        $$P(HealthyAndTestPositive)$$ = 0.99 * 0.05 = 0.0495
