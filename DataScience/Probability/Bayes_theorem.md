@@ -76,3 +76,16 @@ Where
           = $$\frac{0.0095}{0.059}$$ = 0.1610 = 16.1%
 
     **Result** : Even though the test is 95% accurate, a positive result only means you have a 16.1% chance of actually being sick.
+
+- **Email Spam Filter**: Every time an email lands in your inbox, your email provider uses a Bayesian filter to decide if it's spam.
+
+  **The Scenario**
+       Let’s say 40% of all emails you receive are spam.
+    - The word "Free" appears in 60% of spam emails.
+    - The word "Free" appears in only 10% of legitimate (ham) emails.
+
+  **Question**: If an incoming email contains the word "Free", what is the probability that it is spam?
+  **Solution**:
+      Lets say we have 2 events
+        - Receive a spam email, say event A
+        - Receive email with word 'Free', say event B
