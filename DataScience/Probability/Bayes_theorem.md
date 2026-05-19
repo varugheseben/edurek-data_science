@@ -90,3 +90,16 @@ Where
     Lets say we have 2 events
   - Receive a spam email, say event A
   - Receive email with word 'Free', say event B
+
+  So we can say,
+  - $$P(A)$$ (Prior) = 0.40
+  - $$P(\text{not } A)$$ = 0.60
+  - $$P(B|A)$$ (Likelihood) = 0.60
+  - $$P(B)$$ (Evidence) = (0.60 + 0.40) + (0.10 * 0.60)
+    = 0.24 + 0.6
+    $\therefore\ \  Total\ \  $$P(B)$$ = 0.30
+
+    So we get, $$P(A|B) = \frac{0.60 \cdot 0.40}{0.30}$$
+
+    = $$\frac{0.24}{0.30}$$ = 0.8 = 80%
+ 
