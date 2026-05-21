@@ -1,1 +1,30 @@
+# Machine Learning
+   Machine learning is a subset of artificial intelligence that focus on building systems that learn from data. Conventional AI systems 
+like decision support systems are rule based and cannot learn from data. Instead of being explicitly programmed with fixed rules to perform a task, 
+a machine learning algorithm uses data to find patterns, make predictions, and improve its performance automatically over time.
 
+## How Machine Learning Works
+The machine learning process generally follows a continuous loop
+  - **Data Collection**: Gathering historical data (numbers, text, images, or clicks).
+  - **Training**: Feeding this data into an ML algorithm. The algorithm analyzes the data to discover hidden patterns or relationships.
+  - **Building the Model**: The result of the training phase is a "model" — a mathematical representation of the patterns the algorithm found.
+  - **Prediction and Tuning**: The model is given new, unseen data to see how accurately it can make predictions. If the errors are high, the algorithm tweaks its internal logic and tries again.
+
+## Different type of machine learning
+  There are 3 types of machine learning
+  - Supervised Learning
+  - UnSupervised Learning
+  - Reinforcement Learning
+
+  1. **Supervised Learning**
+     The algorithm is trained on labeled data, meaning every piece of input data comes with the correct answer or outcome. The goal is for the model to learn the mapping from inputs to outputs.
+
+     There are two types of supervised learning based on the nature of the target variable(the outcome you are trying to predict)
+     1. **Regression**: In regression tasks, the machine learning model predicts a continuous, numerical output.
+        Example: Predicting house prices based on square footage, location, and number of bedrooms
+     2. **Classification**
+        
+  3. **Unsupervised Learning**
+  4. **Reinforcement Learning**
+     
+     
