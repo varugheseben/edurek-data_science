@@ -16,8 +16,7 @@ The machine learning process generally follows a continuous loop
   - UnSupervised Learning
   - Reinforcement Learning
 
-  1. **Supervised Learning**
-     The algorithm is trained on labeled data, meaning every piece of input data comes with the correct answer or outcome. The goal is for the model to learn the mapping from inputs to outputs.
+  1. **Supervised Learning**: The algorithm is trained on labeled data, meaning every piece of input data comes with the correct answer or outcome. The goal is for the model to learn the mapping from inputs to outputs.
 
      There are two types of supervised learning based on the nature of the target variable(the outcome you are trying to predict)
      1. **Regression**: In regression tasks, the machine learning model predicts a continuous, numerical output.
@@ -27,7 +26,7 @@ The machine learning process generally follows a continuous loop
 
         Example: Predicting an email is spam or not spam.
         
-  3. **Unsupervised Learning**
+  3. **Unsupervised Learning**: The algorithm is given unlabeled data and must find patterns, structures, or anomalies on its own without any guidance.
   4. **Reinforcement Learning**
      
      
