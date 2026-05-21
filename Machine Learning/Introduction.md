@@ -27,6 +27,10 @@ The machine learning process generally follows a continuous loop
         Example: Predicting an email is spam or not spam.
         
   3. **Unsupervised Learning**: The algorithm is given unlabeled data and must find patterns, structures, or anomalies on its own without any guidance.
-  4. **Reinforcement Learning**
+  
+                                Example: Customer segmentation for marketing, Recommendation engines(like Suggestions fron Netflix)
+  4. **Reinforcement Learning**: The algorithm learns by interacting with an environment. It takes actions and receives feedback in the form of rewards (for correct actions) or penalties (for mistakes).
+
+                                Example: Self-driving cars navigating traffic, Robotics
      
      
