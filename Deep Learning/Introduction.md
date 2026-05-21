@@ -17,6 +17,14 @@
      The next layer combines those lines to identify shapes (wheels, windows). 
      A deeper layer recognizes complex combinations (the grill, the headlights).
    - Output Layer: Makes the final prediction or classification (e.g., "98% probability this is a sedan"). 
-   
-    
+
+## Difference between traditional machine learning and deep learning
+Lets take an example of building a system that detects an image is dog or cat
+
+|Feature|Traditional Machine Learning|Deep Learning|
+|-------|----------------------------|-------------|
+|Human Intervention|Test|test|
+|Data Requirements|test|test|
+|Hardware|Test|Test|
+
     
