@@ -21,6 +21,7 @@ The machine learning process generally follows a continuous loop
 
      There are two types of supervised learning based on the nature of the target variable(the outcome you are trying to predict)
      1. **Regression**: In regression tasks, the machine learning model predicts a continuous, numerical output.
+
         Example: Predicting house prices based on square footage, location, and number of bedrooms
      2. **Classification**
         
