@@ -20,18 +20,13 @@ The machine learning process generally follows a continuous loop
 
      There are two types of supervised learning based on the nature of the target variable(the outcome you are trying to predict)
      1. **Regression**: In regression tasks, the machine learning model predicts a continuous, numerical output.
-
-        Example: Predicting house prices based on square footage, location, and number of bedrooms
+        - Example: Predicting house prices based on square footage, location, and number of bedrooms
      2. **Classification**: In classification tasks, the model assigns the input data into specific, predefined categories or classes. The output is a discrete label rather than a continuous number.
-
-        Example: Predicting an email is spam or not spam.
+        - Example: Predicting an email is spam or not spam.
         
   3. **Unsupervised Learning**: The algorithm is given unlabeled data and must find patterns, structures, or anomalies on its own without any guidance.
-  
-      Example: Customer segmentation for marketing, Recommendation engines(like Suggestions fron Netflix)
-
+        - Example: Customer segmentation for marketing, Recommendation engines(like Suggestions fron Netflix)
   4. **Reinforcement Learning**: The algorithm learns by interacting with an environment. It takes actions and receives feedback in the form of rewards (for correct actions) or penalties (for mistakes).
-
-      Example: Self-driving cars navigating traffic, Robotics
+        - Example: Self-driving cars navigating traffic, Robotics
      
      
