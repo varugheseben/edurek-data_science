@@ -23,7 +23,9 @@ The machine learning process generally follows a continuous loop
      1. **Regression**: In regression tasks, the machine learning model predicts a continuous, numerical output.
 
         Example: Predicting house prices based on square footage, location, and number of bedrooms
-     2. **Classification**
+     2. **Classification**: In classification tasks, the model assigns the input data into specific, predefined categories or classes. The output is a discrete label rather than a continuous number.
+
+        Example: Predicting an email is spam or not spam.
         
   3. **Unsupervised Learning**
   4. **Reinforcement Learning**
