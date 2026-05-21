@@ -23,8 +23,8 @@ Lets take an example of building a system that detects an image is dog or cat
 
 |Feature|Traditional Machine Learning|Deep Learning|
 |-------|----------------------------|-------------|
-|Human Intervention|Test|test|
-|Data Requirements|test|test|
-|Hardware|Test|Test|
+|Human Intervention|High. An engineer must manually code rules or "extract features" (e.g., measuring ear shapes, tail lengths) before feeding the data into the model.|Low. You feed raw images into the network, and it figures out which features (whiskers, snout shape) are important on its own.|
+|Data Requirements|Can perform well with smaller datasets (hundreds or thousands of examples).|Requires massive amounts of data (millions of examples) to reach high accuracy.|
+|Hardware|Runs fine on standard computer processors (CPUs).|Requires massive computational power, usually heavily relying on GPUs (Graphics Processing Units).|
 
     
