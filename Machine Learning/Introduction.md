@@ -100,4 +100,5 @@ If you change the training data, the algorithm remains exactly the same, but it 
 - [Training the Model using Linear Regression](https://github.com/varugheseben/edurek-data_science/blob/main/Machine%20Learning/Chapter-1.ipynb)
 - [Training the Model using Labelled Data](https://github.com/varugheseben/edurek-data_science/blob/main/Machine%20Learning/Chapter_2.ipynb)
 - [Training the Model using DecisionTree Regression](https://github.com/varugheseben/edurek-data_science/blob/main/Machine%20Learning/Chapter_3.ipynb)
+- [Training the Model using Random Forest Regression](https://github.com/varugheseben/edurek-data_science/blob/main/Machine%20Learning/Chapter_4.ipynb)
 
