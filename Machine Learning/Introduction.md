@@ -87,3 +87,11 @@ Difference
 The transition from algorithm to model happens during the training phase
 
 $$\text{Algorithm} + \text{Training Data} \xrightarrow{\text{Training Process}} \text{Model}$$
+
+- You choose an algorithm (e.g., Linear Regression: $y = mx + b$).
+- You feed it your training data (e.g., historical housing prices and sizes).
+- The algorithm runs, iteratively adjusting variables until it finds the best fit.
+- The output is a model with fixed parameters (e.g., $\text{Price} = 250 \times \text{Size} + 50,000$).
+- You deploy this model to make predictions on new data.
+
+If you change the training data, the algorithm remains exactly the same, but it will produce a completely different model.
