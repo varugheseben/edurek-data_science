@@ -63,3 +63,27 @@ The machine learning process generally follows a continuous loop
      - **Deep Q-Networks(DQN)** : Combines Q-Learning with Deep Neural Networks to handle complex environments (like playing Atari games).
      - **Proximal Policy Optimization(PPO)** : A popular policy-gradient method often used in robotics and for fine-tuning modern AI language models.
 
+
+## What is difference between algorithm and model in machine learning
+Algorithm and model represents 2 distinct stages of machine learning work flow.
+
+An algorithm is the blueprint or the step-by-step procedure used to learn from data. It defines how the computer will bend, twist, or split the data to find a pattern. It consists of pure mathematics and logic, completely devoid of any real-world knowledge until you feed it data.
+- Examples: Linear Regression, Random Forest, Support Vector Machines (SVM), K-Means
+
+A model is the actual software program or file that you use to make predictions. It is the specific result of running your training data through the machine learning algorithm. The model contains the specific mathematical coefficients, decision rules, or neural weights that fit your exact data.
+- Examples: A specific file (like a .pkl, .h5, or .onnx file) that can take an input like "house square footage" and output a prediction like "$450,000".
+
+Thin of it as : **The algorithm is the recipe, and the model is the cake**
+
+Difference
+|Feature|Machine Learning Algorithm|Machine Learning Model|
+|-------|--------------------------|----------------------|
+|What It is|A mathematical process, logic, or set of rules used to find patterns.|The specific output/artifact created after running data through an algorithm.|
+|When it exists|It exists before you even touch your data (it is standard code or math).|It only exists after the learning/training process is complete.|
+|What it contains|Pure logic, equations, and hyper-parameters (settings you choose).|Learned weights and biases (parameters) tailored to a specific dataset.|
+|Dynamic|Static. Example: A Linear Regression algorithm is always the same mathematical formula.|Dynamic. A model changes depending on the data you use to train it.|
+
+## How Algorithm and Model work together
+The transition from algorithm to model happens during the training phase
+
+$$\text{Algorithm} + \text{Training Data} \xrightarrow{\text{Training Process}} \text{Model}$$
