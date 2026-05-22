@@ -46,8 +46,15 @@ The machine learning process generally follows a continuous loop
      - **Principal Component Analysis(PCA)** : A dimensionality reduction technique that transforms a large set of variables into a smaller one while retaining most of the original variance.
      - **Hierarchical Clustering** : Building a tree of clusters (dendrogram) to visualize data hierarchies.
      - **Isolation Forests** : An algorithm specifically designed for anomaly and outlier detection
-   
-  4. **Reinforcement Learning**: The algorithm learns by interacting with an environment. It takes actions and receives feedback in the form of rewards (for correct actions) or penalties (for mistakes).
+
+  4. **Semi-Supervised Learning** : This approach sits comfortably between supervised and unsupervised learning. It uses a small amount of labeled data combined with a large amount of unlabeled data during training.
+
+     This is incredibly useful because labeling data by hand is expensive and time-consuming, whereas acquiring raw, unlabeled data is usually cheap. The model uses the small labeled dataset to get its bearings, and then leverages the structural patterns in the unlabeled data to improve its overall predictive power.
+
+
+  6. **Reinforcement Learning**: The algorithm learns by interacting with an environment. It takes actions and receives feedback in the form of rewards (for correct actions) or penalties (for mistakes).
         - Example: Self-driving cars navigating traffic, Robotics
      
-     
+     **Common Algorithms Used**
+     - **Self Training** : The model is trained on the small labeled data, then uses its own highly confident predictions to label the unlabeled data, iterating on the newly expanded dataset.
+     - **Graph-Based Models** : Data points are mapped as nodes on a graph, and labels are "propagated" from labeled nodes to neighboring unlabeled nodes based on similarity.
