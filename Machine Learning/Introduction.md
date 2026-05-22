@@ -33,10 +33,10 @@ The machine learning process generally follows a continuous loop
      
   3. **Unsupervised Learning**: The algorithm is given unlabeled data and must find patterns, structures, or anomalies on its own without any guidance.
   
-        It is primarily used for:
-         - Clustering : Grouping similar data points together
-         - Dimensionality Reduction : Compressing data by reducing the number of random variables under consideration, making it easier to visualize or process.
-         - Association Rule Learning : Finding interesting relations between variables in large databases (e.g., "people who buy diapers also buy beer").
+     It is primarily used for:
+       - Clustering : Grouping similar data points together
+       - Dimensionality Reduction : Compressing data by reducing the number of random variables under consideration, making it easier to visualize or process.
+       - Association Rule Learning : Finding interesting relations between variables in large databases (e.g., "people who buy diapers also buy beer").
 
         - Example: Customer segmentation for marketing, Recommendation engines(like Suggestions fron Netflix)
   5. **Reinforcement Learning**: The algorithm learns by interacting with an environment. It takes actions and receives feedback in the form of rewards (for correct actions) or penalties (for mistakes).
