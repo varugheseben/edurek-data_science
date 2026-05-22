@@ -30,4 +30,12 @@ ecosystems are
       - **TensorFlow Lite (TF Lite)** : A lightweight solution for deploying models on mobile and edge devices (iOS, Android, IoT).
       - **TensorFlow.js** : A library for training and deploying models entirely in the browser or on Node.js.
       - **TensorBoard** : A visualization toolkit used to track metrics like loss and accuracy, visualize model graphs, and profile resource consumption
+
+# Use cases
+  Different areas where TensorFlow is used are
+   - **Computer Vision** : Image recognition, object detection, and autonomous driving systems.
+   - **Natural Language Processing (NLP)** : Sentiment analysis, machine translation, and text generation.
+   - **Time-Series Analysis** : Stock market tracking, weather forecasting, and predictive maintenance.
+   - **Recommendation Systems** : Powering the algorithms behind product or video recommendations on e-commerce and streaming platforms.
+
     
