@@ -97,4 +97,6 @@ $$\text{Algorithm} + \text{Training Data} \xrightarrow{\text{Training Process}} 
 If you change the training data, the algorithm remains exactly the same, but it will produce a completely different model.
 
 ## Lab
-[Training the Model using Linear Regression](https://github.com/varugheseben/edurek-data_science/blob/main/Machine%20Learning/Chapter-1.ipynb)
+- [Training the Model using Linear Regression](https://github.com/varugheseben/edurek-data_science/blob/main/Machine%20Learning/Chapter-1.ipynb)
+- [Training the Model using DecisionTree Regression](https://github.com/varugheseben/edurek-data_science/blob/main/Machine%20Learning/Chapter_2.ipynb)
+
