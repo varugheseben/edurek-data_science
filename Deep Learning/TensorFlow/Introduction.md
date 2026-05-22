@@ -15,7 +15,7 @@ called tensors
    and the edges represent the tensors that flow between them.
    
    Example: If we have computational statement like sum = a + b,
-    - + and = are a nodes
+    - \+ and '=' are a nodes
     - sum, a, b are tensors
 
   
