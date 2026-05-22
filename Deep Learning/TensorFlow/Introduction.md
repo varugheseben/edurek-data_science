@@ -31,6 +31,17 @@ ecosystems are
       - **TensorFlow.js** : A library for training and deploying models entirely in the browser or on Node.js.
       - **TensorBoard** : A visualization toolkit used to track metrics like loss and accuracy, visualize model graphs, and profile resource consumption
 
+# Analogy to understand the usage of Tensorflow
+  Lets say a teacher is teaching a student, so below will be the different events can happen
+   - Teacher can give multiple examples, which will be inputting data
+   - Student tries to learn, which will be model training
+   - Student makes mistakes, which will be error generation
+   - Teacher helps to correct student's mistakes, which will be back propagation
+   - Student improves, which will be better prediction
+
+   So we can say tensorflow as framework which can perform all above events. Basically its a framework, that has libraries to help system learn from data by itself 
+and improve by itself and generate better prediction results.
+
 # Use cases
   Different areas where TensorFlow is used are
    - **Computer Vision** : Image recognition, object detection, and autonomous driving systems.
