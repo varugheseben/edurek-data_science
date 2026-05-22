@@ -23,7 +23,14 @@ The machine learning process generally follows a continuous loop
         - Example: Predicting house prices based on square footage, location, and number of bedrooms
      2. **Classification**: In classification tasks, the model assigns the input data into specific, predefined categories or classes. The output is a discrete label rather than a continuous number.
         - Example: Predicting an email is spam or not spam.
-        
+
+     **Common Algorithms Used**
+     - Linear Regression : Used for predicting continuous numerical values based on linear relationships.
+     - Decision Trees : Tree-based models that split data based on feature values.
+     - Random Forests : Random Forests combine multiple trees for better accuracy.
+     - Logistic Regression : Despite its name, it is used for binary classification tasks.
+     - Support Vector Machines : Finds the optimal hyperplane that best separates different classes in a high-dimensional space.
+     
   3. **Unsupervised Learning**: The algorithm is given unlabeled data and must find patterns, structures, or anomalies on its own without any guidance.
         - Example: Customer segmentation for marketing, Recommendation engines(like Suggestions fron Netflix)
   4. **Reinforcement Learning**: The algorithm learns by interacting with an environment. It takes actions and receives feedback in the form of rewards (for correct actions) or penalties (for mistakes).
