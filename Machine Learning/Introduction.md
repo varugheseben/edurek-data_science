@@ -55,7 +55,7 @@ The machine learning process generally follows a continuous loop
      - **Self Training** : The model is trained on the small labeled data, then uses its own highly confident predictions to label the unlabeled data, iterating on the newly expanded dataset.
      - **Graph-Based Models** : Data points are mapped as nodes on a graph, and labels are "propagated" from labeled nodes to neighboring unlabeled nodes based on similarity.
 
-  6. **Reinforcement Learning**: The algorithm learns by interacting with an environment. It takes actions and receives feedback in the form of rewards (for correct actions) or penalties (for mistakes).
+  6. **Reinforcement Learning**: The algorithm learns by interacting with an environment. It takes actions and receives feedback in the form of rewards (for correct actions) or penalties (for mistakes). Reinforcement learning operates on a completely different trial-and-error paradigm. Instead of analyzing a static dataset, an agent learns to interact with a dynamic environment. The agent takes actions, receives feedback in the form of rewards (for good moves) or penalties (for bad moves), and dynamically updates its strategy (policy) to maximize its total cumulative reward over time.
         - Example: Self-driving cars navigating traffic, Robotics
      
 
