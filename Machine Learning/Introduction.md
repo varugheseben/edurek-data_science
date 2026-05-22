@@ -51,10 +51,11 @@ The machine learning process generally follows a continuous loop
 
      This is incredibly useful because labeling data by hand is expensive and time-consuming, whereas acquiring raw, unlabeled data is usually cheap. The model uses the small labeled dataset to get its bearings, and then leverages the structural patterns in the unlabeled data to improve its overall predictive power.
 
+     **Common Algorithms Used**
+     - **Self Training** : The model is trained on the small labeled data, then uses its own highly confident predictions to label the unlabeled data, iterating on the newly expanded dataset.
+     - **Graph-Based Models** : Data points are mapped as nodes on a graph, and labels are "propagated" from labeled nodes to neighboring unlabeled nodes based on similarity.
 
   6. **Reinforcement Learning**: The algorithm learns by interacting with an environment. It takes actions and receives feedback in the form of rewards (for correct actions) or penalties (for mistakes).
         - Example: Self-driving cars navigating traffic, Robotics
      
-     **Common Algorithms Used**
-     - **Self Training** : The model is trained on the small labeled data, then uses its own highly confident predictions to label the unlabeled data, iterating on the newly expanded dataset.
-     - **Graph-Based Models** : Data points are mapped as nodes on a graph, and labels are "propagated" from labeled nodes to neighboring unlabeled nodes based on similarity.
+
