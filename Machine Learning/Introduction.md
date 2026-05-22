@@ -57,5 +57,9 @@ The machine learning process generally follows a continuous loop
 
   6. **Reinforcement Learning**: The algorithm learns by interacting with an environment. It takes actions and receives feedback in the form of rewards (for correct actions) or penalties (for mistakes). Reinforcement learning operates on a completely different trial-and-error paradigm. Instead of analyzing a static dataset, an agent learns to interact with a dynamic environment. The agent takes actions, receives feedback in the form of rewards (for good moves) or penalties (for bad moves), and dynamically updates its strategy (policy) to maximize its total cumulative reward over time.
         - Example: Self-driving cars navigating traffic, Robotics
-     
+
+     **Common Algorithms Used**
+     - **Q-Learning** : A model-free, value-based algorithm that learns the value of taking a specific action in a specific state.
+     - **Deep Q-Networks(DQN)** : Combines Q-Learning with Deep Neural Networks to handle complex environments (like playing Atari games).
+     - **Proximal Policy Optimization(PPO)** : A popular policy-gradient method often used in robotics and for fine-tuning modern AI language models.
 
