@@ -25,11 +25,11 @@ The machine learning process generally follows a continuous loop
         - Example: Predicting an email is spam or not spam.
 
      **Common Algorithms Used**
-     - Linear Regression : Used for predicting continuous numerical values based on linear relationships.
-     - Decision Trees : Tree-based models that split data based on feature values.
-     - Random Forests : Random Forests combine multiple trees for better accuracy.
-     - Logistic Regression : Despite its name, it is used for binary classification tasks.
-     - Support Vector Machines : Finds the optimal hyperplane that best separates different classes in a high-dimensional space.
+     - **Linear Regression** : Used for predicting continuous numerical values based on linear relationships.
+     - **Decision Trees** : Tree-based models that split data based on feature values.
+     - **Random Forests** : Random Forests combine multiple trees for better accuracy.
+     - **Logistic Regression** : Despite its name, it is used for binary classification tasks.
+     - **Support Vector Machines** : Finds the optimal hyperplane that best separates different classes in a high-dimensional space.
      
   3. **Unsupervised Learning**: The algorithm is given unlabeled data and must find patterns, structures, or anomalies on its own without any guidance.
         - Example: Customer segmentation for marketing, Recommendation engines(like Suggestions fron Netflix)
