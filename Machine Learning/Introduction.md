@@ -32,7 +32,6 @@ The machine learning process generally follows a continuous loop
      - **Support Vector Machines** : Finds the optimal hyperplane that best separates different classes in a high-dimensional space.
      
   3. **Unsupervised Learning**: The algorithm is given unlabeled data and must find patterns, structures, or anomalies on its own without any guidance.
-
         It is primarily used for:
         - Clustering : Grouping similar data points together
         - Dimensionality Reduction : Compressing data by reducing the number of random variables under consideration, making it easier to visualize or process.
