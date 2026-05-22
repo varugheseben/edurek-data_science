@@ -40,7 +40,14 @@ The machine learning process generally follows a continuous loop
 
      **Example**
      - Customer segmentation for marketing, Recommendation engines(like Suggestions fron Netflix)
-  5. **Reinforcement Learning**: The algorithm learns by interacting with an environment. It takes actions and receives feedback in the form of rewards (for correct actions) or penalties (for mistakes).
+
+     **Common Algorithms Used**
+     - **K-Means Clustering** : Partitioning data into $K$ distinct, non-overlapping clusters based on distance to a central point.
+     - **Principal Component Analysis(PCA)** : A dimensionality reduction technique that transforms a large set of variables into a smaller one while retaining most of the original variance.
+     - **Hierarchical Clustering** : Building a tree of clusters (dendrogram) to visualize data hierarchies.
+     - **Isolation Forests** : An algorithm specifically designed for anomaly and outlier detection
+   
+  4. **Reinforcement Learning**: The algorithm learns by interacting with an environment. It takes actions and receives feedback in the form of rewards (for correct actions) or penalties (for mistakes).
         - Example: Self-driving cars navigating traffic, Robotics
      
      
