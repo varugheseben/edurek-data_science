@@ -79,8 +79,11 @@ The script begins by fetching the MNIST dataset, which contains $70,000$ pre-lab
 ## 2. Building the Brain (The Architecture)
 
 Using Keras's `Sequential` API, the script builds a 4-layered neural network stacked linearly like pancakes:
+
      Input: 28x28 Image
+
             &darr;
+
      1. Flatten &rarr; 
 
   - [Predict a Number]()
