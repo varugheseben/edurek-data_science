@@ -124,6 +124,7 @@ and improve by itself and generate better prediction results.
 
      Here is the step-by-step breakdown of how the program accomplishes this:
        - **Image Loading and Grayscale Conversion**
+   
                  img = cv2.imread(image_path)
                  gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
        - **Inverted Thresholding (Binarization)**
