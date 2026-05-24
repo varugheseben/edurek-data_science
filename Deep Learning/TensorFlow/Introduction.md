@@ -49,4 +49,7 @@ and improve by itself and generate better prediction results.
    - **Time-Series Analysis** : Stock market tracking, weather forecasting, and predictive maintenance.
    - **Recommendation Systems** : Powering the algorithms behind product or video recommendations on e-commerce and streaming platforms.
 
-    
+# Lab
+  - [Auto Train And Predict Numbers]()
+  - [Predict a Number]()
+  - [Image Extraction]()
