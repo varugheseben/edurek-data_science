@@ -56,10 +56,10 @@ and improve by itself and generate better prediction results.
     ---
 
     ## 📋 Table of Contents
-      1. [Data Preparation (The Input)](#1-data-preparation-the-input)
-      2. [Building the Brain (The Architecture)](#2-building-the-brain-the-architecture)
-      3. [Compilation & Training (The Learning Phase)](#3-compilation--training-the-learning-phase)
-      4. [Testing & User Verification (The Output)](#4-testing--user-verification-the-output)
+      - [Data Preparation (The Input)](#1-data-preparation-the-input)
+      - [Building the Brain (The Architecture)](#2-building-the-brain-the-architecture)
+      - [Compilation & Training (The Learning Phase)](#3-compilation--training-the-learning-phase)
+      - [Testing & User Verification (The Output)](#4-testing--user-verification-the-output)
 
     ---
 
