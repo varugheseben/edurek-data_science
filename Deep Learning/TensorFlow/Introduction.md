@@ -114,5 +114,5 @@ and improve by itself and generate better prediction results.
       3. `np.argmax(prediction)` grabs the output neuron with the highest probability score and prints it as the `Predicted Digit`.
       4. Finally, it displays the `Actual Digit` from `y_test` to verify whether the AI succeeded or failed.
 
-  - [Predict a Number]()
+  - [Predict a Number](https://github.com/varugheseben/edurek-data_science/blob/main/Deep%20Learning/TensorFlow/predict_a_number.ipynb)
   - [Image Extraction](https://github.com/varugheseben/edurek-data_science/blob/main/Deep%20Learning/TensorFlow/detect_and_generate_numbers.ipynb)
