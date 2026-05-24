@@ -81,6 +81,10 @@ and improve by itself and generate better prediction results.
 
        Using Keras's `Sequential` API, the script builds a 4-layered neural network stacked linearly like pancakes:
 
-
+       - Flatten &rarr; Converts 2D grid into a single line of 784 numbers.
+       - Dense (ReLU) &rarr; Hidden layer (128 neurons) that looks for patterns/edges.
+       - Dropout &rarr; Randomly shuts off 20% of neurons to prevent memorization (overfitting).
+       - Dense (Softmax) &rarr; Output layer (10 neurons). Gives a probability score for numbers 0-9.
+   
   - [Predict a Number]()
   - [Image Extraction](https://github.com/varugheseben/edurek-data_science/blob/main/Deep%20Learning/TensorFlow/detect_and_generate_numbers.ipynb)
