@@ -123,3 +123,11 @@ and improve by itself and generate better prediction results.
      It specifically expects a layout containing exactly **10 digits arranged in two rows of 5** (digits 0–4 on top, 5–9 on bottom).
 
      Here is the step-by-step breakdown of how the program accomplishes this:
+       - **Image Loading and Grayscale Conversion**
+                 img = cv2.imread(image_path)
+                 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+       - **Inverted Thresholding (Binarization)**
+       - **Finding and Filtering Contours (Object Detection)**
+       - **Smart Row and Column Sorting**
+       - **Cropping and Saving**
+       - 
