@@ -139,6 +139,17 @@ and improve by itself and generate better prediction results.
             - Assuming your original document features dark text on a light background, this operation flips it so the digits/boxes become pure white pixels (255) and the background becomes pure black (0). OpenCV's contour-finding algorithms are specifically designed to look for white objects against a black background.
          
        - **Finding and Filtering Contours (Object Detection)**
+
+                 contours, _ = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+
+           The script scans the binary image to find the boundaries or outlines (called contours) of all isolated white shapes.
+
+                 for cnt in contours:
+                   x, y, w, h = cv2.boundingRect(cnt)
+                   area = w * h
+                   if area > 1000 and w > 50 and h > 50:
+                       digit_boxes.append((x, y, w, h))
+
        - **Smart Row and Column Sorting**
        - **Cropping and Saving**
        - 
