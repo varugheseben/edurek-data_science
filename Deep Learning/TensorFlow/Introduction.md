@@ -87,10 +87,10 @@ and improve by itself and generate better prediction results.
        - Dense (Softmax) &rarr; Output layer (10 neurons). Gives a probability score for numbers 0-9.
 
        ### Key Components Explained:
-         * **`layers.Flatten`:** Neural networks require standard, flat arrays as inputs rather than 2D matrices. This flattens the $28 \times 28$ pixel grid into a single row of $784$ numbers.
-         * **`layers.Dense`:** A fully connected layer where every input neuron links to every output neuron. It calculates weighted sums to recognize high-level patterns.
-         * **`Activation='relu'`:** Rectified Linear Unit ($f(x) = \max(0, x)$). This introduces non-linearity, allowing the model to learn complex relationships instead of just basic linear combinations.
-         * **`layers.Dropout(0.2)`:** A regularization technique. By turning off a random subset of neurons during training, it forces the network to find multiple paths to the correct answer rather than relying too heavily on specific pixels.
+       * **`layers.Flatten`:** Neural networks require standard, flat arrays as inputs rather than 2D matrices. This flattens the $28 \times 28$ pixel grid into a single row of $784$ numbers.
+       * **`layers.Dense`:** A fully connected layer where every input neuron links to every output neuron. It calculates weighted sums to recognize high-level patterns.
+       * **`Activation='relu'`:** Rectified Linear Unit ($f(x) = \max(0, x)$). This introduces non-linearity, allowing the model to learn complex relationships instead of just basic linear combinations.
+       * **`layers.Dropout(0.2)`:** A regularization technique. By turning off a random subset of neurons during training, it forces the network to find multiple paths to the correct answer rather than relying too heavily on specific pixels.
 
 ---
 
