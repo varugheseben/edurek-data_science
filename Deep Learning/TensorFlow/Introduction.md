@@ -52,4 +52,4 @@ and improve by itself and generate better prediction results.
 # Lab
   - [Auto Train And Predict Numbers](https://github.com/varugheseben/edurek-data_science/blob/main/Deep%20Learning/TensorFlow/auto_train_and_predict_number.ipynb)
   - [Predict a Number]()
-  - [Image Extraction]()
+  - [Image Extraction](https://github.com/varugheseben/edurek-data_science/blob/main/Deep%20Learning/TensorFlow/detect_and_generate_numbers.ipynb)
