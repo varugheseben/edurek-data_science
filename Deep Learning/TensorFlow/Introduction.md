@@ -150,6 +150,8 @@ and improve by itself and generate better prediction results.
                    if area > 1000 and w > 50 and h > 50:
                        digit_boxes.append((x, y, w, h))
 
+           Images often contain tiny specs of background noise, dust, or smudges. To prevent the program from saving these artifacts as numbers, it calculates a bounding box around every shape and uses an if statement to filter them. It only keeps shapes that have an area larger than 1,000 pixels and a width/height greater than 50 pixels.
+
        - **Smart Row and Column Sorting**
        - **Cropping and Saving**
        - 
