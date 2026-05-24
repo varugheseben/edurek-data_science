@@ -85,6 +85,33 @@ and improve by itself and generate better prediction results.
        - Dense (ReLU) &rarr; Hidden layer (128 neurons) that looks for patterns/edges.
        - Dropout &rarr; Randomly shuts off 20% of neurons to prevent memorization (overfitting).
        - Dense (Softmax) &rarr; Output layer (10 neurons). Gives a probability score for numbers 0-9.
-   
+
+       ### Key Components Explained:
+         * **`layers.Flatten`:** Neural networks require standard, flat arrays as inputs rather than 2D matrices. This flattens the $28 \times 28$ pixel grid into a single row of $784$ numbers.
+         * **`layers.Dense`:** A fully connected layer where every input neuron links to every output neuron. It calculates weighted sums to recognize high-level patterns.
+         * **`Activation='relu'`:** Rectified Linear Unit ($f(x) = \max(0, x)$). This introduces non-linearity, allowing the model to learn complex relationships instead of just basic linear combinations.
+         * **`layers.Dropout(0.2)`:** A regularization technique. By turning off a random subset of neurons during training, it forces the network to find multiple paths to the correct answer rather than relying too heavily on specific pixels.
+
+---
+
+## 3. Compilation & Training (The Learning Phase)
+
+Before training begins, `model.compile()` equips the model with its underlying mathematical strategies:
+* **Adam Optimizer:** The network's internal navigator. It automatically calculates how to tweak internal weights and biases based on errors to minimize mistakes.
+* **Sparse Categorical Crossentropy Loss:** The grading rubric. It calculates exactly *how wrong* a guess was (e.g., punishing the model more heavily if it confidently mistakes a `1` for an `8` vs. a `7`).
+* **Metrics (`['accuracy']`):** Monitors the percentage of correctly classified images during training.
+
+When `model.fit()` runs, the entire dataset passes through the network **5 times (epochs)**. With each epoch, the loss drops and accuracy climbs as the network learns the defining characteristics of each digit.
+
+---
+
+## 4. Testing & User Verification (The Output)
+
+* **`model.evaluate()`:** The script runs the $10,000$ isolated test images through the finalized model. It outputs a final test accuracy (typically around **$97\text{--}98\%$**), proving whether the model can accurately generalize its learning to handwriting it has never seen before.
+* **Interactive Prediction Pipeline:** 1. The script prompts the user to input an index number (any position from `0` to `9999`).
+  2. It isolates that exact image from `X_test` and feeds it to `model.predict()`.
+  3. `np.argmax(prediction)` grabs the output neuron with the highest probability score and prints it as the `Predicted Digit`.
+  4. Finally, it displays the `Actual Digit` from `y_test` to verify whether the AI succeeded or failed.
+
   - [Predict a Number]()
   - [Image Extraction](https://github.com/varugheseben/edurek-data_science/blob/main/Deep%20Learning/TensorFlow/detect_and_generate_numbers.ipynb)
