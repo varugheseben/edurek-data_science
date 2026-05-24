@@ -50,6 +50,6 @@ and improve by itself and generate better prediction results.
    - **Recommendation Systems** : Powering the algorithms behind product or video recommendations on e-commerce and streaming platforms.
 
 # Lab
-  - [Auto Train And Predict Numbers]()
+  - [Auto Train And Predict Numbers](https://github.com/varugheseben/edurek-data_science/blob/main/Deep%20Learning/TensorFlow/auto_train_and_predict_number.ipynb)
   - [Predict a Number]()
   - [Image Extraction]()
