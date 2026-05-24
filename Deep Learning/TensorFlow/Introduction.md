@@ -116,10 +116,10 @@ and improve by itself and generate better prediction results.
 
   - [Predict a Number](https://github.com/varugheseben/edurek-data_science/blob/main/Deep%20Learning/TensorFlow/predict_a_number.ipynb)
 
+  - [Image Extraction](https://github.com/varugheseben/edurek-data_science/blob/main/Deep%20Learning/TensorFlow/detect_and_generate_numbers.ipynb)
+
      This Python script uses the **OpenCV** (cv2) library to automatically find, isolate, and slice out individual numbers from a larger composite image (like a grid of handwritten digits) and save them as separate image files.
 
      It specifically expects a layout containing exactly **10 digits arranged in two rows of 5** (digits 0–4 on top, 5–9 on bottom).
 
      Here is the step-by-step breakdown of how the program accomplishes this:
-
-  - [Image Extraction](https://github.com/varugheseben/edurek-data_science/blob/main/Deep%20Learning/TensorFlow/detect_and_generate_numbers.ipynb)
