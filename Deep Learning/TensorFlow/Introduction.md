@@ -51,6 +51,7 @@ and improve by itself and generate better prediction results.
 
 # Lab
   - [**Auto Train And Predict Numbers**](https://github.com/varugheseben/edurek-data_science/blob/main/Deep%20Learning/TensorFlow/auto_train_and_predict_number.ipynb)
+
     This program is a complete, classic implementation of **Computer Vision** and **Deep Learning**. At a high level, it trains an artificial neural network to read handwritten digits ($0$ through $9$) using the famous **MNIST dataset**, evaluates its performance on unseen test data, and provides an interactive interface for user-driven predictions.
 
     ---
