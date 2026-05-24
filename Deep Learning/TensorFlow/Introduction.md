@@ -153,5 +153,19 @@ and improve by itself and generate better prediction results.
            Images often contain tiny specs of background noise, dust, or smudges. To prevent the program from saving these artifacts as numbers, it calculates a bounding box around every shape and uses an if statement to filter them. It only keeps shapes that have an area larger than 1,000 pixels and a width/height greater than 50 pixels.
 
        - **Smart Row and Column Sorting**
+
+           When OpenCV finds contours, it extracts them in a completely random order based on how they sit in memory. If you saved them immediately, your digits would be totally jumbled up. The code fixes this with a clever sorting pipeline:
+
+                 # 1. Sort everything from top to bottom based on the Y-axis
+                 digit_boxes.sort(key=lambda box: box[1])
+
+                 # 2. Split the boxes into a top row of 5 and a bottom row of 5, 
+                 # then sort each row individually from left to right using the X-axis
+                 top_row = sorted(digit_boxes[:5], key=lambda box: box[0])
+                 bottom_row = sorted(digit_boxes[5:], key=lambda box: box[0])
+                 final_sorted_boxes = top_row + bottom_row
+
+           By doing this, the script guarantees that the images correspond perfectly to their natural reading order (Index 0 will be the top-left item, Index 4 will be the top-right item, Index 5 will be the bottom-left item, etc.).
+
        - **Cropping and Saving**
        - 
