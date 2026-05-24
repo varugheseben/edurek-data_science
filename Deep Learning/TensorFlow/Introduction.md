@@ -131,6 +131,13 @@ and improve by itself and generate better prediction results.
            The program reads the image from sample_data/images/Numbers.jpg and converts it from standard color (BGR) into grayscale. Computer vision algorithms process single-channel grayscale images much faster because they only have to evaluate brightness rather than complex color data.
 
        - **Inverted Thresholding (Binarization)**
+
+                 _, thresh = cv2.threshold(gray, 50, 255, cv2.THRESH_BINARY_INV)
+
+           This line converts the gray image into a pure black-and-white binary image.
+            - The cv2.THRESH_BINARY_INV flag is critical here: it inverts the colors.
+            - Assuming your original document features dark text on a light background, this operation flips it so the digits/boxes become pure white pixels (255) and the background becomes pure black (0). OpenCV's contour-finding algorithms are specifically designed to look for white objects against a black background.
+         
        - **Finding and Filtering Contours (Object Detection)**
        - **Smart Row and Column Sorting**
        - **Cropping and Saving**
