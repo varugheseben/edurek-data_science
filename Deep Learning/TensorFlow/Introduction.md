@@ -168,4 +168,11 @@ and improve by itself and generate better prediction results.
            By doing this, the script guarantees that the images correspond perfectly to their natural reading order (Index 0 will be the top-left item, Index 4 will be the top-right item, Index 5 will be the bottom-left item, etc.).
 
        - **Cropping and Saving**
-       - 
+
+                 for idx, (x, y, w, h) in enumerate(final_sorted_boxes):
+                    cropped = img[y:y+h, x:x+w]
+                    filename = f"sample_data/images/digit_{idx}.jpg"
+                    cv2.imwrite(filename, cropped)
+
+           Finally, the script loops through the correctly ordered boxes. It uses NumPy slicing (img[y:y+h, x:x+w]) to crop the region of interest out of the original color image and writes it to your disk. You will end up with 10 individual image files named digit_0.jpg through digit_9.jpg.
+
