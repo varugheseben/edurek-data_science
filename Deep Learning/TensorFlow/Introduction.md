@@ -51,5 +51,35 @@ and improve by itself and generate better prediction results.
 
 # Lab
   - [Auto Train And Predict Numbers](https://github.com/varugheseben/edurek-data_science/blob/main/Deep%20Learning/TensorFlow/auto_train_and_predict_number.ipynb)
+  # MNIST Digit Classification Program Explanation
+    This program is a complete, classic implementation of **Computer Vision** and **Deep Learning**. At a high level, it trains an artificial neural network to read handwritten digits ($0$ through $9$) using the famous **MNIST dataset**, evaluates its performance on unseen test data, and provides an interactive interface for user-driven predictions.
+
+---
+
+## 📋 Table of Contents
+1. [Data Preparation (The Input)](#1-data-preparation-the-input)
+2. [Building the Brain (The Architecture)](#2-building-the-brain-the-architecture)
+3. [Compilation & Training (The Learning Phase)](#3-compilation--training-the-learning-phase)
+4. [Testing & User Verification (The Output)](#4-testing--user-verification-the-output)
+
+---
+
+## 1. Data Preparation (The Input)
+
+The script begins by fetching the MNIST dataset, which contains $70,000$ pre-labeled grayscale images of handwritten digits, each sized $28 \times 28$ pixels.
+
+* **Data Splitting:** It automatically partitions the data into two distinct sets:
+  * **Training data (`X_train`, `y_train`):** $60,000$ images used to teach the model.
+  * **Testing data (`X_test`, `y_test`):** $10,000$ images kept hidden away to act as a final exam.
+* **Feature vs. Label Separation:** * `X` variables represent the **input features** (the matrix of pixel data the model looks at).
+  * `y` variables represent the **target labels** (the correct ground-truth numerical answers, $0\text{--}9$).
+* **Normalization:** Raw pixel values range from `0` (pure black) to `255` (pure white). The line `X_train / 255.0` scales these down to floating-point decimals between `0.0` and `1.0`. Because neural networks rely heavily on gradient descent and matrix calculus, smaller normalized inputs keep the internal math stable and speed up training significantly.
+
+---
+
+## 2. Building the Brain (The Architecture)
+
+Using Keras's `Sequential` API, the script builds a 4-layered neural network stacked linearly:
+
   - [Predict a Number]()
   - [Image Extraction](https://github.com/varugheseben/edurek-data_science/blob/main/Deep%20Learning/TensorFlow/detect_and_generate_numbers.ipynb)
