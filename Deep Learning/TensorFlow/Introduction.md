@@ -128,7 +128,7 @@ and improve by itself and generate better prediction results.
                  img = cv2.imread(image_path)
                  gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-         The program reads the image from sample_data/images/Numbers.jpg and converts it from standard color (BGR) into grayscale. Computer vision algorithms process single-channel grayscale images much faster because they only have to evaluate brightness rather than complex color data.
+           The program reads the image from sample_data/images/Numbers.jpg and converts it from standard color (BGR) into grayscale. Computer vision algorithms process single-channel grayscale images much faster because they only have to evaluate brightness rather than complex color data.
 
        - **Inverted Thresholding (Binarization)**
        - **Finding and Filtering Contours (Object Detection)**
