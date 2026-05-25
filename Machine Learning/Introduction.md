@@ -120,7 +120,6 @@ If you change the training data, the algorithm remains exactly the same, but it 
   **Why is Test Accuracy Important?**
 
    When training a model, we typically split your data into three distinct sets:
-
     Because the model has never encountered the test data during its training phase, test accuracy serves as the ultimate reality check for how the model will perform in the real world (generalization).
      
  
