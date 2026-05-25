@@ -120,9 +120,11 @@ If you change the training data, the algorithm remains exactly the same, but it 
   **Why is Test Accuracy Important?**
 
    When training a model, you typically split your data into three distinct sets:
-- Test
-- Test
-- Test
+- **Training Set** : Used to train the model and adjust its weights.
+- **Validation Set** : Used to fine-tune hyperparameters and prevent overfitting during development.
+- **Test Set** : Kept completely hidden from the model until the very end.
+
+Because the model has never encountered the test data during its training phase, test accuracy serves as the ultimate reality check for how the model will perform in the real world (**generalization**).
 
 ## Lab
 - [Training the Model using Linear Regression](https://github.com/varugheseben/edurek-data_science/blob/main/Machine%20Learning/Chapter-1.ipynb)
