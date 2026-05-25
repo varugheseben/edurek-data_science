@@ -118,6 +118,7 @@ If you change the training data, the algorithm remains exactly the same, but it 
    (Where $TP$ = True Positives, $TN$ = True Negatives, $FP$ = False Positives, and $FN$ = False Negatives).
 
   **Why is Test Accuracy Important?**
+
    When training a model, you typically split your data into three distinct sets:
 
 ## Lab
