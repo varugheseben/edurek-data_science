@@ -118,21 +118,7 @@ If you change the training data, the algorithm remains exactly the same, but it 
    (Where $TP$ = True Positives, $TN$ = True Negatives, $FP$ = False Positives, and $FN$ = False Negatives).
 
   **Why is Test Accuracy Important?**
-
-     **Common Algorithms Used**
-     - **Q-Learning** : A model-free, value-based algorithm that learns the value of taking a specific action in a specific state.
-     - **Deep Q-Networks(DQN)** : Combines Q-Learning with Deep Neural Networks to handle complex environments (like playing Atari games).
-     - **Proximal Policy Optimization(PPO)** : A popular policy-gradient method often used in robotics and for fine-tuning modern AI language models.
-
-     
- 
-
-      
-      
-     
-    
-     
-
+   When training a model, you typically split your data into three distinct sets:
 
 ## Lab
 - [Training the Model using Linear Regression](https://github.com/varugheseben/edurek-data_science/blob/main/Machine%20Learning/Chapter-1.ipynb)
