@@ -119,8 +119,11 @@ If you change the training data, the algorithm remains exactly the same, but it 
 
   **Why is Test Accuracy Important?**
 
-   When training a model, we typically split your data into three distinct sets:
-    Because the model has never encountered the test data during its training phase, test accuracy serves as the ultimate reality check for how the model will perform in the real world (generalization).
+     **Common Algorithms Used**
+     - **Q-Learning** : A model-free, value-based algorithm that learns the value of taking a specific action in a specific state.
+     - **Deep Q-Networks(DQN)** : Combines Q-Learning with Deep Neural Networks to handle complex environments (like playing Atari games).
+     - **Proximal Policy Optimization(PPO)** : A popular policy-gradient method often used in robotics and for fine-tuning modern AI language models.
+
      
  
 
