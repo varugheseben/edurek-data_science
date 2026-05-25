@@ -113,9 +113,9 @@ If you change the training data, the algorithm remains exactly the same, but it 
 
 Mathematically, for a classification model, it is calculated as:
 
-$$\text{Test Accuracy} = \frac{\text{Number of Correct Predictions}}{\text{Total Number of Predictions}} = \frac{TP + TN}{TP + TN + FP + FN}
+$$\text{Test Accuracy} = \frac{\text{Number of Correct Predictions}}{\text{Total Number of Predictions}} = \frac{TP + TN}{TP + TN + FP + FN}$$
 
-$$(Where $TP$ = True Positives, $TN$ = True Negatives, $FP$ = False Positives, and $FN$ = False Negatives).
+(Where $TP$ = True Positives, $TN$ = True Negatives, $FP$ = False Positives, and $FN$ = False Negatives).
 
 ## Lab
 - [Training the Model using Linear Regression](https://github.com/varugheseben/edurek-data_science/blob/main/Machine%20Learning/Chapter-1.ipynb)
