@@ -120,6 +120,7 @@ If you change the training data, the algorithm remains exactly the same, but it 
   **Why is Test Accuracy Important?**
 
    When training a model, we typically split your data into three distinct sets:
+
     - Training Set : Used to train the model and adjust its weights.
     - Validation Set : Used to fine-tune hyperparameters and prevent overfitting during development.
     - Test Set : Kept completely hidden from the model until the very end.
