@@ -107,6 +107,12 @@ $$\text{Algorithm} + \text{Training Data} \xrightarrow{\text{Training Process}} 
 
 If you change the training data, the algorithm remains exactly the same, but it will produce a completely different model.
 
+## Test Accuracy of a model
+
+**Test accuracy** is a metric used to evaluate how well a machine learning model performs on a completely unseen dataset (the **test set**). It represents the proportion of correct predictions out of the total number of predictions made during testing.
+
+Mathematically, for a classification model, it is calculated as:$$\text{Test Accuracy} = \frac{\text{Number of Correct Predictions}}{\text{Total Number of Predictions}} = \frac{TP + TN}{TP + TN + FP + FN}$$(Where $TP$ = True Positives, $TN$ = True Negatives, $FP$ = False Positives, and $FN$ = False Negatives).
+
 ## Lab
 - [Training the Model using Linear Regression](https://github.com/varugheseben/edurek-data_science/blob/main/Machine%20Learning/Chapter-1.ipynb)
 - [Training the Model using Labelled Data](https://github.com/varugheseben/edurek-data_science/blob/main/Machine%20Learning/Chapter_2.ipynb)
