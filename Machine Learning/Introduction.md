@@ -127,6 +127,9 @@ If you change the training data, the algorithm remains exactly the same, but it 
 Because the model has never encountered the test data during its training phase, test accuracy serves as the ultimate reality check for how the model will perform in the real world (**generalization**).
 
   **Test Accuracy vs Training Accuracy**
+- **Training Accuracy** : How well the model learns the patterns of the data it was trained on.
+- **Test Accuracy** - How well the model generalizes to completely new, unseen data
+
   Comparing these two metrics tells you a lot about the health of your model:
 - **Good Generalization:** : Training accuracy and test accuracy are both high and close to each other (e.g., 92% training, 91% test).
 - **Overfitting** : Training accuracy is very high, but test accuracy is significantly lower (e.g., 99% training, 75% test). This means the model memorized the training data's noise and quirks rather than learning the actual underlying patterns.
