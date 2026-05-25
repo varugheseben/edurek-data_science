@@ -141,8 +141,19 @@ and improve by itself and generate better prediction results.
             - **Visual Matplotlib Plot** :
                  It pops up a quick comparison window showing the original vs. what the network actually sees to help you debug layout issues.
 
-       - **Training with Spatial Data Augmentation**
+       - **Training with Spatial Data Augmentation (main)**
+
+           When operation_mode == 1, the program trains a fresh model from scratch:
+
+            - **Dataset Augmentation** : To make the network more resilient to off-center handwriting, it manually creates two copies of the training data—one shifted 2 pixels to the left, and one shifted 2 pixels to the right—using clean zero-padding (np.pad). This triples your training dataset from 60,000 to 180,000 images.
+            - **CNN Architecture** : It compiles a robust Sequential model using two Convolutional (Conv2D) and Pooling (MaxPooling2D) layer pairs for high-accuracy feature extraction, ending with a 10-node Softmax layer to calculate digit probability distributions.
        - **Continuous Terminal Testing & Feedback**
+
+           Once trained for 2 epochs, the script loops through numbers 0 to 9:
+
+            - It expects to find files located at data/digit_0.jpg through data/digit_9.jpg.
+            - It runs the image through the pipeline and prints the results in color directly into your terminal using ANSI escape codes: **Green** if the AI accurately guessed your file, and **Red** if the prediction failed.
+
   - [Image Extraction](https://github.com/varugheseben/edurek-data_science/blob/main/Deep%20Learning/TensorFlow/detect_and_generate_numbers.ipynb)
 
      This Python script uses the **OpenCV** (cv2) library to automatically find, isolate, and slice out individual numbers from a larger composite image (like a grid of handwritten digits) and save them as separate image files.
