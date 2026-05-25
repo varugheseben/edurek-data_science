@@ -116,6 +116,33 @@ and improve by itself and generate better prediction results.
 
   - [Predict a Number](https://github.com/varugheseben/edurek-data_science/blob/main/Deep%20Learning/TensorFlow/predict_a_number.ipynb)
 
+     This Python program is an intelligent **Handwritten Digit Recognition System**. It automatically trains a Convolutional Neural Network (CNN) on the standard MNIST dataset, smart-preprocesses custom user images to make them compatible with the network, and runs a loop to test its predictions across 10 sample image files (digit_0.jpg through digit_9.jpg).
+
+     What sets this script apart from basic implementations is its robust preprocessing—it dynamically detects whether your user image has a dark or light background and adjusts the image padding and colors accordingly.
+
+     **Core Components Breakdown**
+       - **Dynamic Background Detection (detect_image_background)**
+
+           The MNIST dataset is strictly composed of white numbers on pure black backgrounds. If a user uploads a photo of a black number on white paper, the model will fail.
+            - This function converts the user's image to grayscale and shrinks it down to a small $50 \times 50$ grid (which removes distracting pixels and compression noise).
+            - It finds the most common pixel value (the dominant color).
+            - If the dominant color is very bright (value $> 220$), it returns 1 (indicating a white background). If it's dark (value $< 35$), it returns 0.
+         
+       - **Smart Preprocessing (predict_digit)**
+
+           Before passing your custom image file into the network, this function morphs it into an MNIST-identical format
+
+            - **Aspect Ratio Preservation** :
+                 If an image is tall or wide, resizing it directly to a square will warp the digit. The script calculates the difference and pads the shorter side with a white border (constant_values=255) to make a perfect square first.
+            - **Auto Color Inversion** :
+                 'detect_image_background' reported that your image has a white background, the code mathematically subtracts the image from 1.0 (1.0 - img_normalized). This seamlessly flips white paper to black, and dark ink to white.
+            - **Noise Filtering** :
+                 Any residual grayish background noise below 0.15 intensity is clamped to pure 0.0 (black).
+            - **Visual Matplotlib Plot** :
+                 It pops up a quick comparison window showing the original vs. what the network actually sees to help you debug layout issues.
+
+       - **Training with Spatial Data Augmentation**
+       - **Continuous Terminal Testing & Feedback**
   - [Image Extraction](https://github.com/varugheseben/edurek-data_science/blob/main/Deep%20Learning/TensorFlow/detect_and_generate_numbers.ipynb)
 
      This Python script uses the **OpenCV** (cv2) library to automatically find, isolate, and slice out individual numbers from a larger composite image (like a grid of handwritten digits) and save them as separate image files.
