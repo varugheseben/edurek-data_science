@@ -120,6 +120,9 @@ If you change the training data, the algorithm remains exactly the same, but it 
   **Why is Test Accuracy Important?**
 
    When training a model, you typically split your data into three distinct sets:
+- Test
+- Test
+- Test
 
 ## Lab
 - [Training the Model using Linear Regression](https://github.com/varugheseben/edurek-data_science/blob/main/Machine%20Learning/Chapter-1.ipynb)
