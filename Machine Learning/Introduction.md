@@ -30,7 +30,18 @@ The machine learning process generally follows a continuous loop
      - **Random Forests** : Random Forests combine multiple trees for better accuracy.
      - **Logistic Regression** : Despite its name, it is used for binary classification tasks.
      - **Support Vector Machines** : Finds the optimal hyperplane that best separates different classes in a high-dimensional space.
-     
+
+     **Different steps used in Machine model creation**
+     - Collect the input data set
+     - Convert the data such that it can be used by a machine learning algorithm. Typically this will be the step of creating a data frame
+     - Define the feature and target
+     - Split the data into training dataset and testing dataset
+     - Create the model using suitable machine learning algorithm
+     - Train the model using training dataset
+     - Determine the test accuracy of the model
+     - If we have test accuracy 1.0, that means model is 100% accurate. Ideal accuracy needs to be >= 70%
+     - Once we have good accuracy model then we can use it for predicting the real time scenario.
+
   3. **Unsupervised Learning**: The algorithm is given unlabeled data and must find patterns, structures, or anomalies on its own without any guidance.
   
      It is primarily used for:
