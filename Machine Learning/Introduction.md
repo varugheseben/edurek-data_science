@@ -30,6 +30,8 @@ The machine learning process generally follows a continuous loop
      - **Random Forests** : Random Forests combine multiple trees for better accuracy.
      - **Logistic Regression** : Despite its name, it is used for binary classification tasks.
      - **Support Vector Machines** : Finds the optimal hyperplane that best separates different classes in a high-dimensional space.
+     - **K-Nearest Neighbors** : This is non parametric and lazy learner algorithm. This is used for both **classification** and **regression** scenarios.
+                                 Model which uses this algorithm doesnt have any training phase instead it stores the data into memory(RAM) and does the                                            calculation at the time of prediction
 
      **Different steps used in Machine model creation**
      - Collect the input data set
