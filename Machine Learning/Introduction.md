@@ -159,3 +159,7 @@ Because the model has never encountered the test data during its training phase,
 - [Training the Model using Logistic Regression](https://github.com/varugheseben/edurek-data_science/blob/main/Machine%20Learning/Chapter_7.ipynb)
 - [Training the Model using KNN](https://github.com/varugheseben/edurek-data_science/blob/main/Machine%20Learning/Chapter_8.ipynb)
 
+## Advanced
+  - Supervised Learning
+  - UnSupervised Learning
+  - [Reinforcement Learning]()
