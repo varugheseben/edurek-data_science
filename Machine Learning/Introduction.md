@@ -39,7 +39,7 @@ The machine learning process generally follows a continuous loop
           - **For Classification** : It takes a majority vote among those $K$ neighbors. If 4 out of 5 neighbors are "Class A", the model predicts "Class A".
           - **For Regression** : It takes the average (mean) value of those $K$ neighbors to produce the final prediction.
 
-     **Different steps used in Machine model creation**
+     **Different steps used in model creation**
      - Collect the input data set
      - Convert the data such that it can be used by a machine learning algorithm. Typically this will be the step of creating a data frame
      - Define the feature and target
