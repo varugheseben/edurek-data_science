@@ -141,7 +141,13 @@ Because the model has never encountered the test data during its training phase,
   Comparing these two metrics tells you a lot about the health of your model:
 - **Good Generalization:** : Training accuracy and test accuracy are both high and close to each other (e.g., 92% training, 91% test).
 - **Overfitting** : Training accuracy is very high, but test accuracy is significantly lower (e.g., 99% training, 75% test). This means the model memorized the training data's noise and quirks rather than learning the actual underlying patterns.
-- **Undefitting** : Both training accuracy and test accuracy are low. This means the model is too simple to capture the underlying trends in the data.
+- **Undefitting** : Both training accuracy and test accuracy are low. This means the model is too simple to capture the underlying trends in the data. 
+
+## Bias and Variance
+
+  In machine learning, bias and variance represent the two core types of errors that dictate how well a model generalizes to new, unseen data.
+- If your model is too simple, it suffers from high bias. Result of such model will be underfitting.
+- If it's too complex, it suffers from high variance. Result of such model will be overfitting.
 
 ## Lab
 - [Training the Model using Linear Regression](https://github.com/varugheseben/edurek-data_science/blob/main/Machine%20Learning/Chapter-1.ipynb)
