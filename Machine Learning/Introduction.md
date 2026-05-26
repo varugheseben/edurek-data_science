@@ -33,6 +33,7 @@ The machine learning process generally follows a continuous loop
      - **K-Nearest Neighbors** : This is non parametric and lazy learner algorithm. This is used for both **classification** and **regression** scenarios. Model which uses this algorithm doesnt have any training phase instead it stores the data into memory(RAM) and does the calculation at the time of prediction.
 
          When you give a trained KNN model a new input data point:
+
            - It calculates the **distance** between that new point and every single point in the training dataset.
            - It identifies the $K$ **closest points** (neighbors), where $K$ is a number you choose (e.g., $K=3$ or $K=5$).
            - **For Classification** : It takes a majority vote among those $K$ neighbors. If 4 out of 5 neighbors are "Class A", the model predicts "Class A".
