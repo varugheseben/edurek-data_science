@@ -34,10 +34,10 @@ The machine learning process generally follows a continuous loop
 
          When you give a trained KNN model a new input data point:
 
-           - It calculates the **distance** between that new point and every single point in the training dataset.
-           - It identifies the $K$ **closest points** (neighbors), where $K$ is a number you choose (e.g., $K=3$ or $K=5$).
-           - **For Classification** : It takes a majority vote among those $K$ neighbors. If 4 out of 5 neighbors are "Class A", the model predicts "Class A".
-           - **For Regression** : It takes the average (mean) value of those $K$ neighbors to produce the final prediction.
+- It calculates the **distance** between that new point and every single point in the training dataset.
+- It identifies the $K$ **closest points** (neighbors), where $K$ is a number you choose (e.g., $K=3$ or $K=5$).
+- For Classification : It takes a majority vote among those $K$ neighbors. If 4 out of 5 neighbors are "Class A", the model predicts "Class A".
+- For Regression : It takes the average (mean) value of those $K$ neighbors to produce the final prediction.
 
      **Different steps used in Machine model creation**
      - Collect the input data set
