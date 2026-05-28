@@ -40,5 +40,6 @@
   - **SARIMA(Seasonal Autoregressive Integrated Moving Average)** : This model extends ARIMA by incorporating seasonality components to handle periodic fluctuations in the data and provide better forecasting results.
 
       SARIMA = ARIMA + Seasonal Components(AutoRegressive, Differencing, Moving Average)
+  - **Auto ARIMA**: An automated time series forecasting model that finds the optimal set of parameters(p, d, q) and seasonal parameters(P, D, Q, s) by minimizing an information criteria like AIC
 
     
