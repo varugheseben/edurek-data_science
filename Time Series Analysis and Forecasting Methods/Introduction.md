@@ -19,10 +19,17 @@
 
 ## Stationarity
    A time series is considered stationary if its statistical properties do not change over time.
+   **Stationary Process (Constant mean and Variance)**
+Value
+  ^
+  |    /\    /\        /\    /\  
+  |   /  \  /  \  /\  /  \  /  \   <-- Constant Mean (Flat Line)
+  |  /    \/    \/  \/    \/    \
+  | /                                
+  +------------------------------------> Time   
 
-Stationary (Constant Mean & Variance)      Non-Stationary (Trending Mean)
-   ▲                                          ▲
-   │   /\    /\  /\                           │       /\    /\
-   │  /  \  /  \/  \                          │      /  \  /  \  /\
-   │ /    \/        \                         │   /\/    \/    \/  \
-   └──────────────────► Time                  └─────────────────────► Time
+## Lag Features
+   Lag features are previous time steps of a series used as input features to predict future values.
+
+## Rolling Statistics
+   Rolling statistics compute moving averages or other metrics over a fixed-size sliding time window.
