@@ -19,6 +19,7 @@
 
 ## Stationarity
    A time series is considered stationary if its statistical properties do not change over time.
+
 Stationary (Constant Mean & Variance)      Non-Stationary (Trending Mean)
    ▲                                          ▲
    │   /\    /\  /\                           │       /\    /\
