@@ -16,3 +16,12 @@
 ## Time Series Analysis and Time Series Forecasting
   - **Time Series Analysis(Understanding the past)** : Analysis is retrospective. It focuses on breaking down the historical data to understand the underlying "why."
   - **Time Series Forecasting(Predicting the Future)** : Forecasting is prospective. It uses the mathematical rules and historical patterns uncovered during the analysis phase to project future data points over a short, medium, or long-term horizon.
+
+## Stationarity
+   A time series is considered stationary if its statistical properties do not change over time.
+Stationary (Constant Mean & Variance)      Non-Stationary (Trending Mean)
+   ▲                                          ▲
+   │   /\    /\  /\                           │       /\    /\
+   │  /  \  /  \/  \                          │      /  \  /  \  /\
+   │ /    \/        \                         │   /\/    \/    \/  \
+   └──────────────────► Time                  └─────────────────────► Time
