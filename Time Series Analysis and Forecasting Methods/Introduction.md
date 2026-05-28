@@ -35,7 +35,7 @@
   - **Auto Regression(AR) Model** : A time series model which uses past observation from the linear regression model to predict the values.
   - **Moving Average(MA) Model** : A time series model that takes the average of the data depending upon the M value and gives the predicted result.
   - **ARMA (AR + MA) Model** : This model uses the combination of AR and MA to predict the values.
-  - **ARIMA (AR + I + MA) Model** : This model can be used with stationary and non stationary data to predict the values. ARIMA stands for AutoRegressive Integrated Moving Average.
+  - **ARIMA (AR + I + MA) Model** : This model can be used with stationary and non stationary data to predict the values. ARIMA stands for AutoRegressive Integrated Moving Average. We should use this model in the case of data set which has seasonal dependency.
      - I represents the use of differencing of raw observations to make the time series stationary
   - **SARIMA(Seasonal Autoregressive Integrated Moving Average)** : This model extends ARIMA by incorporating seasonality components to handle periodic fluctuations in the data and provide better forecasting results.
 
