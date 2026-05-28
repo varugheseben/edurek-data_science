@@ -27,3 +27,18 @@
 
 ## Rolling Statistics
    Rolling statistics compute moving averages or other metrics over a fixed-size sliding time window.
+
+## ACF (Autocorrelation Function) and PACF(Partial Autocorrelation Function)
+  In time series analysis, ACF anf PACF are essential diagnostic tools used to measure how data points in a time series relate to their own historical past values (lags).
+
+## Time Series Models used for forecasting
+  - **Auto Regression(AR) Model** : A time series model which uses past observation from the linear regression model to predict the values.
+  - **Moving Average(MA) Model** : A time series model that takes the average of the data depending upon the M value and gives the predicted result.
+  - **ARMA (AR + MA) Model** : This model uses the combination of AR and MA to predict the values.
+  - **ARIMA (AR + I + MA) Model** : This model can be used with stationary and non stationary data to predict the values. ARIMA stands for AutoRegressive Integrated Moving Average.
+     - I represents the use of differencing of raw observations to make the time series stationary
+  - **SARIMA(Seasonal Autoregressive Integrated Moving Average)** : This model extends ARIMA by incorporating seasonality components to handle periodic fluctuations in the data and provide better forecasting results.
+
+      SARIMA = ARIMA + Seasonal Components(AutoRegressive, Differencing, Moving Average)
+
+    
