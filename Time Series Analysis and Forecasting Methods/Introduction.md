@@ -89,3 +89,23 @@
         - Level($\alpha$)
         - Trend($\beta$)
         - Seasonality(($\gamma$)
+
+# Forecasting tool
+  1. **Facebook Prophet**
+      - Open source forecasting tool by Facebook(Meta)
+      - Easy to use, work well with messy real world data
+      - Handles trend, seasonality, holidays/events automatically
+      - Designed for business time series data
+
+      **Different Flows of Prophet**
+        - Step 1: Input data(Date + Value)
+        - Step 2: Decompose into Trend + Seasonality + Holiday effects
+        - Step 3: Fit model and generate forecast
+        - Step 4: Visualize results with confidence intervals
+    
+      **Advantage of Forecast with Prophet**
+        - Forecast includes future trend + seasonal patterns
+        - Confidence intervals highlight uncertainity
+        - Works well for sales, demand, web traffic, events
+      
+    
