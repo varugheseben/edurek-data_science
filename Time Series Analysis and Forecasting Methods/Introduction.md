@@ -65,5 +65,5 @@
    - Yesterday's sales numbers are incredibly relevant because they capture current demand, current weather, and recent marketing.
    - Sales numbers from six months ago are much less relevant.
 
-  Instead of completely ignoring old data, exponential smoothing retains it but dampens its influence. The rate at which the influence decreases is controlled by a smoothing parameter, typically denoted as $\alpha$ (alpha).
+   Instead of completely ignoring old data, exponential smoothing retains it but dampens its influence. The rate at which the influence decreases is controlled by a smoothing parameter, typically denoted as $\alpha$ (alpha).
     
