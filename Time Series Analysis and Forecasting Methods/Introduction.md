@@ -109,5 +109,8 @@
         - Works well for sales, demand, web traffic, events
       
 # Forecast Error Metrics
-  **Forecast Error Metrics** are helpfull in determining how well a time series forecasting model is working. An error is simply the difference between the actual observed value ($Y_t$) and the forecasted value ($\hat{Y}_t$) for a given time step:
+  **Forecast Error Metrics** are helpfull in determining how well a time series forecasting model is working. 
+  
+  An error is simply the difference between the actual observed value ($Y_t$) and the forecasted value ($\hat{Y}_t$) for a given time step:
+  
       $$e_t = Y_t - \hat{Y}_t$$
