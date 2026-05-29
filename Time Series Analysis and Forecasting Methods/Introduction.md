@@ -70,11 +70,13 @@
    - Sales numbers from six months ago are much less relevant.
 
    Instead of completely ignoring old data, exponential smoothing retains it but dampens its influence. The rate at which the influence decreases is controlled by a smoothing parameter, typically denoted as $\alpha$ (alpha).
-    
-   - **Holt's Linear Trend Method**
-     - Extends exponential smoothing by adding a 'trend' component
-     - Usefull when data has a steady upward and downward trend
-     - **Forcast = Level + Trend * Time**
-     - Two smoothing parameters
-         - Level($\alpha$)
-         - Trend($\beta$)
+
+   # Types of Exponential Smoothing
+     - **Double Exponential Smoothing(Holt's Linear Trend Method)**
+       - Extends exponential smoothing by adding a 'trend' component
+       - Usefull when data has a steady upward and downward trend
+       - **Forcast = Level + Trend * Time**
+       - Two smoothing parameters
+          - Level($\alpha$)
+          - Trend($\beta$)
+     - **Triple Exponential Smoothing**
