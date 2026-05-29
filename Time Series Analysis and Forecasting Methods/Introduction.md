@@ -50,4 +50,8 @@
       SARIMA = ARIMA + Seasonal Components(AutoRegressive, Differencing, Moving Average)
   - **Auto ARIMA**: An automated time series forecasting model that finds the optimal set of parameters(p, d, q) and seasonal parameters(P, D, Q, s) by minimizing an information criteria like AIC
 
-    
+# Importance of Time Series Analysis
+  - Planning for future operations
+  - Understanding past behavior of historical patterns
+  - Business Forecasting
+  - Evaluating current accomplishments
