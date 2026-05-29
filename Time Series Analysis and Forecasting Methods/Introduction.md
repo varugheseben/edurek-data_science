@@ -1,3 +1,6 @@
+# Time Series Data
+  **A time series** is a set of observations on the values that a variable takes at different times. Such data may be collected at regular time intervals such as monthly, weekly, quarterly, yearly. Time series are used in statistics, econometrics, mathematical finance, weather forecasting, earthquake prediction and so on.
+
 # Time Series Analysis
   **Time Series Analysis (TSA)** is a specialized branch of statistics and data science dedicated to analyzing a sequence of data points collected consistently over a specific interval of time.
 
@@ -29,7 +32,12 @@
    Rolling statistics compute moving averages or other metrics over a fixed-size sliding time window.
 
 ## ACF (Autocorrelation Function) and PACF(Partial Autocorrelation Function)
-  In time series analysis, ACF anf PACF are essential diagnostic tools used to measure how data points in a time series relate to their own historical past values (lags).
+  In time series analysis, ACF anf PACF are essential diagnostic tools used to measure how data points in a time series relate to their own historical past values (lags). Basically ACF and PACF helps us to determine how many lags(past values) we need to use for forecasting.
+  - In timer series analysis, **AUtocorrelation Function(ACF)** measures the linear relationship between a variable’s current value and its past values over various time intervals (lags). The prefix auto means self. Instead of measuring the relationship between two different variables (like height and weight), autocorrelation measures how a single variable correlates with itself shifted back in time.
+    ACF: Measures the total correlation between $Y_t$ and $Y_{t-k}$, including all the indirect effects of the intermediate lags ($Y_{t-1}, Y_{t-2}$, etc.).
+
+  - **Partial Autocorrelation Function** strips away the intermediary lags and finds the direct relations between two time series value.
+    PACF (Partial ACF): Measures the direct correlation between $Y_t$ and $Y_{t-k}$ after stripping away the predictive linear effects of all shorter-interval lags.
 
 ## Time Series Models used for forecasting
   - **Auto Regression(AR) Model** : A time series model which uses past observation from the linear regression model to predict the values.
