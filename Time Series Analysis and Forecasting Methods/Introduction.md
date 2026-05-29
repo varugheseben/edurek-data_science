@@ -151,3 +151,31 @@
   |Comparing Different Products|MAPE|Provides a clean percentage comparison across scales (if no zero values exist).|
   |Data Contains Zeros/Intermittent Demand|MASE|Stable math that won't break when actual values hit zero.|
     
+# Backtesting and Rolling Forecasts
+   When evaluating time series models, testing them on a single static train-test split (like the last 20% of the data) is often insufficient and misleading. Because time series data is chronologically dependent, models can suffer from data leakage or quickly lose accuracy as the forecast horizon grows.
+
+   To truly understand how a model will perform in production, data scientists use Backtesting and Rolling Forecasts.
+
+   1. **What is Backtesting?**
+      Backtesting is the overarching framework of simulating how a forecasting strategy would have performed historically. You "go back in time," train your model on data up to a specific historical point, forecast into the "future" (which is actually just your remaining historical data), and calculate your Forecast Error Metrics.
+
+      In standard machine learning, you can randomly shuffle data for cross-validation. In time series backtesting, **you must strictly preserve chronological order** to avoid predicting the past using the future.
+   2. **Rolling Forecast Origins (Time Series Cross-Validation)**
+      The most robust way to backtest a time series model is through a Rolling Forecast strategy (also known as walk-forward validation or rolling-origin evaluation).
+
+      Instead of training the model once, you iteratively move your "forecast origin" forward through time, making short-term predictions at each step.
+
+      There are two primary ways to configure this:
+        - Option A: Expanding Window (Accumulating History)
+          In an expanding window, the start date of your training data remains fixed, and the training dataset grows larger at every iteration.
+           - **Iteration 1**: Train on Month 1 $\rightarrow$ Forecast Month 2
+           - **Iteration 2**: Train on Months 1–2 $\rightarrow$ Forecast Month 3
+           - **Iteration 3**: Train on Months 1–3 $\rightarrow$ Forecast Month 4
+          **Best for**: Long-term tracking where older historical data remains highly relevant to defining the overall baseline.
+
+        - Option B: Sliding/Rolling Window (Fixed History Length)
+          In a sliding window, the size of the training dataset remains constant. As the end of the window moves forward, the oldest data point is dropped.
+            - **Iteration 1**: Train on Months 1–12 $\rightarrow$ Forecast Month 13
+            - **Iteration 2**: Train on Months 2–13 $\rightarrow$ Forecast Month 14
+            - **Iteration 3**: Train on Months 3–14 $\rightarrow$ Forecast Month 15
+          **Best for**: Environments where patterns change rapidly (regime shifts), and old data becomes obsolete noise (e.g., high-frequency trading or fast-changing consumer trends).
