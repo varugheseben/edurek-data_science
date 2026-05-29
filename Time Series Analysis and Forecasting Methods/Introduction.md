@@ -171,6 +171,7 @@
            - **Iteration 1**: Train on Month 1 $\rightarrow$ Forecast Month 2
            - **Iteration 2**: Train on Months 1–2 $\rightarrow$ Forecast Month 3
            - **Iteration 3**: Train on Months 1–3 $\rightarrow$ Forecast Month 4
+          
           **Best for**: Long-term tracking where older historical data remains highly relevant to defining the overall baseline.
 
         - Option B: Sliding/Rolling Window (Fixed History Length)
@@ -178,4 +179,5 @@
             - **Iteration 1**: Train on Months 1–12 $\rightarrow$ Forecast Month 13
             - **Iteration 2**: Train on Months 2–13 $\rightarrow$ Forecast Month 14
             - **Iteration 3**: Train on Months 3–14 $\rightarrow$ Forecast Month 15
+          
           **Best for**: Environments where patterns change rapidly (regime shifts), and old data becomes obsolete noise (e.g., high-frequency trading or fast-changing consumer trends).
