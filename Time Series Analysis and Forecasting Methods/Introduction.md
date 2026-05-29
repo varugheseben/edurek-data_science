@@ -77,4 +77,4 @@
      - **Forcast = Level + Trend * Time**
      - Two smoothing parameters
          - Level($\alpha$)
-         - Trend($\beta$
+         - Trend($\beta$)
