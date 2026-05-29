@@ -55,3 +55,15 @@
   - Understanding past behavior of historical patterns
   - Business Forecasting
   - Evaluating current accomplishments
+
+# Exponential Smoothing
+  **Exponential Smoothing** is a popular time series forecasting method for univariate (single-variable) data.
+
+  Unlike a simple moving average—which gives equal weight to all past observations—exponential smoothing assigns exponentially decreasing weights as the observations get older. In short: recent data has a huge impact on the forecast, while older data has a progressively smaller impact.
+
+  Example: Imagine you run a business and want to forecast tomorrow's sales
+   - Yesterday's sales numbers are incredibly relevant because they capture current demand, current weather, and recent marketing.
+   - Sales numbers from six months ago are much less relevant.
+
+  Instead of completely ignoring old data, exponential smoothing retains it but dampens its influence. The rate at which the influence decreases is controlled by a smoothing parameter, typically denoted as $\alpha$ (alpha).
+    
