@@ -114,3 +114,5 @@
   An error is simply the difference between the actual observed value ($Y_t$) and the forecasted value ($\hat{Y}_t$) for a given time step:
   
    $$e_t = Y_t - \hat{Y}_t$$
+
+  Because some errors are positive (under-forecasting) and others are negative (over-forecasting), you cannot just add them up—they would cancel each other out. Error  metrics process these numbers in different ways to give you an accurate picture of model performance.
