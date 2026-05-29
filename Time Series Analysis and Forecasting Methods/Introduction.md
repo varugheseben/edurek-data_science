@@ -72,11 +72,20 @@
    Instead of completely ignoring old data, exponential smoothing retains it but dampens its influence. The rate at which the influence decreases is controlled by a smoothing parameter, typically denoted as $\alpha$ (alpha).
 
    ## Types of Exponential Smoothing
-    - **Double Exponential Smoothing(Holt's Linear Trend Method)**
-      - Extends exponential smoothing by adding a 'trend' component
-      - Usefull when data has a steady upward and downward trend
-      - **Forcast = Level + Trend * Time**
-      - Two smoothing parameters
+   - **Double Exponential Smoothing(Holt's Linear Trend Method)**
+     - Extends exponential smoothing by adding a 'trend' component
+     - Usefull when data has a steady upward and downward trend
+     - **Forcast = Level + Trend * Time**
+     - Two smoothing parameters
+       - Level($\alpha$)
+       - Trend($\beta$)
+   - **Triple Exponential Smoothing(Holt-Winters Method)**
+     - It has 2 versions
+        - Additive (Constant seasonality)
+        - Multiplicative (Growing seasonality)
+     - Builds on Holt's method by adding seasonal adjustment
+     - Handles trend + seasonality simulataneously
+     - Three smothing parameters
         - Level($\alpha$)
         - Trend($\beta$)
-    - **Triple Exponential Smoothing**
+        - Seasonality(($\gamma$)
