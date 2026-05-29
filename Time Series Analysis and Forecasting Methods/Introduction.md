@@ -116,3 +116,20 @@
    $$e_t = Y_t - \hat{Y}_t$$
 
   Because some errors are positive (under-forecasting) and others are negative (over-forecasting), you cannot just add them up—they would cancel each other out. Error  metrics process these numbers in different ways to give you an accurate picture of model performance.
+
+  **Different Types of Forecast Accuracy Metrics**
+   - Scale-Dependent Metrics
+        These metrics are in the same unit as your data(e.g., dollars, units sold, temperature). They are great for comparing different models on the same dataset, but you cannot use them to compare different datasets.
+      - **Mean Absolute Error (MAE)**
+         - MAE takes the absolute value of each error and finds their average.
+         - It tells you, on average, how far off your predictions are. If your MAE is 10, your forecast is typically wrong by 10 units.
+         - It treats all errors equally. A single massive mistake doesn't warp the score disproportionately.
+      - **Mean Squared Error (MSE)**
+         - MSE squares each error before averaging them.
+         - Because errors are squared, it heavily penalizes larger errors.
+      - **Root Mean Squared Error (RMSE)**
+         - RMSE is simply the square root of the MSE, bringing the metric back to the original units of the data
+         - Like MSE, it penalizes large errors severely
+   - Percentage Based Metrics
+   - Scale Free Metrics
+    
