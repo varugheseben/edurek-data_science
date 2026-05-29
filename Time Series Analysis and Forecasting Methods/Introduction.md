@@ -50,7 +50,7 @@
       SARIMA = ARIMA + Seasonal Components(AutoRegressive, Differencing, Moving Average)
   - **Auto ARIMA**: An automated time series forecasting model that finds the optimal set of parameters(p, d, q) and seasonal parameters(P, D, Q, s) by minimizing an information criteria like AIC
 
-# Importance of Time Series Analysis
+## Importance of Time Series Analysis
   - Planning for future operations
   - Understanding past behavior of historical patterns
   - Business Forecasting
@@ -71,12 +71,12 @@
 
    Instead of completely ignoring old data, exponential smoothing retains it but dampens its influence. The rate at which the influence decreases is controlled by a smoothing parameter, typically denoted as $\alpha$ (alpha).
 
-   # Types of Exponential Smoothing
-     - **Double Exponential Smoothing(Holt's Linear Trend Method)**
-       - Extends exponential smoothing by adding a 'trend' component
-       - Usefull when data has a steady upward and downward trend
-       - **Forcast = Level + Trend * Time**
-       - Two smoothing parameters
-          - Level($\alpha$)
-          - Trend($\beta$)
-     - **Triple Exponential Smoothing**
+   ## Types of Exponential Smoothing
+    - **Double Exponential Smoothing(Holt's Linear Trend Method)**
+      - Extends exponential smoothing by adding a 'trend' component
+      - Usefull when data has a steady upward and downward trend
+      - **Forcast = Level + Trend * Time**
+      - Two smoothing parameters
+        - Level($\alpha$)
+        - Trend($\beta$)
+    - **Triple Exponential Smoothing**
