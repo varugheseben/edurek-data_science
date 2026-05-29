@@ -131,5 +131,23 @@
          - RMSE is simply the square root of the MSE, bringing the metric back to the original units of the data
          - Like MSE, it penalizes large errors severely
    - Percentage Based Metrics
+        These metrics scale the errors relative to the actual values, expressing the result as a percentage. This makes them unit-independent, allowing you to compare model performance across completely different products or businesses
+      - **Mean Absolute Percentage Error (MAPE)**
+         - MAPE measures the average absolute percentage drop between forecasted and actual values.
+         - A MAPE of 5% means your forecast is, on average, off by 5% of the true value.
+         - If any actual value ($Y_t$) is zero or very close to zero, the formula divides by zero, causing it to blow up or become undefined. It also penalizes over-forecasting more heavily than under-forecasting.
    - Scale Free Metrics
+        Designed to solve the "division by zero" issue of MAPE while remaining unit-independent.
+      - **Mean Absolute Scaled Error (MASE)**
+         - MASE compares the absolute error of your model against the absolute error of a simple Naïve forecast (a baseline model where tomorrow's forecast is just today's actual value).
+         - MASE > 1: Your model is performing worse than a simple baseline rule.
+         - MASE < 1: Your model is performing better than the baseline.
+       
+  **Which Metric Should You Choose?**
+  |Scenario|Recommended Metric|Why?|
+  |--------|------------------|----|
+  |Standard Evaluation|MAE|Easy to interpret and explain to stakeholders.|
+  |Large Errors are Disastrous|RMSE|Strongly penalizes major forecasting failures.|
+  |Comparing Different Products|MAPE|Provides a clean percentage comparison across scales (if no zero values exist).|
+  |Data Contains Zeros/Intermittent Demand|MASE|Stable math that won't break when actual values hit zero.|
     
