@@ -113,4 +113,4 @@
   
   An error is simply the difference between the actual observed value ($Y_t$) and the forecasted value ($\hat{Y}_t$) for a given time step:
   
-      $$e_t = Y_t - \hat{Y}_t$$
+   $$e_t = Y_t - \hat{Y}_t$$
