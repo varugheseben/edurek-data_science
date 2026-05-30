@@ -25,7 +25,7 @@
    - By capabilities (What it can actyually do)
    - By Functionality (How it works under the hood)
 
-   Classification based on Capability
+   ### Classification based on Capability
    - Artificial Narrow Intelligence (ANI) / Narrow AI
 
       This is the AI we use every single day. It is programmed to perform a single, specific task exceptionally well, but it cannot apply its intelligence to anything outside its domain.
