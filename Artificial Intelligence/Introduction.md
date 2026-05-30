@@ -30,9 +30,16 @@
 
       This is the AI we use every single day. It is programmed to perform a single, specific task exceptionally well, but it cannot apply its intelligence to anything outside its domain.
       - Examples : Apple's Siri, Google Translate, Self Driving Car, Large Language Models applications(Gemini, Copilot, ChatGPT)
+      - Limitation: A self-driving car AI cannot read a medical X-ray or write code
 
    - Artificial General Intelligence (AGI) / Strong AI
+       AGI is a theoretical form of AI where a machine possesses the ability to learn, understand, reason, and apply knowledge in a way that is completely indistinguishable from a human being. With this, AI could solve complex physics eqautions, write a novel or learn a new human laguage without manual reporgramming. That means such intelligence will empower AI systems to learn, understand, reason and apply knowledge to generate its output.
+
+       Currently we are not there yet in implementing systems with such intelligence. We have systems which generate content but that cannot be considered in this category because its learn and understand but there is no thinking.
+      
    - Artificial Superintelligence (ASI)
+       Implemenation of systems with such intelligence is a science fiction currently. ASI refers to a hypothetical point where AI surpasses human intelligence across every single metric—including creativity, general wisdom, emotional intelligence, and social skills.
+
     
    
     
