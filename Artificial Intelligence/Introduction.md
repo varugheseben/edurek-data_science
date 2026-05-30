@@ -69,7 +69,7 @@
 
   ## How AI systems works
 
-     AI systems uses
+   AI systems uses
    - Algorithms: Step by step instructions
    - Data: Examples to learn from
    - Models: Systems that can make predictions and decisions
