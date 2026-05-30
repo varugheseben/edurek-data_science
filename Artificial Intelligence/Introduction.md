@@ -128,8 +128,44 @@
      - Resume Screening: AI models can filter resume based on skills and experience
      - Employee retention prediction: AI models can predict which employee could leave and why
 
+  ## Examples of Artificial Intelligence
+   - **Large Language Model(LLM)**
+
+     Large language model is an advanced type of artificial intelligence designed to understand, process and generate human-like text. It learns from massive amount of data using neural network(especially transformer architecture) to recognize patterns, context and meaning in the language
+
+     Examples of LLM provider is  OpenAI
+     Example of LLM powered tools: Gemini, Copilot, ChatGPT
+
+     **What is OpenAI**
+
+       OpenAI is a company, which has product named ‘OpenAI’ and which provides LLM for building applications.
+
+     **What is Langchain**
+
+       Its a open source framework for building applications using LLMs. Basically Langchain helps to build complex AI applications by chaining components together. Its not a modal provider instead its a orchestration layer.
+
+       In other words, Langachain is a framework for constructing complex AI agents by chaining tools, prompts and retrieval systems
+     **Combination of OpenAI and Langchain**
+
+       We can use OpenAI and Langchain for building a AI agent. In such case, OpenAI provides the modal Langchain manages logic, memory, retrieval and workflow.
+
+       In other words,we can consider OpenAI as brain Lanchain as nervous system connecting the brain to tools, memory and data
+
+   - **Computer Vision**
+
+     Instead of processing text, these AI models process visual data (images and video). They use multi-layered neural networks to identify shapes, edges, and objects
+
+   - **Robotics**
+
+     This type of intelligence learn by trial and error method from an environment
+
+   - **Predictive AI**
+
+     This type of intelligence can be used for doing predictions, like weather forecasting, earthquake prediction
+
+   - **Generative AI**
     
-    
-      
+     This type of intelligence is for creating digital content, like creating an image, audio, video, text to audio conversion(speech synthesis)
+
        
     
