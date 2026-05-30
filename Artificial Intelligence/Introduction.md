@@ -55,8 +55,18 @@
      - Example: IBM’s Deep Blue, the supercomputer that beat chess grandmaster Garry Kasparov in the 1990s. It could see the board and calculate the best next move, but it had no concept of history or previous games.
 
    - **Limited Memory**
+
+     This AI can store past data and use it to make predictions or decisions in the present. Almost all modern AI applications fall into this category.
+     - Example: Autonomous vehicles. They use a continuous stream of data from their surroundings (speed of other cars, pedestrian distance, lane markings) to make driving decisions. They "remember" the data from a few seconds ago to calculate trajectory, though they don't store this as long-term personal memories.
+
    - **Theory of Mind**
+
+     This is a major psychological milestone that AI has not yet achieved. "Theory of Mind" AI would understand that humans, animals, and other machines have thoughts, emotions, and beliefs that affect their behavior. Outcome of such systems will be, an intelligence that can anticipate how you are feeling, adjust its tone accordingly, and engage in true social interaction by understanding human psychology.
+
    - **Self Aware**
+
+     The final, hypothetical stage of AI functionality. A system with such intelligence will have its own consciousness, self-awareness, and internal state of being. It wouldn't just understand human emotions (like Theory of Mind)—it would possess its own.
+
 
     
     
