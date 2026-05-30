@@ -21,7 +21,7 @@
   AI Systems does not think like humans, but it can process information incredibly fast and at massive scale.
 
   ## Types of AI
-    AI systems can be classified in 2 ways
+   AI systems can be classified in 2 ways
    - By capabilities (What it can actyually do)
    - By Functionality (How it works under the hood)
 
