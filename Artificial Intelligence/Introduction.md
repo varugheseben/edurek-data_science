@@ -26,6 +26,9 @@
    - By Functionality (How it works under the hood)
 
    ### Classification based on Capability
+
+   This is based on capability of AI systems. Different types are
+
    - **Artificial Narrow Intelligence (ANI) / Narrow AI**
 
       This is the AI we use every single day. It is programmed to perform a single, specific task exceptionally well, but it cannot apply its intelligence to anything outside its domain.
@@ -42,8 +45,19 @@
 
        Implemenation of systems with such intelligence is a science fiction currently. ASI refers to a hypothetical point where AI surpasses human intelligence across every single metric—including creativity, general wisdom, emotional intelligence, and social skills.
 
-    
-   
+   ### Classification based on Functionality
+
+   This is based on technical mechanics and structural architecture of the AI system. Different types are
+
+   - **Reactive Machines**
+
+     The oldest and most basic type of AI. These machines do not store memories or use past experiences to determine current actions. They simply look at a live scenario and react to it based on pre-programmed rules.
+     - Example: IBM’s Deep Blue, the supercomputer that beat chess grandmaster Garry Kasparov in the 1990s. It could see the board and calculate the best next move, but it had no concept of history or previous games.
+
+   - **Limited Memory**
+   - **Theory of Mind**
+   - **Self Aware**
+
     
     
       
