@@ -76,7 +76,57 @@
 
    AI system use machine learning and neural network which often allows system to improve overtime
 
+  ## Application of AI in every day life
+   - Voice Assistant (Siri, Alexa)
+   - Chatbot
+   - Spam Filters
+   - Face Recognition
+   - Navigation System
+   - Smart Home Devices
 
+   **Examples of areas where AI systems are used by humans**
+   - Smartphones
+     - Face ID/fingerprint lock: Uses computer vision to recognize your face or fingerprint
+     - Keyboard suggestions and autocorrect: Predicts next word based on your typing patterns
+     - Voice Assistants (Siri, Alexa): Understand speech and responds conversationally
+
+   - Shopping and Entertainment
+     - Netflix/Youtube recommendations: Analyzes your viewing habits and suggest what you like next
+     - Amazon Product recommendations: Predict what you might buy based on buying and browsing history
+     - Dynamic pricing: Airlines, hotels and ride-share app uses AI models for adjusting prices
+
+   - Transportation
+     - Google Maps / Waze: Predicts traffic, suggest fastest route and adjusts in real time.
+     - Self driving features: Lane assist, automatic braking and parking assistance using AI vision
+     - Uber / Lyft matching: AI pair riders with drivers and optimizes routes
+
+   - Communication
+     - Spam filters: AI detects suspicious patterns and blocks unwanted emails
+     - Chatbot: Virtual chat agents which can help customers to resolve their issue
+     - Real time language translation: Apps like Google translate uses AI to convert speech and text
+    
+   **Examples of business domains where AI systems are used**
+   - Healthcare
+     - Medical Imaging Analysis: AI helps to detect tumors, fractures and diseases
+     - Personalized treatment plans: Models analyze patient health related data and recommends care path
+     - Virtual Health Assistant: Help scheduling appointments and answer medical questions
+
+   - Marketing and Sales
+     - Customer Segmentation: AI groups customer by behavior to target ads effectively
+     - Chatbot for Customer Support: Chatbots can be used as virtual customer support assistant. Which reduces the wait times and can address common issues
+
+   - Operations and Manufacturing
+     - Predictive maintenance: AI can predict when machine will fail. This helps to prevent downtime
+     - Quality Control: Computer vision can detect defects faster than human
+
+   - Finance and Banking
+     - Fraud Detection: AI can spot unusual transactions instantly
+     - Credit Scoring: AI models can evaluate risk more accurately than traditional models
+     - Algorithmic trading: AI models can execute trading based on market patterns
+
+   - HR and Recruiting
+     - Resume Screening: AI models can filter resume based on skills and experience
+     - Employee retention prediction: AI models can predict which employee could leave and why
 
     
     
