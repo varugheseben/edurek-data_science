@@ -19,7 +19,7 @@
   - Solve Problems: Example: Navigation, Scheduling, Optimization
 
   AI Systems does not think like humans, but it can process information incredibly fast and at massive scale.
-
+      
   ## Types of AI
    AI systems can be classified in 2 ways
    - By capabilities (What it can actyually do)
@@ -66,6 +66,16 @@
    - **Self Aware**
 
      The final, hypothetical stage of AI functionality. A system with such intelligence will have its own consciousness, self-awareness, and internal state of being. It wouldn't just understand human emotions (like Theory of Mind)—it would possess its own.
+
+  ## How AI systems works
+
+     AI systems uses
+   - Algorithms: Step by step instructions
+   - Data: Examples to learn from
+   - Models: Systems that can make predictions and decisions
+
+   AI system use machine learning and neural network which often allows system to improve overtime
+
 
 
     
