@@ -262,3 +262,21 @@ Example: Column Slicing
 			  o/p
 			     [ 0  65   58  0  0 0]
 			    
+  ## Z-scores for determining outliers in a data set
+  A z-score (also known as a standard score) measures exactly how many standard deviations a specific data point is away from the mean (average) of a dataset.
+
+  It is a powerful tool in data science and statistics for identifying outliers, normalizing data before feeding it into machine learning models (like KNN or SVM), and comparing data points from different distributions.
+
+  For a given data point $x$, the z-score is calculated using the following formula:$$z = \frac{x - \mu}{\sigma}$$
+  
+  Where:
+  - $x$ = The specific value you are transforming.
+  - $\mu$ = The mean (average) of the dataset.
+  - $\sigma$ = The standard deviation of the dataset.
+
+  **Interpreting the Results**
+   - $z = 0$: The data point is exactly equal to the mean.
+   - $z > 0$: The data point is above the mean
+   - $z < 0$: The data point is below the mean
+
+   **Outlier Threshold**: In a standard normal distribution, roughly 99.7% of data falls between a z-score of $-3$ and $+3$. Any data point with a z-score less than $-3$ or greater than $+3$ is typically flagged as an outlier.
