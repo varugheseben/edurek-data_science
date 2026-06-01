@@ -12,3 +12,6 @@
 
     Solution : [Q4](https://github.com/varugheseben/edurek-data_science/blob/main/DataScience/Statistics/Practice/Chapter-3.ipynb)
   - Q5 : Using Numpy and Matplotlib, generate a random dataset and highlight outliers using a scatter plot ?
+
+    Solution: [Q5](https://github.com/varugheseben/edurek-data_science/blob/main/DataScience/Matplotlib/Practice/Chapter-14.ipynb)
+
