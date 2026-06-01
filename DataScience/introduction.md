@@ -31,3 +31,10 @@
     For example, they wanted to filter customer who has interest in men's clothing. So if we can filter such customers based on their buying history and
     visit history. So to do so, we collect the user history from database and then we clean it and then we analyze and generate report out of it to get the 
     list of such customers. This outcome can be used for predicting the impact on sales as well.
+
+## Important Links
+ - [Pandas](https://github.com/akshu20791/pandas-dataset-ipl/blob/main/first-file-pandas.ipynb)
+ - [Data Sets](https://www.kaggle.com/)
+ - [Matplotlib Dataset](https://github.com/akshu20791/matplotlib-dataset)
+ - [Google Drive - Data Science with Python](https://github.com/akshu20791/matplotlib-dataset)
+   
