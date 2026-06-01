@@ -3,6 +3,8 @@
 
     Solution : [Q1](https://github.com/varugheseben/edurek-data_science/blob/main/DataScience/Statistics/Practice/Chapter-3.ipynb)
   - Q2 : Using Numpy, calculate z-scores of a dataset and identify values that are outliers ?
+
+    Solution : [Q2](https://github.com/varugheseben/edurek-data_science/blob/main/DataScience/Numpy/Practice/Numpy-z-scores_determination.ipynb)
   - Q3 : Using Matplotlib, create a boxplot to visualize outliers in a dataset ?
 
     Solution : [Q3](https://github.com/varugheseben/edurek-data_science/blob/main/DataScience/Statistics/Practice/Chapter-3.ipynb)
