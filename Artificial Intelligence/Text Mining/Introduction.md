@@ -17,8 +17,9 @@
   - **Structuring(Vectorization**): In this stage we convert words into a mathematical format or matrix that machine learning models can understand.
   - **Analysis & Pattern Extraction**: In this stage we apply statistical models, machine learning or Natural Language Processing(NLP) to find trends or categorize the data
 
-  **Key Techniques in Text Mining**
-     Text mining relies on variety of data science and atrificial intelligence techniques such as
+   ## **Key Techniques in Text Mining**
+   
+   Text mining relies on variety of data science and atrificial intelligence techniques such as
   - **Information Extraction**: Identifying specific pieces of data within text, such as names, dates, or places. This is called as **Named Entity Recognition**
   - **Categorization/Classification**: Assigning predefined categories to text documents (e.g., sorting incoming customer support tickets into "Billing," "Technical Support," or "Shipping").
   - **Clustering**: Grouping similar documents together without predefined labels, which is useful for discovering hidden themes in a dataset.
