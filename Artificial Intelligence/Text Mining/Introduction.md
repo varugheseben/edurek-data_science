@@ -26,7 +26,8 @@
   - **Sentiment Analysis**: Determining the emotional tone behind a body of text—whether it's positive, negative, or neutral.
   - **Concept/Topic Modeling**: Identifying the main subjects or themes running through a massive collection of documents.
 
-  **Real World Applications**
+  ## **Real World Applications**
+
   Text mining is widely used across industries to automate tasks and drive decision-making:
    - **Customer Experience**: Companies analyze product reviews, surveys, and social media mentions to understand consumer sentiment and identify product flaws.
    - **Healthcare & Bio-informatics**: Researchers mine medical journals and patient records to accelerate drug discovery or spot trends in disease outbreaks.
