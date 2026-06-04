@@ -8,7 +8,7 @@
 
    ## **How Text Mining Works**
 
-     Text mining process involves several stages, moving from raw text to actionable insights:
+   Text mining process involves several stages, moving from raw text to actionable insights:
   - **Text Copying & Gathering**: In this stage we collect documents from various sources like web scraping, databases, PDFs
   - **Preporocessin(Text Cleaning)**: In this stage we prepare the text for analysis, this includes
      - **Tokenization**: Breaking sentences down into individual words (tokens).
