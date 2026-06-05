@@ -30,7 +30,9 @@
 
   **Natural Language Processing** tries to understand the meaning and structure of the language.
 
+
   |Feature|Text Mining|Natural Language Processing|
+  |-------|-----------|---------------------------|
   |Primary Goal|Discover hidden patterns, trends, and statistics across large datasets.|Understand, interpret, and generate human language like a human would.|
   |Focus|Quantity & Aggregation: What are the major themes or trends in these 10,000 documents?|Quality & Context: What is the specific meaning, intent, or emotion behind this sentence?|
   |Output|Graphs, charts, frequency tables, clusters, and structured data.|Sentences, translated text, precise answers, or contextual actions.|
