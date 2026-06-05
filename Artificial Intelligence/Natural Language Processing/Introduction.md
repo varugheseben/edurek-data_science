@@ -27,5 +27,6 @@
   Both are of techniques used in AI to dela with human languages, but they have different different goals, approaches, and technical depths
 
   **Text Mining** looks for patterns and statistics across vast amount of text.
+
   **Natural Language Processing** tries to understand the meaning and structure of the language.
 
