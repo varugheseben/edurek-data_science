@@ -23,3 +23,9 @@
   - **Spam Filters**: Email clients detecting phishing patterns or unwanted promotional mail.
   - **Sentiment Analysis**: Businesses analyzing social media comments or product reviews to see if customer feedback is generally positive, negative, or neutral.
 
+  ## Difference between Text Mining and NLP
+  Both are of techniques used in AI to dela with human languages, but they have different different goals, approaches, and technical depths
+
+  **Text Mining** looks for patterns and statistics across vast amount of text.
+  **Natural Language Processing** tries to understand the meaning and structure of the language.
+
