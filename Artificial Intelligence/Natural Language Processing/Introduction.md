@@ -38,3 +38,9 @@
   |Output|Graphs, charts, frequency tables, clusters, and structured data.|Sentences, translated text, precise answers, or contextual actions.|
   |Type of Analysis|Quantitative (counting, sorting, clustering).|Qualitative (syntax, semantics, pragmatics).|
 
+ ## Case Study of Usage of Text Mining and NLP
+ In modern data science, these two fields heavily overlap. Text mining frequently uses NLP techniques as a preprocessing step to clean and understand text before running statistical analyses.
+
+ Let's say you run Sentiment Analysis on social media data.
+  - **NLP** is used to analyze individual tweets to understand if a phrase like "That's sick!" means something is cool (positive) or gross (negative).
+  - **Text Mining** then takes those millions of NLP-processed scores and aggregates them into a dashboard showing that overall public sentiment toward a brand dropped by 15% this week.
