@@ -23,6 +23,16 @@
   - **Spam Filters**: Email clients detecting phishing patterns or unwanted promotional mail.
   - **Sentiment Analysis**: Businesses analyzing social media comments or product reviews to see if customer feedback is generally positive, negative, or neutral.
 
+  ## Benefits of NLP
+  - Ability to analyze both structured and unstructured data like speech, voices, social media posts
+  - Improve customer satisfaction
+  - Ability to understand target market
+  - Reduce costs - Using NLP based systems to answer customer queries
+
+  ## Limitations of NLP
+  - Ambiguity in understanding the emotions, context, sarcasm, slang, errors exists human language
+  - Failed to generate outcome of ambiguos statements
+
   ## Difference between Text Mining and NLP
   Both are of techniques used in AI to deal with human languages, but they have different different goals, approaches, and technical depths
 
