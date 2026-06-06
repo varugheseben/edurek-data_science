@@ -26,8 +26,8 @@
            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 253.0/253.0 kB 5.7 MB/s eta 0:00:00
         Installing collected packages: python-docx
         Successfully installed python-docx-1.2.0
-- [Reading a PDF document]()
-    To install library for opening a docx file in google colab you can use below command in google colab code space
+- [Reading a PDF document](https://github.com/varugheseben/edurek-data_science/blob/main/Python-Assignment-1/file_reading_pdf_document.ipynb)
+    To install library for opening a pdf file in google colab you can use below command in google colab code space
   
   **!pip install pypdf**
 
