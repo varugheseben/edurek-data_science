@@ -15,7 +15,6 @@
   To install library for opening a docx file in google colab you can use below command in google colab code space
   !pip install python-docx
         !pip install python-docx
-
         Collecting python-docx
           Downloading python_docx-1.2.0-py3-none-any.whl.metadata (2.0 kB)
         Requirement already satisfied: lxml>=3.1.0 in /usr/local/lib/python3.12/dist-packages (from python-docx) (6.1.1)
