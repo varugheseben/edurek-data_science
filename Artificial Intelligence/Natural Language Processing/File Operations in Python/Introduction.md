@@ -14,6 +14,7 @@
 - [Reading a word document](https://github.com/varugheseben/edurek-data_science/blob/main/Python-Assignment-1/file_reading_word_document.ipynb)
   To install library for opening a docx file in google colab you can use below command in google colab code space
   !pip install python-docx
+  
         !pip install python-docx
         Collecting python-docx
           Downloading python_docx-1.2.0-py3-none-any.whl.metadata (2.0 kB)
