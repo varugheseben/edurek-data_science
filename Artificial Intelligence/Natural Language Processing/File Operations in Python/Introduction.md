@@ -10,5 +10,8 @@
 - 'rb': Opens file for read operation in binary mode
 - 'rw': Opens file for write operation in binary mode
 
+# Examples
+- [Reading a word document](https://github.com/varugheseben/edurek-data_science/blob/main/Python-Assignment-1/file_reading_word_document.ipynb)
+
 
   
