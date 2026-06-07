@@ -112,4 +112,4 @@
      - It is usefull for studying language patterns
      - It is usefull for building chatbots
     
-  - **Tokenization**: It is the process of breaking text into individual words or phrases (tokens).
+  - **Tokenization**: It is the process of breaking text into individual words or phrases (tokens). A token can be a word or a sentence or a character or a sub word
