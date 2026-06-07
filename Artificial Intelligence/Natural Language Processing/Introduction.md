@@ -121,7 +121,9 @@
     **Lab**
      - [Example to list all Corpora]()
 
-  - **Tokenization**: It is the process of breaking text into individual words or phrases (tokens). A token can be a word or a sentence or a character or a sub word
+  - ### **Tokenization**:
+
+    It is the process of breaking text into individual words or phrases (tokens). A token can be a word or a sentence or a character or a sub word
       - Example: Lets say I have a sentence as "Let us learn Natural Language Processing". So tokens will be
          1. Let
          2. us
