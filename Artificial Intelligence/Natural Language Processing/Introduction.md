@@ -100,5 +100,6 @@
      - **Wordnet**: Contains word meanings, and is used for semantics
         - [Example to view Wordnet Corpora](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Corpus/view_wordnet_corpora.ipynb)
      - **Brown**: Contains text tagged with part of speech labels(nouns, verbs, adjectives, etc)
+        - [Example to view Brown Corpora](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Corpus/view_brown_corpora.ipynb)
      - **Movie Reviews**: Contains movie reviews, and is used for sentiment analysis
     
