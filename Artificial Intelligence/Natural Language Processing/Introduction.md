@@ -163,3 +163,7 @@
      - **N-gram(n>3)**: A sequence of N consecutive words.
        - Example: 'Learning Natural Language Processing', 'Python has many libraries which can be used for building systems with artificial intelligence'
      
+    **Lab**
+     - [Example of Bigram]()
+     - [Example of Trigram]()
+     - [Example of N-am]()
