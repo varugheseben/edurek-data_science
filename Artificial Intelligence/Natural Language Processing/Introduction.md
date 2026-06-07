@@ -44,8 +44,7 @@
          - Interpretation A: I used a telescope to look at a man.
          - Interpretation B: I looked at a man who was holding a telescope.
        - **Coordination Scope**: Ambiguity introduced by conjunctions like "and" or "or".
-
-         Example: "Old men and women." (Does "old" apply to just the men, or both the men and the women?)
+         - Example: "Old men and women." (Does "old" apply to just the men, or both the men and the women?)
     - **Semantic Ambiguity**: Semantic ambiguity occurs when a sentence is grammatically clear and the words are well-defined, but the overall meaning of the sentence is still up for interpretation
       - Example: "Every girl loves a boy."
       - Interpretation A: For every individual girl in the world, there is a specific boy that she loves
