@@ -81,7 +81,7 @@
   - **Text Mining** then takes those millions of NLP-processed scores and aggregates them into a dashboard showing that overall public sentiment toward a brand dropped by 15% this week.
 
  ## Setting up nltk
-  - [NLTK Setup]()
+  - [NLTK Setup](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/nltk_setup.ipynb)
   - [NLTK Dataset Download]()
 
  ## Different concepts in NLP
