@@ -162,7 +162,19 @@
        - Example: 'Natural Language Processing'
      - **N-gram(n>3)**: A sequence of N consecutive words.
        - Example: 'Learning Natural Language Processing', 'Python has many libraries which can be used for building systems with artificial intelligence'
-     
+
+    **Why do we use N-grams**
+     - Preserving Context and Word Order
+   
+       Traditional NLP techniques like Bag-of-Words (BoW) treat a document as an unordered collection of words. This completely destroys context.
+        - Consider the phrases: "Not good" vs. "Good, not bad".
+        - A unigram model sees the same words, but a bigram model captures "not good" and "not bad", allowing a machine to correctly interpret sentiment.
+     - Language Modeling and Next-Word Prediction
+
+       N-grams are heavily used to calculate the probability of a word appearing next in a sentence based on the words that came before it. This powers:
+        - Auto-correct algorithms
+        - Search engine autocomplete suggestions
+        - Speech recognition systems (deciding if a user said "there" or "their" based on context)    
     **Lab**
      - [Example of Bigram](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/N-grams/bigram.ipynb)
      - [Example of Trigram](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/N-grams/trigram.ipynb)
