@@ -31,6 +31,13 @@
 
   ## Limitations of NLP
   - Ambiguity in understanding the emotions, context, sarcasm, slang, errors exists human language
+
+    **Types of Ambiguity in NLP**
+    - **Lexical (Word level) Ambiguity**: Lexical ambiguity happens when a single word has more than one meaning. There are 2 types of this
+      - Polysemy: A word has multiple meanings that are conceptually related.
+
+        Example: **"Run"** (To physically jog vs. to operate a piece of software).
+      - Pass
   - Failed to generate outcome of ambiguos statements
 
   ## Difference between Text Mining and NLP
