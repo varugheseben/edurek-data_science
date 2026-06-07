@@ -85,7 +85,7 @@
   - [NLTK Dataset Download](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/nltk_download.ipynb)
 
  ## Different concepts in NLP
-  - **Corpus** (Plural corpora): In Natural Language Processing (NLP), a **corpus** (plural: corpora) is a large, structured collection of machine-readable texts or audio files compiled for linguistic analysis, model training, and statistical verification.
+  - ### **Corpus** (Plural corpora): In Natural Language Processing (NLP), a **corpus** (plural: corpora) is a large, structured collection of machine-readable texts or audio files compiled for linguistic analysis, model training, and statistical verification.
 
     Think of it as the ultimate textbook or dataset from which an AI or NLP algorithm learns how human language works.
 
