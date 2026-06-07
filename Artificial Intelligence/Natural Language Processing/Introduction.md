@@ -158,8 +158,8 @@
        - Example: 'Natural', 'Language', 'Processing'
      - **Bigram(n==2)**: A sequence of two consecutive words.
        - Example: 'Data Science', 'Learning NLP'
-     - **Trigram(n==3): A sequence of three consecutive words.
+     - **Trigram(n==3)**: A sequence of three consecutive words.
        - Example: 'Natural Language Processing'
-     -**N-gram(n>3)**: A sequence of N consecutive words.
+     - **N-gram(n>3)**: A sequence of N consecutive words.
        - Example: 'Learning Natural Language Processing', 'Python has many libraries which can be used for building systems with artificial intelligence'
      
