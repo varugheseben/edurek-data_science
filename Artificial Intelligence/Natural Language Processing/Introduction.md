@@ -85,7 +85,7 @@
   - [NLTK Dataset Download](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/nltk_download.ipynb)
 
  ## Different concepts in NLP
-  - ### **Corpus** (Plural corpora):
+  - ### **Corpus** (Plural corpora)
 
     In Natural Language Processing (NLP), a **corpus** (plural: corpora) is a large, structured collection of machine-readable texts or audio files compiled for linguistic analysis, model training, and statistical verification.
 
@@ -121,7 +121,7 @@
     **Lab**
      - [Example to list all Corpora]()
 
-  - ### **Tokenization**:
+  - ### **Tokenization**
 
     It is the process of breaking text into individual words or phrases (tokens). A token can be a word or a sentence or a character or a sub word
       - Example: Lets say I have a sentence as "Let us learn Natural Language Processing". So tokens will be
@@ -142,7 +142,24 @@
        - [Tokenizing Words](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Tokenization/nltk_word_tokenizing.ipynb)
        - [Tokenizing Sentences](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Tokenization/nltk_sentence_tokenizing.ipynb)
 
-  - ### **Frequency Distribution**:
+  - ### **Frequency Distribution**
 
     Frequency distribution is used for determining how much time each token is repeated. This technique is used both in the case of work and sentence tokenization
     - [Example](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Tokenization/frequency_distribution.ipynb)
+
+  - ### **N-grams**
+
+    In Natural Language Processing (NLP), an n-gram is a contiguous sequence of n items from a given sample of text or speech. Depending on the application, these items can be syllables, letters, words, or base pairs. Typically, in word-level NLP, they refer to sequences of co-occurring words.
+
+    The "n" in n-gram stands for the number of elements in the sequence.
+
+    **Types of N-grams**
+     - **Unigram(n==1)**: A sequence of single word.
+       - Example: 'Natural', 'Language', 'Processing'
+     - **Bigram(n==2)**: A sequence of two consecutive words.
+       - Example: 'Data Science', 'Learning NLP'
+     - **Trigram(n==3): A sequence of three consecutive words.
+       - Example: 'Natural Language Processing'
+     -**N-gram(n>3)**: A sequence of N consecutive words.
+       - Example: 'Learning Natural Language Processing', 'Python has many libraries which can be used for building systems with artificial intelligence'
+     
