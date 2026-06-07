@@ -165,5 +165,5 @@
      
     **Lab**
      - [Example of Bigram](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/N-grams/bigram.ipynb)
-     - [Example of Trigram]()
+     - [Example of Trigram](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/N-grams/trigram.ipynb)
      - [Example of N-am]()
