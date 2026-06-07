@@ -126,3 +126,7 @@
        - It helps to identify sentiments
        - It helps to remove stopwords
        - It helps to do part of speech tagging
+   
+      **Examples**
+       - [Tokenizing Words]()
+       - [Tokenizing Sentences]()
