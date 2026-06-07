@@ -112,3 +112,4 @@
      - It is usefull for studying language patterns
      - It is usefull for building chatbots
     
+  - **Tokenization**: It is the process of breaking text into individual words or phrases (tokens).
