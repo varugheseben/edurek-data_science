@@ -55,6 +55,10 @@
     - **Anaphoric (Referential) Ambiguity**: This occurs when a pronoun (like he, she, it, they) or a referring phrase could point to multiple preceding nouns (entities) mentioned in the text.
       - Example: "The trophy didn't fit into the brown suitcase because it was too large."
       - The Problem: What does "it" refer to? Humans know a trophy doesn't fit into a suitcase if the trophy is too large. However, if you change the ending to "because it was too small", the word "it" suddenly flips to mean the suitcase.
+    - **Pragmatic Ambiguity**: Pragmatic ambiguity happens when the literal meaning of a sentence is completely different from its intended meaning in a social or real-world context. It deals with intent, sarcasm, idioms, and subtext.
+      - Example: "Can you pass the salt?"
+      - Literal Meaning: A literal AI might look at your physical capability and answer: "Yes, I am physically capable of lifting and moving the salt shaker."
+      - Pragmatic Meaning: The speaker is actually issuing a polite command/request to hand them the salt.
   - Failed to generate outcome of ambiguos statements
 
   ## Difference between Text Mining and NLP
