@@ -94,7 +94,7 @@
    
     **Examples of Copora in NLP**
      - **Gutenberg**: Contains books, and is used for text analysis
-        - [Example to view Gutenberg Corpora]()
+        - [Example to view Gutenberg Corpora](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Corpus/view_gutenberg_corpora.ipynb)
      - **Stopwords**: Contains common words, and is used for cleaning text
      - **Wordnet**: Contains word meanings, and is used for semantics
      - **Brown**: Contains text tagged with part of speech labels(nouns, verbs, adjectives, etc)
