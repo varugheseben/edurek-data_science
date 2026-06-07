@@ -103,4 +103,12 @@
         - [Example to view Brown Corpora](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Corpus/view_brown_corpora.ipynb)
      - **Movie Reviews**: Contains movie reviews, and is used for sentiment analysis
         - [Example to view Movie Review Corpora](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Corpus/view_movie_review_corpora.ipynb)
+      
+    **Why Corpus is Necessary**
+     - It is usefull for training NLP models
+     - It is usefull for doing tokenization, stemming, Part of speech tagging
+     - It is usefull for doing sentiment analysis
+     - It is usefull for testing algorithms
+     - It is usefull for studying language patterns
+     - It is usefull for building chatbots
     
