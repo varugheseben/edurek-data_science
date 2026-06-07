@@ -164,6 +164,6 @@
        - Example: 'Learning Natural Language Processing', 'Python has many libraries which can be used for building systems with artificial intelligence'
      
     **Lab**
-     - [Example of Bigram]()
+     - [Example of Bigram](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/N-grams/bigram.ipynb)
      - [Example of Trigram]()
      - [Example of N-am]()
