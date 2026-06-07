@@ -37,7 +37,9 @@
       - Polysemy: A word has multiple meanings that are conceptually related.
 
         Example: **"Run"** (To physically jog vs. to operate a piece of software).
-      - Pass
+      - **Homonymy**: A word has multiple meanings that are entirely unrelated.
+
+        Example: **"Bank"** (A financial institution vs. the side of a river).
   - Failed to generate outcome of ambiguos statements
 
   ## Difference between Text Mining and NLP
