@@ -80,6 +80,10 @@
   - **NLP** is used to analyze individual tweets to understand if a phrase like "That's sick!" means something is cool (positive) or gross (negative).
   - **Text Mining** then takes those millions of NLP-processed scores and aggregates them into a dashboard showing that overall public sentiment toward a brand dropped by 15% this week.
 
+ ## Setting up nltk
+  - [NLTK Setup]()
+  - [NLTK Download]()
+
  ## Different concepts in NLP
   - **Corpus** (Plural corpora): In Natural Language Processing (NLP), a **corpus** (plural: corpora) is a large, structured collection of machine-readable texts or audio files compiled for linguistic analysis, model training, and statistical verification.
 
