@@ -129,4 +129,4 @@
    
       **Examples**
        - [Tokenizing Words](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Tokenization/nltk_word_tokenizing.ipynb)
-       - [Tokenizing Sentences]()
+       - [Tokenizing Sentences](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Tokenization/nltk_sentence_tokenizing.ipynb)
