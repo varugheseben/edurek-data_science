@@ -142,5 +142,7 @@
        - [Tokenizing Words](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Tokenization/nltk_word_tokenizing.ipynb)
        - [Tokenizing Sentences](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Tokenization/nltk_sentence_tokenizing.ipynb)
 
-  - **Frequency Distribution**: Frequency distribution is used for determining how much time each token is repeated. This technique is used both in the case of work and sentence tokenization
+  - ### **Frequency Distribution**:
+
+    Frequency distribution is used for determining how much time each token is repeated. This technique is used both in the case of work and sentence tokenization
     - [Example](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Tokenization/frequency_distribution.ipynb)
