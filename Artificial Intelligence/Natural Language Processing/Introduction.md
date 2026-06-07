@@ -79,3 +79,23 @@
  Let's say you run Sentiment Analysis on social media data.
   - **NLP** is used to analyze individual tweets to understand if a phrase like "That's sick!" means something is cool (positive) or gross (negative).
   - **Text Mining** then takes those millions of NLP-processed scores and aggregates them into a dashboard showing that overall public sentiment toward a brand dropped by 15% this week.
+
+ ## Different concepts in NLP
+  - **Corpus** (Plural corpora): In Natural Language Processing (NLP), a **corpus** (plural: corpora) is a large, structured collection of machine-readable texts or audio files compiled for linguistic analysis, model training, and statistical verification.
+
+    Think of it as the ultimate textbook or dataset from which an AI or NLP algorithm learns how human language works.
+
+    **Key Characteristics of Corpus**
+
+    Not just any random pile of text qualifies as a corpus. To be useful for NLP, a corpus typically must be:
+     - **Machine-Readable**: The text must be in a digital format (like .txt, .json, or .xml) that an NLP pipeline can tokenize, parse, and process automatically.
+     - **Structured**: A good corpus is organized with metadata. For example, a corpus of book reviews might label each text with a star rating, a timestamp, and the category of the product.
+     - **Representative**: It should accurately reflect the specific language, dialect, or domain it is meant to model. If you want to train a chatbot for a bank, your corpus should contain financial documents and customer service transcripts, not classical poetry.
+   
+    **Examples of Copora in NLP**
+     - **Gutenberg**: Contains books, and is used for text analysis
+     - **Stopwords**: Contains common words, and is used for cleaning text
+     - **Wordnet**: Contains word meanings, and is used for semantics
+     - **Brown**: Contains text tagged with part of speech labels(nouns, verbs, adjectives, etc)
+     - **Movie Reviews**: Contains movie reviews, and is used for sentiment analysis
+    
