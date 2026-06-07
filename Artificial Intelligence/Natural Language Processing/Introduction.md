@@ -35,11 +35,9 @@
     **Types of Ambiguity in NLP**
     - **Lexical (Word level) Ambiguity**: Lexical ambiguity happens when a single word has more than one meaning. There are 2 types of this
       - Polysemy: A word has multiple meanings that are conceptually related.
-
-        Example: **"Run"** (To physically jog vs. to operate a piece of software).
+         - Example: **"Run"** (To physically jog vs. to operate a piece of software).
       - **Homonymy**: A word has multiple meanings that are entirely unrelated.
-
-        Example: **"Bank"** (A financial institution vs. the side of a river).
+         - Example: **"Bank"** (A financial institution vs. the side of a river).
     - **Syntactic(Structural) Ambiguity**: Syntactic ambiguity occurs when a whole sentence can be parsed into completely different grammatical structures, altering the meaning even if every individual word is perfectly understood.
        - **Prepositional Phrase Attachment**: A classic problem where it's unclear what a descriptive phrase modifies.
          - Example: "I saw the man with the telescope."
