@@ -43,9 +43,9 @@
     - **Syntactic(Structural) Ambiguity**: Syntactic ambiguity occurs when a whole sentence can be parsed into completely different grammatical structures, altering the meaning even if every individual word is perfectly understood.
        - **Prepositional Phrase Attachment**: A classic problem where it's unclear what a descriptive phrase modifies.
 
-       - Example: "I saw the man with the telescope."
-       - Interpretation A: I used a telescope to look at a man.
-       - Interpretation B: I looked at a man who was holding a telescope.
+         - Example: "I saw the man with the telescope."
+         - Interpretation A: I used a telescope to look at a man.
+         - Interpretation B: I looked at a man who was holding a telescope.
   - Failed to generate outcome of ambiguos statements
 
   ## Difference between Text Mining and NLP
