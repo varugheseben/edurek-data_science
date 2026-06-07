@@ -42,12 +42,11 @@
         Example: **"Bank"** (A financial institution vs. the side of a river).
     - **Syntactic(Structural) Ambiguity**: Syntactic ambiguity occurs when a whole sentence can be parsed into completely different grammatical structures, altering the meaning even if every individual word is perfectly understood.
        - **Prepositional Phrase Attachment**: A classic problem where it's unclear what a descriptive phrase modifies.
-
          - Example: "I saw the man with the telescope."
          - Interpretation A: I used a telescope to look at a man.
          - Interpretation B: I looked at a man who was holding a telescope.
        - **Coordination Scope**: Ambiguity introduced by conjunctions like "and" or "or".
-  
+
          Example: "Old men and women." (Does "old" apply to just the men, or both the men and the women?)
     - **Semantic Ambiguity**: Semantic ambiguity occurs when a sentence is grammatically clear and the words are well-defined, but the overall meaning of the sentence is still up for interpretation
       - Example: "Every girl loves a boy."
