@@ -128,5 +128,5 @@
        - It helps to do part of speech tagging
    
       **Examples**
-       - [Tokenizing Words]()
+       - [Tokenizing Words](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Tokenization/nltk_word_tokenizing.ipynb)
        - [Tokenizing Sentences]()
