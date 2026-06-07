@@ -49,10 +49,10 @@
        - **Coordination Scope**: Ambiguity introduced by conjunctions like "and" or "or".
   
          Example: "Old men and women." (Does "old" apply to just the men, or both the men and the women?)
-   - **Semantic Ambiguity**: Semantic ambiguity occurs when a sentence is grammatically clear and the words are well-defined, but the overall meaning of the sentence is still up for interpretation
-     - Example: "Every girl loves a boy."
-     - Interpretation A: For every individual girl in the world, there is a specific boy that she loves
-     - Interpretation B: There is one specific, single boy that all girls collectively love.
+    - **Semantic Ambiguity**: Semantic ambiguity occurs when a sentence is grammatically clear and the words are well-defined, but the overall meaning of the sentence is still up for interpretation
+      - Example: "Every girl loves a boy."
+      - Interpretation A: For every individual girl in the world, there is a specific boy that she loves
+      - Interpretation B: There is one specific, single boy that all girls collectively love.
   - Failed to generate outcome of ambiguos statements
 
   ## Difference between Text Mining and NLP
