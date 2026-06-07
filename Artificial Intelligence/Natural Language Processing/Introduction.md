@@ -96,7 +96,7 @@
      - **Gutenberg**: Contains books, and is used for text analysis
         - [Example to view Gutenberg Corpora](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Corpus/view_gutenberg_corpora.ipynb)
      - **Stopwords**: Contains common words, and is used for cleaning text
-        - [Example to view Stopwords Corpora]()
+        - [Example to view Stopwords Corpora](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Corpus/view_stopwords_corpora.ipynb)
      - **Wordnet**: Contains word meanings, and is used for semantics
      - **Brown**: Contains text tagged with part of speech labels(nouns, verbs, adjectives, etc)
      - **Movie Reviews**: Contains movie reviews, and is used for sentiment analysis
