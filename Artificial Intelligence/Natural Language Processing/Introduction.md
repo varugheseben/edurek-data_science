@@ -174,7 +174,8 @@
        N-grams are heavily used to calculate the probability of a word appearing next in a sentence based on the words that came before it. This powers:
         - Auto-correct algorithms
         - Search engine autocomplete suggestions
-        - Speech recognition systems (deciding if a user said "there" or "their" based on context)    
+        - Speech recognition systems (deciding if a user said "there" or "their" based on context)
+
     **Lab**
      - [Example of Bigram](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/N-grams/bigram.ipynb)
      - [Example of Trigram](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/N-grams/trigram.ipynb)
