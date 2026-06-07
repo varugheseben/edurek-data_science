@@ -52,6 +52,9 @@
       - Example: "Every girl loves a boy."
       - Interpretation A: For every individual girl in the world, there is a specific boy that she loves
       - Interpretation B: There is one specific, single boy that all girls collectively love.
+    - **Anaphoric (Referential) Ambiguity**: This occurs when a pronoun (like he, she, it, they) or a referring phrase could point to multiple preceding nouns (entities) mentioned in the text.
+      - Example: "The trophy didn't fit into the brown suitcase because it was too large."
+      - The Problem: What does "it" refer to? Humans know a trophy doesn't fit into a suitcase if the trophy is too large. However, if you change the ending to "because it was too small", the word "it" suddenly flips to mean the suitcase.
   - Failed to generate outcome of ambiguos statements
 
   ## Difference between Text Mining and NLP
