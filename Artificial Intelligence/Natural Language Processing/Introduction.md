@@ -46,6 +46,9 @@
          - Example: "I saw the man with the telescope."
          - Interpretation A: I used a telescope to look at a man.
          - Interpretation B: I looked at a man who was holding a telescope.
+       - **Coordination Scope**: Ambiguity introduced by conjunctions like "and" or "or".
+  
+         Example: "Old men and women." (Does "old" apply to just the men, or both the men and the women?)
   - Failed to generate outcome of ambiguos statements
 
   ## Difference between Text Mining and NLP
