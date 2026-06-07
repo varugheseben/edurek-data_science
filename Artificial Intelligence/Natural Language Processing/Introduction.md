@@ -120,3 +120,9 @@
          4. Natural
          5. Language
          6. Processing
+
+      **Why Tokenization is Necessary**
+       - It helps to count words
+       - It helps to identify sentiments
+       - It helps to remove stopwords
+       - It helps to do part of speech tagging
