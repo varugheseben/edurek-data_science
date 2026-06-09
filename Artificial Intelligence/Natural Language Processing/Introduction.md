@@ -180,3 +180,32 @@
      - [Example of Bigram](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/N-grams/bigram.ipynb)
      - [Example of Trigram](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/N-grams/trigram.ipynb)
      - [Example of N-gram](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/N-grams/n_gram.ipynb)
+
+  - ### **Stemming**
+
+    It is the text-preprocessing technique of reducing a word to its base or root form (known as the "stem").
+
+    Example:
+     - Stem for running, ran, runs is run
+     - Stem for playing, played, plays is play
+
+    Basically goal is to map related words to the same core token so a computer can treat them as the exact same concept. This way it will reduce the vocabulary size.
+
+    **How Stemming Works**
+
+    Stemmers do not understand vocabulary or grammar rules; they operate like a blunt pair of scissors. For example, a common rule in a stemmer might be: "If a word ends in 'ing', strip 'ing' off."
+
+    **Why it is useful**
+     - Used in **Information Retrieval System(eg: Search Engines)**: Lets say if user search for 'reading' then with help of stemming it will also search for word 'read'. This helps to generate accurate results for search engines
+     - Used for sentiment analysis
+     - Reduces vocabulary size
+   
+    **Errors in Stemming**
+     - **Over Stemming(False Positive)**: This happens when two completely different words are chopped down to the exact same root, incorrectly linking their meanings.
+       Example:
+        - Words like 'Universal', 'University' and 'Universe' will be stemmed as 'Univers'. With this, a NLP model could predict that student attending a university is studying the 'universe'
+     - **Under Stemming(False Negative)**: This happens when two words that should share the same root are cut differently, leaving them as distinct tokens.
+       Example:
+        - "alumnus" might stem to alumnu, while "alumni" stems to alumni. The system fails to see they are plural/singular variations of the same concept.
+    
+             
