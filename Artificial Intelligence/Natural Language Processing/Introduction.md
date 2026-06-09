@@ -207,5 +207,10 @@
      - **Under Stemming(False Negative)**: This happens when two words that should share the same root are cut differently, leaving them as distinct tokens.
        Example:
         - "alumnus" might stem to alumnu, while "alumni" stems to alumni. The system fails to see they are plural/singular variations of the same concept.
+      
+    **Different Stemming Algorithms**
+     - **Porter Stemmer**: This is old stemmer algorithm. It is moderately aggressive but very reliable and computationally fast.
+     - **Lancaster Stemmer**: Developed at Lancaster University, this is an incredibly aggressive stemmer. It is fast but causes a lot of over-stemming.
+     - **Snowball Stemmer**: Also known as the "Porter2" stemmer, this is an improvement over the original Porter algorithm. It is slightly more precise, handles edge cases better, and supports multiple languages besides English(like Spanish, German, and French).
     
              
