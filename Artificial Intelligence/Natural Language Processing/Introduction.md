@@ -212,5 +212,9 @@
      - **Porter Stemmer**: This is old stemmer algorithm. It is moderately aggressive but very reliable and computationally fast.
      - **Lancaster Stemmer**: Developed at Lancaster University, this is an incredibly aggressive stemmer. It is fast but causes a lot of over-stemming.
      - **Snowball Stemmer**: Also known as the "Porter2" stemmer, this is an improvement over the original Porter algorithm. It is slightly more precise, handles edge cases better, and supports multiple languages besides English(like Spanish, German, and French).
-    
+
+    **Lab**
+     - [PorterStemmer](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Stemming/porter_stemmer.ipynb)
+     - [LancasterStemmer]()
+     - [SnowballStemmer]()
              
