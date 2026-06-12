@@ -254,3 +254,6 @@
     |Speed|Slower (requires lookups and linguistic context parsing).|Faster (simple string manipulation).|
     |Example('better')|Returns "good"|Returns "better"|
     |Example('studies')|Returns 'study'|Returns 'studi'|
+
+    **Lab**
+     - [Basic Example of Lemmatization](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Lemmatization/lemmatization.ipynb)
