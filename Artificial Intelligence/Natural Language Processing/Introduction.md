@@ -219,3 +219,24 @@
      - [SnowballStemmer](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Stemming/snowball_stemmer.ipynb)
      - [Stemming](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Stemming/stemming.ipynb)
              
+  - ### **Lemmatization**
+
+    This is a technique used in NLP to understand the conext of a word in a given sentence. Basically its the process of determining base form of the word known as **Lemma**.
+
+    A Lemma is the canonical, dictionary form of a word
+
+    Example:
+      - Lemma for 'running', 'runs' and 'ran' is run when the part of speech is verb.
+
+    Basically for lemmatization techniques uses part of speech of a word for determining the correct lemma.
+
+    **How it Works**
+
+    Unlike simpler methods that just chop off the ends of words, lemmatization relies on a deep understanding of a language's morphology. It utilizes vocabulary databases and morphological analysis to accurately return the base form of a word based on its context.
+
+    To work correctly, a lemmatizer usually needs to know the Part of Speech (POS) of a word in a sentence. The same word can resolve to different lemmas depending on whether it is acting as a noun, verb, or adjective:
+    Example:
+      - "Meeting" as a verb (e.g., "We are meeting tomorrow") $\rightarrow$ Lemma: meet
+      - "Meeting" as a noun (e.g., "The meeting was long") $\rightarrow$ Lemma: meeting
+
+  
