@@ -246,3 +246,11 @@
      - **Sentiment Analysis**: It helps aggregate frequencies of words. "Happy," "happier," and "happiest" all point to the same core emotional concept.
      - **Topic Modeling**: It ensures that a model treats "develops," "developing," and "development" as the same underlying semantic concept, improving topic clarity.
   
+    **Lemmatization vs Stemming**
+    |Feature|Lemmatization|Stemming|
+    |-------|-------------|--------|
+    |Method|Uses vocabulary, grammar rules, and morphological analysis.|Uses crude, heuristic rules to chop off word endings (suffixes).|
+    |Accuracy|High. Always returns a valid dictionary word.|Lower. Often results in non-words or incorrect groupings.|
+    |Speed|Slower (requires lookups and linguistic context parsing).|Faster (simple string manipulation).|
+    |Example('better')|Returns "good"|Returns "better"|
+    |Example('studies')|Returns 'study'|Returns 'studi'|
