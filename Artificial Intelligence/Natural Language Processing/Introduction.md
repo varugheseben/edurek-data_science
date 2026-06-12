@@ -239,4 +239,10 @@
       - "Meeting" as a verb (e.g., "We are meeting tomorrow") $\rightarrow$ Lemma: meet
       - "Meeting" as a noun (e.g., "The meeting was long") $\rightarrow$ Lemma: meeting
 
+    **Why its important in NLP**
+
+    Lemmatization is a crucial preprocessing step for various AI and data science applications because it reduces noise and condenses data dimensions
+     - **Search Engines**: If you search for "traveling blocks," the engine can use lemmatization to match articles containing "travel block" or "traveled block."
+     - **Sentiment Analysis**: It helps aggregate frequencies of words. "Happy," "happier," and "happiest" all point to the same core emotional concept.
+     - **Topic Modeling**: It ensures that a model treats "develops," "developing," and "development" as the same underlying semantic concept, improving topic clarity.
   
