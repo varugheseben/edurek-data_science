@@ -256,4 +256,4 @@
     |Example('studies')|Returns 'study'|Returns 'studi'|
 
     **Lab**
-     - [Basic Example of Lemmatization](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Lemmatization/lemmatization.ipynb)
+     - [Basic Example of Lemmatization](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Lemmatization/lemmatization_Example-1.ipynb)
