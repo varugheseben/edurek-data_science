@@ -275,3 +275,5 @@
     **Lab**
      - [Example-1 Lemmatization](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Lemmatization/lemmatization_Example-1.ipynb)
      - [Example-2 Lemmatization](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Lemmatization/lemmatization_Example_2.ipynb)
+     - [Example-3 Lemmatization](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Lemmatization/Lemmatization_Example_3.ipynb)
+
