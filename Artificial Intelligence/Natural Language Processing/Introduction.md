@@ -218,7 +218,24 @@
      - [LancasterStemmer](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Stemming/lancaster_stemmer.ipynb)
      - [SnowballStemmer](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Stemming/snowball_stemmer.ipynb)
      - [Stemming](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Stemming/stemming.ipynb)
-             
+
+  - ### **Stop Words**
+    In Natural Language Processing (NLP), stopwords are commonly used words that a search engine or NLP algorithm is programmed to ignore or filter out before processing text data.
+
+    These are typically the structural "glue" of a language that carry very little unique semantic meaning or information on their own.
+
+    **Why Do We Filter Stopwords?**
+    When building NLP applications—like sentiment analysis, text classification, or search engines—the focus is usually on the words that give a sentence its core meaning. Eliminating stopwords helps in two major ways:
+    - **Reduces Data Size**: Removing these high-frequency words significantly shrinks the size of the text dataset, which speeds up processing times and reduces memory usage.
+    - **Improves Model Focus**: By clearing out the background noise, machine learning models can focus on the higher-value tokens (like nouns, verbs, and adjectives) that actually define the context.
+
+    **Common Examples in English**
+     - **Articles**: a, an, the
+     - **Pronouns**: he, she, it, they, me, your
+     - **Prepositions**: in, on, at, by, under, with
+     - **Conjunctions**: and, but, or, for, so
+     - **Auxiliary Verbs**: is, am, are, was, were, be, been
+
   - ### **Lemmatization**
 
     This is a technique used in NLP to understand the conext of a word in a given sentence. Basically its the process of determining base form of the word known as **Lemma**.
