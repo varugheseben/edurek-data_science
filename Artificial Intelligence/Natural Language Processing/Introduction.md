@@ -335,13 +335,13 @@
     The "phrases" in chunking correspond to standard grammatical phrase types. Here are the most common phrases identified during the chunking process:
      - **Noun Phrase(NP)**: This is the most common chunk. It centers around a noun or pronoun and includes any associated determiners, adjectives, or modifiers that come before it.
 
-       Default RegEx Pattern:  ```NP: {<DT>?<JJ>*<NN.*>+}```
+       Default RegEx Pattern(grammer):  ```NP: {<DT>?<JJ>*<NN.*>+}```
 
        Where,
-         - <DT>?: Zero or one determiner (e.g., "the", "this")
+         - ```<DT>?```: Zero or one determiner (e.g., "the", "this")
+         - ```<JJ>*```: Zero or more adjectives (e.g., "big", "blue")
+         - ```<NN.*>+```: One or more nouns of any type (singular <NN>, plural <NNS>, proper <NNP>)
        
-      
-         
-        
+       Example of such grammer match : "The big blue sky" $\rightarrow$ ```<DT><JJ><JJ><NN>```
      - **Verb Phrase(VP)**: Test
      - **Prepositional Phrase(PP)**: Test
