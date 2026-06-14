@@ -336,7 +336,8 @@
      - **Noun Phrase(NP)**: This is the most common chunk. It centers around a noun or pronoun and includes any associated determiners, adjectives, or modifiers that come before it.
 
        Default RegEx Pattern:  ```NP: {<DT>?<JJ>*<NN.*>+}```
-        Where,
+
+       Where,
          - <DT>?: Zero or one determiner (e.g., "the", "this")
        
       
