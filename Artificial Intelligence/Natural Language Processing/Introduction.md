@@ -284,6 +284,7 @@
     It is a subtask of information extraction that automatically identifies specific, real-world entities within unstructured text and classifies them into predefined categories.
 
     **How NER Works**
+
     NER algorithms scan a piece of text, locate continuous spans of tokens (words or phrases), and assign them a label.
      - Example, consider the following sentence:
              "In 2026, Sundar Pichai announced that Google would expand its offices in New York City."
