@@ -353,5 +353,5 @@
          - ```<VB.*>+```: One or more verbs of any tense (e.g., "is running", "has eaten")
          - ```<RB.*>*```: Zero or more adverbs (e.g., "quickly", "not")
        
-       Example of such grammer match : "The dog will quickly run" $\rightarrow$ ```<VB>```
+       Example of such grammer match : "They should have committed the code." $\rightarrow$ ```<VB>```
      - **Prepositional Phrase(PP)**: Test
