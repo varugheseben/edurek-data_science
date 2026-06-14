@@ -328,3 +328,22 @@
     - [Example-1 NER](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Named%20Entity%20Recognition/NER_Example_1.ipynb)
     - [Example-2 NER](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Named%20Entity%20Recognition/NER_Example_1.ipynb)
   
+  - ### **Chunking**
+
+    In natural language processing (NLP), chunking (also known as shallow parsing) is the process of grouping words into grammatically meaningful phrases. Unlike full parsing(which builds a deep, nested tree structure for an entire sentence) chunking identifies non-overlapping groups of words known as phrases. Instead of building a massive, multi-layered tree for the whole sentence, it simply draws boxes around the basic, functional phrases (chunks) and ignores the internal deep structure or how the chunks relate to one another.
+
+    The "phrases" in chunking correspond to standard grammatical phrase types. Here are the most common phrases identified during the chunking process:
+     - **Noun Phrase(NP)**: This is the most common chunk. It centers around a noun or pronoun and includes any associated determiners, adjectives, or modifiers that come before it.
+
+       Default RegEx Pattern
+
+       r'NP: {<DT>?<JJ>*<NN.*>+}'
+
+       Where,
+       - <DT>?: Zero or one determiner (e.g., "the", "this")
+       
+      
+         
+        
+     - **Verb Phrase(VP)**: Test
+     - **Prepositional Phrase(PP)**: Test
