@@ -337,7 +337,7 @@
 
        Default RegEx Pattern
 
-       r'NP: {<DT>?<JJ>*<NN.*>+}'
+       NP: {<DT>?<JJ>*<NN.*>+}
 
        Where,
        - <DT>?: Zero or one determiner (e.g., "the", "this")
