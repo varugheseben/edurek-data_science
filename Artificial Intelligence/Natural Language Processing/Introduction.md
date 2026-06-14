@@ -379,4 +379,6 @@
        - **Chinking**: You write a rule to cut out the specific parts of that bucket you don't actually want (e.g., "but if a preposition appears, remove it from the chunk").
 
       In a grammar definition, a chunk pattern uses curly braces facing inward ```{...}```, while a chink pattern uses curly braces facing outward ```}...{```.
-    
+
+    **Lab**
+     - [Example-1 Chinking](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Chinking/chinking_example_1.ipynb)
