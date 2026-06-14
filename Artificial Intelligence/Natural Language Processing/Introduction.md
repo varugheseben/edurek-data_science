@@ -363,3 +363,6 @@
          - ```<NP>```: The noun phrase that follows the preposition
        
        Example of such grammer match : "The data analyst found a critical trend **in the massive dataset**." $\rightarrow$ ```<IN><NP>```
+
+    **Lab**
+     - [Example-1 Chunking](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Chunking/chunking_example_1.ipynb)
