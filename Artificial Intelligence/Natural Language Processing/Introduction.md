@@ -324,4 +324,7 @@
      - **Deep Learning**: Bi-directional LSTMs combined with CRF (BiLSTM-CRF).
      - **Transformers**: Fine-tuning pre-trained language models like BERT or RoBERTa, which leverage self-attention mechanisms to understand the exact context of a word before classifying it.
 
+    **Lab**
+    - [Example-1 NER](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Named%20Entity%20Recognition/NER_Example_1.ipynb)
+    - [Example-2 NER](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Named%20Entity%20Recognition/NER_Example_1.ipynb)
   
