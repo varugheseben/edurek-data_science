@@ -343,6 +343,7 @@
          - ```<NN.*>+```: One or more nouns of any type (singular <NN>, plural <NNS>, proper <NNP>)
        
        Example of such grammer match : "The big blue sky" $\rightarrow$ ```<DT><JJ><JJ><NN>```
+
      - **Verb Phrase(VP)**: A basic verb phrase usually clusters auxiliary verbs (like "is", "have", "will") together with the main verb, and sometimes includes adverbs.
 
        Default RegEx Pattern(grammer):  ```VP: {<MD>?<VB.*>+<RB.*>*}```
