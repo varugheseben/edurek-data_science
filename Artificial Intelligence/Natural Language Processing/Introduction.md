@@ -295,5 +295,17 @@
         - New York City $\rightarrow$ LOCATION (or GPE / Geopolitical Entity)
         - 2026 $\rightarrow$ DATE
     
+    **Common Entity Types**
+
+    While custom categories can be trained for specific industries, standard NER models (like those found in popular libraries like spaCy or NLTK) typically look for:
+    |Entity Type|Description|Examples|
+    |-----------|-----------|--------|
+    |PERSON|People, including fictional characters.|Abraham Licoln,Mickey Mouse(Fictional Character)|
+    |ORG|Companies, agencies, institutions.|Apple, NASA, United Nations|
+    |GPE / LOC|Countries, cities, states, natural locations.|Delaware, Tokyo, Atlantic Ocean|
+    |DATE / TIME|Absolute or relative dates and times.|June 13, next Tuesday, 2026|
+    |MONEY|Monetary values, including units.|$500, 10 million Euros|4
+    |CARDINAL / QUANTITY|Numerals, measurements, or percentages.|10%, 50 kilometers, three|
+    
 
     
