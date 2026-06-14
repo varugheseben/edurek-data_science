@@ -343,5 +343,14 @@
          - ```<NN.*>+```: One or more nouns of any type (singular <NN>, plural <NNS>, proper <NNP>)
        
        Example of such grammer match : "The big blue sky" $\rightarrow$ ```<DT><JJ><JJ><NN>```
-     - **Verb Phrase(VP)**: Test
+     - **Verb Phrase(VP)**: A basic verb phrase usually clusters auxiliary verbs (like "is", "have", "will") together with the main verb, and sometimes includes adverbs.
+
+       Default RegEx Pattern(grammer):  ```VP: {<MD>?<VB.*>+<RB.*>*}```
+
+       Where,
+         - ```<MD>?```: Zero or one modal verb (e.g., "will", "should")
+         - ```<VB.*>+```: One or more verbs of any tense (e.g., "is running", "has eaten")
+         - ```<RB.*>*```: Zero or more adverbs (e.g., "quickly", "not")
+       
+       Example of such grammer match : "The dog will quickly run" $\rightarrow$ ```<VB>```
      - **Prepositional Phrase(PP)**: Test
