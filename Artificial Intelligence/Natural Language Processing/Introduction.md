@@ -366,3 +366,17 @@
 
     **Lab**
      - [Example-1 Chunking](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Chunking/chunking_example_1.ipynb)
+
+  - ### **Chinking**
+
+    In Natural Language Processing (NLP), chinking is the process of removing specific tokens or patterns from an existing chunk.
+
+    While chunking finds and groups words into a phrase (like a Noun Phrase), chinking defines what to exclude or leave out of that phrase. The words that are removed are called the chink.
+
+    **Chunk vs. Chink**
+      Think of chunking and chinking as an additive and subtractive process:
+       - **Chunking**: You write a rule to grab a large bucket of words (e.g., "grab all nouns, adjectives, and prepositions"). 
+       - **Chinking**: You write a rule to cut out the specific parts of that bucket you don't actually want (e.g., "but if a preposition appears, remove it from the chunk").
+
+      In a grammar definition, a chunk pattern uses curly braces facing inward ```{...}```, while a chink pattern uses curly braces facing outward ```}...{```.
+    
