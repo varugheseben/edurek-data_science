@@ -277,3 +277,22 @@
      - [Example-2 Lemmatization](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Lemmatization/lemmatization_Example_2.ipynb)
      - [Example-3 Lemmatization](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Natural%20Language%20Processing/Examples/Lemmatization/Lemmatization_Example_3.ipynb)
 
+  - ### **Named Entity Recognition(NER)**
+
+    In Natural Language Processing (NLP), NER stands for Named Entity Recognition.
+
+    It is a subtask of information extraction that automatically identifies specific, real-world entities within unstructured text and classifies them into predefined categories.
+
+    **How NER Works**
+    NER algorithms scan a piece of text, locate continuous spans of tokens (words or phrases), and assign them a label.
+     - Example, consider the following sentence:
+             "In 2026, Sundar Pichai announced that Google would expand its offices in New York City."
+
+       An NER model would process the sentence and extract the following entities:
+        - Sundar Pichai $\rightarrow$ PERSON
+        - Google $\rightarrow$ ORGANIZATION (or ORG)
+        - New York City $\rightarrow$ LOCATION (or GPE / Geopolitical Entity)
+        - 2026 $\rightarrow$ DATE
+    
+
+    
