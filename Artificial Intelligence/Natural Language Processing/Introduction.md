@@ -342,7 +342,7 @@
          - ```<JJ>*```: Zero or more adjectives (e.g., "big", "blue")
          - ```<NN.*>+```: One or more nouns of any type (singular <NN>, plural <NNS>, proper <NNP>)
        
-       Example of such grammer match : "The big blue sky" $\rightarrow$ ```<DT><JJ><JJ><NN>```
+       Example of such grammer match : "**The big blue sky**" $\rightarrow$ ```<DT><JJ><JJ><NN>```
 
      - **Verb Phrase(VP)**: A basic verb phrase usually clusters auxiliary verbs (like "is", "have", "will") together with the main verb, and sometimes includes adverbs.
 
@@ -353,5 +353,13 @@
          - ```<VB.*>+```: One or more verbs of any tense (e.g., "is running", "has eaten")
          - ```<RB.*>*```: Zero or more adverbs (e.g., "quickly", "not")
        
-       Example of such grammer match : "They should have committed the code." $\rightarrow$ ```<VB>```
-     - **Prepositional Phrase(PP)**: Test
+       Example of such grammer match : "They **should have committed** the code." $\rightarrow$ ```<VB>```
+     - **Prepositional Phrase(PP)**: A prepositional phrase starts with a preposition
+
+       Default RegEx Pattern(grammer):  ```PP: {<IN><NP>}```
+
+       Where,
+         - ```<IN>```: A preposition or subordinating conjunction (e.g., "in", "on", "under", "of")
+         - ```<NP>```: The noun phrase that follows the preposition
+       
+       Example of such grammer match : "The data analyst found a critical trend **in the massive dataset**." $\rightarrow$ ```<IN><NP>```
