@@ -25,4 +25,4 @@ Depending on your context, it usually means one of two things:
   - [Vectorization Example-1](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Vectorization/vectorization_example_1.ipynb)
   - [Vectorization Example-2](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Vectorization/vectorization_example_2.ipynb)
   - [Vectorization Example-3 CountVectorizer](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Vectorization/vectorization_example_3.ipynb)
-  - [Vectorization Example-4 TFIDF Vectorizer]()
+  - [Vectorization Example-4 TFIDF Vectorizer](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Vectorization/vectorization_example_4.ipynb)
