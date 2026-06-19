@@ -23,5 +23,6 @@ Depending on your context, it usually means one of two things:
 
  ## Lab
   - [Vectorization Example-1](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Vectorization/vectorization_example_1.ipynb)
-  - [Vectorization Example-2]()
-  - 
+  - [Vectorization Example-2](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Vectorization/vectorization_example_2.ipynb)
+  - [Vectorization Example-3]()
+  - [Vectorization Example-4]()
