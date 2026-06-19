@@ -21,4 +21,7 @@ Depending on your context, it usually means one of two things:
     - **TF-IDF (Term Frequency-Inverse Document Frequency)**: Adding weightage to words based on how important they are to a specific document relative to a whole collection of text.
     - **Word Embeddings (e.g., Word2Vec, BERT)**: Mapping words into a continuous vector space where words with similar meanings (like "king" and "queen") are placed close together.
 
-  
+ ## Lab
+  - [Vectorization Example-1](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Vectorization/vectorization_example_1.ipynb)
+  - [Vectorization Example-2]()
+  - 
