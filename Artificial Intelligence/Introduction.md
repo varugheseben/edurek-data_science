@@ -167,5 +167,6 @@
     
      This type of intelligence is for creating digital content, like creating an image, audio, video, text to audio conversion(speech synthesis)
 
-       
+  ## Projects
+   - [Sentiment Analysis]()
     
