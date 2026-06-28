@@ -168,8 +168,9 @@
      This type of intelligence is for creating digital content, like creating an image, audio, video, text to audio conversion(speech synthesis)
 
   ## Projects
-   - [Sentimence Analysis](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Projects/sentiment_analysis_1.ipynb)
+   - [Sentiment Analysis](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Projects/sentiment_analysis_1.ipynb)
    - [Category Analysis](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Projects/category_analysis.ipynb)
+   - [Sentiment Analysis](https://github.com/varugheseben/edurek-data_science/blob/main/Artificial%20Intelligence/Projects/sentiment_analysis_2.ipynb)
 
 
     
