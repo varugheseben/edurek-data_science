@@ -159,6 +159,10 @@ Because the model has never encountered the test data during its training phase,
 - If your model is too simple, it suffers from high bias. Result of such model will be underfitting.
 - If it's too complex, it suffers from high variance. Result of such model will be overfitting.
 
+## Limitations of Machine Learning
+ - When data is N dimensional it fails to do prediction. For example, it cannot do prediction on images or videos
+ - In the case of such models, feature selection is manual. That means, we need to define the independent variable manually for doing the prediction
+
 ## Lab
 - [Training the Model using Linear Regression](https://github.com/varugheseben/edurek-data_science/blob/main/Machine%20Learning/Chapter-1.ipynb)
 - [Training the Model using Labelled Data](https://github.com/varugheseben/edurek-data_science/blob/main/Machine%20Learning/Chapter_2.ipynb)
