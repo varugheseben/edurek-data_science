@@ -3,6 +3,16 @@
 like decision support systems are rule based and cannot learn from data. Instead of being explicitly programmed with fixed rules to perform a task, 
 a machine learning algorithm uses data to find patterns, make predictions, and improve its performance automatically over time.
 
+   We can also say primary goal of machine learning is to do predictive analysis, which is helpfull in predicting the future. Basically some advantages of future prediction are 
+   - Mitigate the risk by taking precautions. For example, predicting the natural disaster will help saving lives
+   - Increase the profits. For example, generating recommendations for a online customer
+
+   Machines doesnt have any intelligence, but the intelligence is achieved by applying statstical algorithms on historical data to predict the future. When a machine is programmed to execute a statistical algorithm its called as a model. So we can train this modal using historical data, so we can say machines are learning. When this model used for prediction mode, it uses historical data it learned and predicts the future from it. So this basically like intelligence of a human, so we can say intelligence achieved using a statistical method is artificial.
+
+   In training data we will have multiple combination of independent and dependent variables. Independent variables are input variables and dependent variables are output variables. In Machine learning, when we build a model, we intially do the model training and then do the prediction.
+
+   Example, lets say we have an analogy to determine the crop yeild. So we can define independent variable as rainfall, temperature, humidity, soil type. And dependent variable will be crop yield. So we will collect data set for independent and dependent variable for let say 20 years and that will be trained to a ML model. After that, model can be used for predicting crop yield for a given combination of independent variable(rainfall, temperature, humidity, soil type).
+
 ## How Machine Learning Works
 The machine learning process generally follows a continuous loop
   - **Data Collection**: Gathering historical data (numbers, text, images, or clicks).
