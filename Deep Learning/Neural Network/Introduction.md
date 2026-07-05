@@ -60,6 +60,8 @@ model.compile(optimizer='sgd', loss='binary_crossentropy', metrics=['accuracy'])
 model.fit(X, y, epochs=50, verbose=1)
 for i in range(1,7):
   prediction = model.predict(np.array([[2]]))
-  print(f"\nPredicted probability for {i}: {prediction[0][0]:.4f}")```
+  print(f"\nPredicted probability for {i}: {prediction[0][0]:.4f}")
+```
+
 
 
