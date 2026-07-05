@@ -58,5 +58,7 @@ model.add(Dense(
 model.compile(optimizer='sgd', loss='binary_crossentropy', metrics=['accuracy'])
 model.fit(X, y, epochs=50, verbose=1)
 prediction = model.predict(np.array([[2]]))
-print(prediction)  ```
+print(prediction)
+```
+
 
