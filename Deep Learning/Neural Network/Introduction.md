@@ -4,7 +4,7 @@
   It is a key building block of Deep Learning, which powers many of today's smart technologies, from facial recognition to conversational AI.
 
   ## The core component: The Neuron(Perceptron)
-    Just as our brains are made of interconnected biological neurons, an artificial neural network is made of digital processors called nodes or neurons.
+  Just as our brains are made of interconnected biological neurons, an artificial neural network is made of digital processors called nodes or neurons.
 
     Each neuron takes in data, processes it, and passes it along. A single neuron consists of three main mathematical operations:
   - **Input($x$)**: The incoming data features.
