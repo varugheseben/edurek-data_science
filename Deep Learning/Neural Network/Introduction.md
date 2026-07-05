@@ -12,6 +12,8 @@
 
       $$y = \text{Activation}\left(\sum (x_i \cdot w_i) + b\right)$$
 
+      **Note**: We **Sigmoid** as activation function when we have categorical dependent variable in the input
+
   ## Layers in Neural Network
   There are 3 different layers in a neural network
   - **Input Layer**: This is where the network receives the raw data (e.g., the pixels of an image, text tokens, or numerical values in a spreadsheet).
@@ -28,4 +30,22 @@
   
   **Note**: Watch Edureka Video(of June-20-2026) for details of Gradient Descent
 
+  ## Example of implementing neural network with 1 hidden layer
+  ```
+# Example of doing prediction using a neural network with one hidden layer
+import numpy as np
+import keras
+from keras.models import Sequential
+from keras.layers import Dense
 
+X = np.array([[1], [2], [3], [4], [5], [6]])
+y = np.array([0, 0, 0, 1, 1, 1])
+
+model = Sequential()
+model.add(Dense(
+    1,
+    activation='sigmoid', # For categorical dependent variable we use sigmoid as the activation function
+    input_shape=(1,) # Because our input has only one column
+
+))
+  ```
