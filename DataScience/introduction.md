@@ -32,6 +32,21 @@
     visit history. So to do so, we collect the user history from database and then we clean it and then we analyze and generate report out of it to get the 
     list of such customers. This outcome can be used for predicting the impact on sales as well.
 
+## Types of Data
+    There are 2 types of data
+  - Structured Data
+  - Unstructured Data
+
+    ### Structured Data
+    Structured data is highly organized, quantitative, and fits neatly into predefined formats or fixed schemas (like rows and columns). It is easily searchable and relational.
+
+    Examples are
+     - Relational Databases (SQL): Tables containing customer names, transaction IDs, and order amounts.
+     - Spreadsheets: An Excel or Google Sheets file tracking monthly budget numbers.
+     - OLTP Systems: ATM transaction records showing account numbers, timestamps, and balance adjustments.
+     - JSON/XML Files (Semi-Structured but often highly structured): Data feeds containing explicit key-value pairs, such as {"employee_id": 102, "department": "Data Science"}.
+     - Form Inputs: Online registration forms where users enter specific fields like Phone Number, Zip Code, or Date of Birth.
+
 ## Important Links
  - [Pandas](https://github.com/akshu20791/pandas-dataset-ipl/blob/main/first-file-pandas.ipynb)
  - [Data Sets](https://www.kaggle.com/)
