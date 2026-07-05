@@ -24,8 +24,11 @@
   A neural network starts out knowing nothing; its initial weights are randomized, so its first predictions are just wild guesses. It learns through a continuous two-step loop:
   - **Forward Propagation**: Data passes through the network from the input layer to the output layer to generate a prediction.
   - **Loss Function Evaluation**: The network compares its prediction against the actual correct answer (the ground truth) using a mathematical formula to calculate the "error" or loss.
+
+    Example of Loss Function: Binary Cross Entropy
   - **Backpropagation**: The network passes the error backward through the layers. Using an optimization algorithm (like Gradient Descent), it calculates how much each weight contributed to the mistake and adjusts them slightly to minimize the error next time.
 
+    Example of optimizer algorithm: Stochastic Gradient Descent
   Through millions of repetitions of this loop, the network fine-tunes its weights until it can accurately predict outcomes on completely unseen data.
   
   **Note**: Watch Edureka Video(of June-20-2026) for details of Gradient Descent
