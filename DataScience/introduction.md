@@ -47,6 +47,16 @@
      - **JSON/XML Files (Semi-Structured but often highly structured)**: Data feeds containing explicit key-value pairs, such as {"employee_id": 102, "department": "Data Science"}.
      - **Form Inputs**: Online registration forms where users enter specific fields like Phone Number, Zip Code, or Date of Birth.
 
+    ### Unstructured Data
+    Unstructured data does not have a predefined conceptual structure or data model. It is typically qualitative, text-heavy, or media-based, making it harder for traditional systems to analyze without specialized tools (like NLP or computer vision).
+
+    Examples are
+     - **Text Files**: Word documents, PDF reports, legal contracts, and email bodies.
+     - **Multimedia**: Audio files (voicemails, podcasts), video recordings, and digital images (JPEG/PNG).
+     - **Social Media**: Tweets, Instagram captions, and Facebook posts.
+     - **Communications**: Slack messages, customer support chat transcripts, and open-ended survey responses.
+     - **Web Pages**: HTML code containing mixed paragraphs, blogs, and images without a unified structure.
+
 ## Important Links
  - [Pandas](https://github.com/akshu20791/pandas-dataset-ipl/blob/main/first-file-pandas.ipynb)
  - [Data Sets](https://www.kaggle.com/)
