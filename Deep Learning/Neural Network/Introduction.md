@@ -36,7 +36,7 @@
   **Note**: Watch Edureka Video(of June-20-2026) for details of Gradient Descent
 
   ## Example of implementing neural network with 1 hidden layer
-  [Code Sample]()
+  [Code Sample](https://github.com/varugheseben/edurek-data_science/blob/main/Deep%20Learning/Neural%20Network/Examples/neural_network_1.ipynb)
   ```
 # Example of doing prediction using a neural network with one hidden layer
 import numpy as np
@@ -58,8 +58,8 @@ model.add(Dense(
 # Loss Function is 'binary_crossentropy' because we have two categorical data in dependent variable and activation is sigmoid
 model.compile(optimizer='sgd', loss='binary_crossentropy', metrics=['accuracy'])
 model.fit(X, y, epochs=50, verbose=1)
-prediction = model.predict(np.array([[2]]))
-print(prediction)
-```
+for i in range(1,7):
+  prediction = model.predict(np.array([[2]]))
+  print(f"\nPredicted probability for {i}: {prediction[0][0]:.4f}")```
 
 
