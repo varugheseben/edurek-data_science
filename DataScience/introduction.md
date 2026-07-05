@@ -33,7 +33,7 @@
     list of such customers. This outcome can be used for predicting the impact on sales as well.
 
 ## Types of Data
-    There are 2 types of data
+   There are 2 types of data
   - Structured Data
   - Unstructured Data
 
