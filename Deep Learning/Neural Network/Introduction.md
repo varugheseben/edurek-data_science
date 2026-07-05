@@ -25,7 +25,7 @@
   - **Forward Propagation**: Data passes through the network from the input layer to the output layer to generate a prediction.
   - **Loss Function Evaluation**: The network compares its prediction against the actual correct answer (the ground truth) using a mathematical formula to calculate the "error" or loss.
 
-    Example of Loss Function: Binary Cross Entropy
+    Example of Loss Function: Binary Cross Entropy, Sparse Categorical Cross Entropy
   - **Backpropagation**: The network passes the error backward through the layers. Using an optimization algorithm (like Gradient Descent), it calculates how much each weight contributed to the mistake and adjusts them slightly to minimize the error next time.
 
     Example of optimizer algorithm: Stochastic Gradient Descent
@@ -51,7 +51,12 @@ model.add(Dense(
     1,
     activation='sigmoid', # For categorical dependent variable we use sigmoid as the activation function
     input_shape=(1,) # Because our input has only one column
-
 ))
-  ```
+
+# Optimizer is sgd(Stochastic Gradient Descent), because we have continuous data in independent variable X
+# Loss Function is 'binary_crossentropy' because we have two categorical data in dependent variable and activation is sigmoid
+model.compile(optimizer='sgd', loss='binary_crossentropy', metrics=['accuracy'])
+model.fit(X, y, epochs=50, verbose=1)
+prediction = model.predict(np.array([[2]]))
+print(prediction)  ```
 
