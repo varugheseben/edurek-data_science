@@ -30,6 +30,7 @@
 
     Example of optimizer algorithm: Stochastic Gradient Descent
 
+
   Through millions of repetitions of this loop, the network fine-tunes its weights until it can accurately predict outcomes on completely unseen data.
   
   **Note**: Watch Edureka Video(of June-20-2026) for details of Gradient Descent
