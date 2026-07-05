@@ -29,6 +29,7 @@
   - **Backpropagation**: The network passes the error backward through the layers. Using an optimization algorithm (like Gradient Descent), it calculates how much each weight contributed to the mistake and adjusts them slightly to minimize the error next time.
 
     Example of optimizer algorithm: Stochastic Gradient Descent
+
   Through millions of repetitions of this loop, the network fine-tunes its weights until it can accurately predict outcomes on completely unseen data.
   
   **Note**: Watch Edureka Video(of June-20-2026) for details of Gradient Descent
