@@ -12,7 +12,7 @@
 
       $$y = \text{Activation}\left(\sum (x_i \cdot w_i) + b\right)$$
 
-      **Note**: We **Sigmoid** as activation function when we have categorical dependent variable in the input
+      **Note**: We use **Sigmoid** as activation function when we have categorical dependent variable in the input
 
   ## Layers in Neural Network
   There are 3 different layers in a neural network
