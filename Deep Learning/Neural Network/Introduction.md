@@ -20,7 +20,7 @@
   - **Hidden Layer**: These sit between the input and output layers. This is where the "deep" in deep learning comes from. The network uses these layers to extract abstract features (e.g., first detecting edges, then shapes, then an entire face).
   - **Output Layer**: The final layer that produces the network's prediction or conclusion (e.g., classifying an image as a "cat" or predicting a stock price).
 
-  ## Neural Network Learns
+  ## How Neural Network Learns
   A neural network starts out knowing nothing; its initial weights are randomized, so its first predictions are just wild guesses. It learns through a continuous two-step loop:
   - **Forward Propagation**: Data passes through the network from the input layer to the output layer to generate a prediction.
   - **Loss Function Evaluation**: The network compares its prediction against the actual correct answer (the ground truth) using a mathematical formula to calculate the "error" or loss.
