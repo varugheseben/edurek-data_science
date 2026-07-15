@@ -26,6 +26,12 @@
                                       /    +----------------+      +------------+
                                      /
                      ( Bias b )  ---/
+  - **Input Reception ($x_i$)** : The node receives input features ($x_1, x_2, \dots, x_n$) either from the raw dataset or from a previous layer of neurons.
+  - **Weight Multiplication ($w_i$)** : Each input is multiplied by its corresponding weight ($w_1, w_2, \dots, w_n$). Weights scale the importance of individual inputs.
+  - **Summation & Bias Offset ($z$)** : The weighted inputs are summed together, and a bias ($b$) is added to shift the activation threshold.
+              $$z = \sum_{i=1}^{n} (x_i w_i) + b$$
+  - **Activation Function ($f(z)$)** : The net input $z$ is passed through a non-linear activation function (like ReLU, Sigmoid, or Tanh) to determine if and how strongly the neuron should "fire."
+              $$a = f(z)$$
 
   ## Layers in Neural Network
   There are 3 different layers in a neural network
