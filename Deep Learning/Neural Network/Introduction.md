@@ -52,8 +52,9 @@
 
          $$f(x) = \max(0, x)$$
 
-         Where, If the input is positive, the output is the input itself.
-                If the input is negative or zero, the output is $0$.
+         Where,
+           - If the input is positive, the output is the input itself.
+           - If the input is negative or zero, the output is $0$.
   
   ## Layers in Neural Network
   There are 3 different layers in a neural network
