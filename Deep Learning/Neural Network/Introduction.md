@@ -20,7 +20,7 @@
       **Note**: We use **Sigmoid** as activation function when we have categorical dependent variable in the input.
   ## Step-by-Step Processing Breakdown
 
-  [ Inputs ]          [ Weights ]         [ Summation Node ]      [ Activation ]      [ Output ]
+     [ Inputs ]      [ Weights ]           [ Summation Node ]      [ Activation ]      [ Output ]
   
      x₁  --------->  [  * w₁  ]  ----\
                                       \
