@@ -59,6 +59,21 @@
   
   **Note**: Watch Edureka Video(of June-20-2026) for details of Gradient Descent
 
+  ## Guidelines for choosing Activation Function, Optimizer and Loss Function for a deep learning model
+  - When dependent variable is continuous in nature
+    |Target Variable Range|Activation Function|Why|
+    |---------------------|-------------------|---|
+    |Any real number (positive, negative, or zero)|Linear|Passes the raw weighted sum directly to the output without bounding it.|
+    |Strictly Positive (e.g., house prices, age, count)|ReLU or Softplus|Prevents the model from predicting impossible negative values.|
+    |Bounded range (e.g., between 0 and 1, or percentages)|Sigmoid|Forces the output mathematically into the interval $(0, 1)$.|
+    |Bounded range (e.g., between -1 and 1)|Tanh|Forces the output into the interval $(-1, 1)$.|
+
+    Loss Function can be **Huber Loss**, it behaves like MSE(Mean Squared Error) when the error is small, and like MAE(Mean Absolute Error) when the error is large, making it highly robust to outliers while remaining smooth near zero.
+
+    Optimizer can be Adam(Adaptive Momentum Estimation) or RMSProp or SGD(Stochastic Gradient Descent)
+
+  - When dependent variable is categorical in nature
+
   ## Example of implementing neural network with 1 hidden layer
   [Code Sample](https://github.com/varugheseben/edurek-data_science/blob/main/Deep%20Learning/Neural%20Network/Examples/neural_network_1.ipynb)
   ```
