@@ -74,7 +74,7 @@
 
   - When dependent variable is categorical in nature (Classification Problem)
     |Classification Type|Use case|Example Input|Activation Function|Loss Function|Optimizer|
-    |-------------------|-------------|-------------------|-------------|---------|
+    |-------------------|--------|-------------|-------------------|-------------|---------|
     |Binary|Predicting Yes/No, Spam/Not Spam, Default/No Default|('Spam', 'Not Spam')|sigmoid|binary_crossentropy|adam|
     |Multi-Class (One-Hot)|Predicting the single correct category (e.g., Cat, Dog, or Bird).Target labels are one-hot encoded|(1, 0, 0), (0, 1, 0)|softmax|categorical_crossentropy|adam|
     |Multi-Class (Integers)|Predicting the single correct category (e.g., Cat, Dog, or Bird). Target labels are integer-encoded|(0, 1, 2)|softmax|sparse_categorical_crossentropy|adam|
