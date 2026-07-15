@@ -13,6 +13,19 @@
       $$y = \text{Activation}\left(\sum (x_i \cdot w_i) + b\right)$$
 
       **Note**: We use **Sigmoid** as activation function when we have categorical dependent variable in the input.
+  ## Step-by-Step Processing Breakdown
+
+  [ Inputs ]          [ Weights ]         [ Summation Node ]      [ Activation ]      [ Output ]
+  
+     x₁  --------->  [  * w₁  ]  ----\
+                                      \
+     x₂  --------->  [  * w₂  ]  ------->  +---------------+
+                                           |  Weighted Sum |      +------------+
+                                           |               | ---> | Activation | --->  Output (a)
+     xₙ  --------->  [  * wₙ  ]  ------->  | Σ (x·w) + b   |      |    f(z)    |
+                                      /    +---------------+      +------------+
+                                     /
+                     ( Bias b )  ---/
 
   ## Layers in Neural Network
   There are 3 different layers in a neural network
