@@ -35,9 +35,14 @@
   - **Weight Multiplication ($w_i$)** : Each input is multiplied by its corresponding weight ($w_1, w_2, \dots, w_n$). Weights scale the importance of individual inputs.
   - **Summation & Bias Offset ($z$)** : The weighted inputs are summed together, and a bias ($b$) is added to shift the activation threshold.
               $$z = \sum_{i=1}^{n} (x_i w_i) + b$$
-  - **Activation Function ($f(z)$)** : The net input $z$ is passed through a non-linear activation function (like ReLU, Sigmoid, or Tanh) to determine if and how strongly the neuron should "fire."
+  - **Activation Function ($$f(z)$$)** : The net input $z$ is passed through a non-linear activation function (like ReLU, Sigmoid, or Tanh) to determine if and how strongly the neuron should "fire."
               $$a = f(z)$$
 
+       - Equation of Sigmoid function
+               $$f(x) = \frac{1}{1 + e^{-x}}$$
+           Where $$f(x)$$ will be between 0 to 1
+       - Equation of Tanh
+       - Equation of Relu
   ## Layers in Neural Network
   There are 3 different layers in a neural network
   - **Input Layer**: This is where the network receives the raw data (e.g., the pixels of an image, text tokens, or numerical values in a spreadsheet).
