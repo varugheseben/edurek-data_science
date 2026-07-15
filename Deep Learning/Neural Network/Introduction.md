@@ -48,7 +48,13 @@
 
          $$\tanh(x) = \frac{\sinh(x)}{\cosh(x)} = \frac{e^x - e^{-x}}{e^x + e^{-x}}$$
          
-       - Equation of Relu
+       - Equation of RelU(Rectified Linear Unit)
+
+         $$f(x) = \max(0, x)$$
+
+         Where, If the input is positive, the output is the input itself.
+                If the input is negative or zero, the output is $0$.
+  
   ## Layers in Neural Network
   There are 3 different layers in a neural network
   - **Input Layer**: This is where the network receives the raw data (e.g., the pixels of an image, text tokens, or numerical values in a spreadsheet).
