@@ -8,6 +8,7 @@
   Each neuron takes in data, processes it, and passes it along. A single neuron consists of three main mathematical operations:
   - **Input($x$)**: The incoming data features.
   - **Weights ($w$) and Biases ($b$)**: Crucial coefficients that the network adjusts during training. Weights determine how much influence a specific input has, while the bias shifts the overall activation.
+       Significance of Weights and Bias: https://www.youtube.com/watch?v=pPOZODXH61s
   - **Activation Function**: A mathematical formula (like ReLU or Sigmoid) that decides whether—and to what extent—the neuron should pass its signal to the next layer. It introduces non-linearity, allowing the network to learn complex patterns.
 
       $$y = \text{Activation}\left(\sum (x_i \cdot w_i) + b\right)$$
