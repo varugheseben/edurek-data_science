@@ -11,6 +11,7 @@
     
        Significance of Weights and Bias: https://www.youtube.com/watch?v=pPOZODXH61s
        **Note**: Bias is a constant which helps the model in a way that it can fit best for the given data.
+
   - **Activation Function**: A mathematical formula (like ReLU or Sigmoid) that decides whether—and to what extent—the neuron should pass its signal to the next layer. It introduces non-linearity, allowing the network to learn complex patterns.
 
       $$y = \text{Activation}\left(\sum (x_i \cdot w_i) + b\right)$$
