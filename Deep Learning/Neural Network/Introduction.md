@@ -10,6 +10,7 @@
   - **Weights ($w$) and Biases ($b$)**: Crucial coefficients that the network adjusts during training. Weights determine how much influence a specific input has, while the bias shifts the overall activation.
     
        Significance of Weights and Bias: https://www.youtube.com/watch?v=pPOZODXH61s
+    
        **Note**: Bias is a constant which helps the model in a way that it can fit best for the given data.
 
   - **Activation Function**: A mathematical formula (like ReLU or Sigmoid) that decides whether—and to what extent—the neuron should pass its signal to the next layer. It introduces non-linearity, allowing the network to learn complex patterns.
