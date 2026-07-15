@@ -39,7 +39,9 @@
               $$a = f(z)$$
 
        - Equation of Sigmoid function
+    
                $$f(x) = \frac{1}{1 + e^{-x}}$$
+  
            Where $$f(x)$$ will be between 0 to 1
        - Equation of Tanh
        - Equation of Relu
