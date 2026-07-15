@@ -45,6 +45,9 @@
          Where $$f(x)$$ will be between 0 to 1
     
        - Equation of Tanh
+
+         $$\tanh(x) = \frac{\sinh(x)}{\cosh(x)} = \frac{e^x - e^{-x}}{e^x + e^{-x}}$$
+         
        - Equation of Relu
   ## Layers in Neural Network
   There are 3 different layers in a neural network
