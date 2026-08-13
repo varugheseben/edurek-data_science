@@ -16,6 +16,12 @@
     - **Retrieval-Augmented Generation (RAG)**: Connects generative models to external live databases or vector databases. When a query is submitted, relevant documents are retrieved and fed into the prompt context to prevent hallucination and supply domain-specific knowledge without costly model retraining.
     - **Agentic Frameworks**: Orchestrates generative models as autonomous agents equipped with tools, memory, and task execution workflows (e.g., calling APIs, querying databases, running code).
 
+  ## Why Generative AI matters today
+  - Make human-AI interaction more natural and useful.
+  - Helps human to create digital content creation with high scalability. That means digital contents like texts, image, audio and video can be created in large set at high speed than humans.
+  - Boost productivity by assisting with repetitive or complex content generation.
+  - It enables to create chatbots and copilots with skills like analyze, assist, make decisions, and generate contents
+
   ## Key Applications
   - **Software Engineering & Data Science**
     - **Automated Code Synthesis**: Generating unit tests, translating legacy code bases, converting natural language requirements into functional code, and inline completion (e.g., GitHub Copilot).
