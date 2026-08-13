@@ -4,7 +4,7 @@
    Traditional (discriminative) AI can analyze existing data to classify items or make numerical predictions (e.g., identifying spam or forecasting sales), basically it can predict, recommend and detect. Where as in Generative AI, models predict the probability of the next sequence of elements to compose entirely new artifacts.
 
   ## Core Architecture & Implementation
-    Building and deploying generative AI relies on specific deep learning architectures, training techniques, and serving pipelines.
+  Building and deploying generative AI relies on specific deep learning architectures, training techniques, and serving pipelines.
   - Underlying Model Architectures
     - Transformers
     - Diffusion Models
