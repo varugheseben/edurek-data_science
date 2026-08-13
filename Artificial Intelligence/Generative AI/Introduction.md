@@ -10,7 +10,11 @@
     - **Diffusion Models**: Dominant in visual generation (e.g., Stable Diffusion, Midjourney). These models learn by taking image data, iteratively adding Gaussian noise to degrade it, and then learning the reverse process to "denoise" random noise into sharp, cohesive images.
     - **Generative Adversarial Networks (GANs)**: Consist of two neural networks working against each other—a Generator creating realistic synthetic data and a Discriminator trying to detect fake data.
   - Training Pipelines
+    - **Pre-training**: Models are exposed to trillions of parameters of unlabelled data (text corpora, image sets) using self-supervised learning. For language models, the task is typically predicting the next word in a context window.
+    - **Fine-Tuning & Alignment**: Pre-trained base models are adjusted using specific domain data. Techniques like **Reinforcement Learning from Human Feedback (RLHF)** align output quality with human preferences, safety standards, and instruction adherence.
   - Enterprise Implementation Patterns
+    - **Retrieval-Augmented Generation (RAG)**: Connects generative models to external live databases or vector databases. When a query is submitted, relevant documents are retrieved and fed into the prompt context to prevent hallucination and supply domain-specific knowledge without costly model retraining.
+    - **Agentic Frameworks**: Orchestrates generative models as autonomous agents equipped with tools, memory, and task execution workflows (e.g., calling APIs, querying databases, running code).
 
     
     
