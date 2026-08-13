@@ -16,5 +16,17 @@
     - **Retrieval-Augmented Generation (RAG)**: Connects generative models to external live databases or vector databases. When a query is submitted, relevant documents are retrieved and fed into the prompt context to prevent hallucination and supply domain-specific knowledge without costly model retraining.
     - **Agentic Frameworks**: Orchestrates generative models as autonomous agents equipped with tools, memory, and task execution workflows (e.g., calling APIs, querying databases, running code).
 
+  ## Key Applications
+  - **Software Engineering & Data Science**
+    - **Automated Code Synthesis**: Generating unit tests, translating legacy code bases, converting natural language requirements into functional code, and inline completion (e.g., GitHub Copilot).
+    - **Synthetic Data Generation**: Creating realistic, privacy-compliant datasets for training machine learning models or stress-testing systems.
+  - **Text & Knowledge Management**
+    - **Customer Support**: Enterprise knowledge discovery, intelligent document summarization, and automated multi-turn conversation agents.
+    - **Content Operations**: Drafting marketing copy, personalizing email sequences, and localizing materials across languages.
+  - **Creative & Visual Media**
+    - **Graphic & Industrial Design**: Prototyping product renders, concept art, logo design, and high-fidelity asset creation.
+    - **Audio & Video Production**: Generating voiceovers with realistic emotional prosody, automated video editing, and text-to-video generation.
+
+
     
     
