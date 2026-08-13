@@ -22,6 +22,15 @@
   - Boost productivity by assisting with repetitive or complex content generation.
   - It enables to create chatbots and copilots with skills like analyze, assist, make decisions, and generate contents
 
+  ## Timeline of Generative AI Progress
+  - **1950s - 1980s**: Early symbolic AI and rule-based systems
+  - **1990s - 2000s**: Statistical models and basic neural networks emerge
+  - **2014**: GANs were introduced, enabling realistic image generation
+  - **2018**: Transformer models revolutionize NLP
+  - **2020s**: Rise of large scale LLMs like GPT-3, GPT-4, Gemini, Claude and so on.
+               GPT means Generative Pre-trained Transformers
+
+
   ## Key Applications
   - **Software Engineering & Data Science**
     - **Automated Code Synthesis**: Generating unit tests, translating legacy code bases, converting natural language requirements into functional code, and inline completion (e.g., GitHub Copilot).
