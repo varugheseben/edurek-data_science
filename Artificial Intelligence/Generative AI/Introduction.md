@@ -30,6 +30,13 @@
   - **2020s**: Rise of large scale LLMs like GPT-3, GPT-4, Gemini, Claude and so on.
                GPT means Generative Pre-trained Transformers
 
+  ## Landmark models and innovations
+  - **Word2Vec (Innovated in 2013)**: Word2vec is a popular technique in Natural Language Processing (NLP) developed by Tomas Mikolov and a team of researchers at Google in 2013. It is used to convert words into numerical vectors (known as word embeddings) so that machines can process text, measure semantic similarity, and understand word relationships.
+  - **GANs (Innovated in 2014)**: GAN stands for Generative Adversarial Network, a class of machine learning frameworks invented by Ian Goodfellow and his colleagues in 2014. It is designed to generate new, synthetic data samples (such as photorealistic images, music, or text) that closely resemble a given real-world dataset.
+  - **Transformers(Innovated in 2017)**: Replaced RNN with attention based architecture.
+  - **BERT(Innovated in 2018)**: BERT stands for Bidirectional Encoder Representations from Transformers. It is an open-source Natural Language Processing (NLP) model developed by Google in 2018. It revolutionized language understanding by allowing neural networks to process words in relation to all other words in a sentence simultaneously, rather than processing them sequentially from left-to-right or right-to-left.
+  - **GPT-3(Innovated in 2020)**: With GPT-3 model are featured with few-shot capabilities. That means users can give examples with prompt which will be used by LLM as reference for generating the content.
+  - **GPT-4(Innovated in 2025)**: With GPT-4, we were able to multimodal, that means its ability to process, understand, and reason across multiple types of media—specifically text, vision, and audio—within a single unified system.
 
   ## Key Applications
   - **Software Engineering & Data Science**
