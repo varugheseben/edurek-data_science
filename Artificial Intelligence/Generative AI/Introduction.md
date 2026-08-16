@@ -38,6 +38,11 @@
   - **GPT-3(Innovated in 2020)**: With GPT-3 model are featured with few-shot capabilities. That means users can give examples with prompt which will be used by LLM as reference for generating the content.
   - **GPT-4(Innovated in 2025)**: With GPT-4, we were able to multimodal, that means its ability to process, understand, and reason across multiple types of media—specifically text, vision, and audio—within a single unified system.
 
+  ## Different AI models
+  - Rule based Model
+  - Statistical Model
+  - Neural Network Model
+
   ## Key Applications
   - **Software Engineering & Data Science**
     - **Automated Code Synthesis**: Generating unit tests, translating legacy code bases, converting natural language requirements into functional code, and inline completion (e.g., GitHub Copilot).
